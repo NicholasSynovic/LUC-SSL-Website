@@ -10,19 +10,31 @@ social: true  # includes social icons at the bottom of the page
 ---
 <!-- Markdown Syntax: https://www.markdownguide.org/ -->
 
-# Application Process {#apply}
+# Application Process
 
-## > Introduction {#introduction}
+---
+
+## > Table of Contents
+- [Application Process](#application-process)
+  - [> Table of Contents](#-table-of-contents)
+  - [> Introduction](#-introduction)
+    - [❗Note About GPA Requirments](#note-about-gpa-requirments)
+  - [> What Applicants Need to Do](#-what-applicants-need-to-do)
+  - [> What We Will Do](#-what-we-will-do)
+    - [❗Note About Application Questions](#note-about-application-questions)
+  - [> Final Steps](#-final-steps)
+
+## > Introduction
 
 We consider applicants for the Software and Systems Laboratory (SSL) on an ongoing basis. However, it is best to apply at the end of the Fall or Spring semester as that will put applicants in the best position to begin working on research the following semester.
 
 Typically, applicants for SSL have completed at least two semesters of their Computer Science, Software Engineering, IT, and/or Cybersecurity major **OR** have completed [COMP 271: Data Structures I](https://academics.cs.luc.edu/courses/comp271.html) and [COMP 272: Data Structures II](https://academics.cs.luc.edu/courses/comp272.html). Furthermore, applicants need to have strong academic merit reflected by their GPA when applying. Academic achievements such as Honors, Dean’s List, Academic Scholarships, and Fellowships, or any academic accomplishments should be provided in the application.
 
-### ❗Note
+### ❗Note About GPA Requirments
 
 While an applicant’s GPA does not determine their acceptance, we prefer to see applicants having a 3.0 *cumulative* GPA or higher.
 
-## > What Applicants Need to Do {#applicants}
+## > What Applicants Need to Do
 
 Before applying, applicants will need:
 
@@ -32,17 +44,17 @@ Before applying, applicants will need:
 
 After accomplishing the above tasks, applicants can apply by filling out this [form](https://tinyurl.com/yymoo4af).
 
-## > What We Will Do {#ssl}
+## > What We Will Do
 
 After receiving an application the advisory board of SSL will review it and determine whether or not to pursue further application steps with the applicant.
 
 Regardless of the decision applicants will be notified via email about it as well as any further application steps that need to be taken.
 
-### ❗Note
+### ❗Note About Application Questions
 
 The application-specific questions (such as your name or academic level) do not play a role in our thought process. Such information is collected purely for record-keeping and to reach out to applicants.
 
-## > Final Steps {#final}
+## > Final Steps
 
 Two meetings are conducted before one is fully accepted into SSL. The first of which is one-on-one with a researcher who has been in SSL for over three semesters. The second of which is an interview with a professor or mentor affiliated with SSL.
 
