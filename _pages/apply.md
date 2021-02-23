@@ -15,6 +15,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 ## > Table of Contents
+
 - [Application Process](#application-process)
   - [> Table of Contents](#-table-of-contents)
   - [> Introduction](#-introduction)
