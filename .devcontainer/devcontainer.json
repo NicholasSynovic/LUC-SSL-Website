@@ -1,10 +1,12 @@
 {
   "name": "LUC SSL Website",
   "extensions": [
-    "yzhang.markdown-all-in-one",
-    "lextudio.restructuredtext",
-    "davidanson.vscode-markdownlint",
-  ],
+	"yzhang.markdown-all-in-one",
+	"lextudio.restructuredtext",
+	"davidanson.vscode-markdownlint",
+	"james-yu.latex-workshop",
+	"torn4dom4n.latex-support"
+],
   "dockerFile": "Dockerfile",
   "settings": {
     "markdownlint.run": "onSave",
