@@ -1,86 +1,64 @@
-# -----------------------------------------------------------------------------
-# Site settings
-# -----------------------------------------------------------------------------
+# For more information as to what each key-value pair does, got to: https://github.com/alshedivat/al-folio/blob/master/_config.yml
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: SSL
-middle_name: 
+# Site settings
+title: Software and Systems Laboratory
+first_name:
+middle_name:
 last_name:
-email: you@example.com
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+email: ssl@cs.luc.edu
+description: >
+  The official Loyola University Chicago Software and Systems Laboratory website.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+url: # TODO: Change this to the CNAME domain
+baseurl: # TODO: Change this to the base directory of the website
+last_updated: false
+impressum_path:  # Impressum link located in the footer
 
-url: # the base hostname & protocol for your site
-baseurl: /ssl2/ # the subpath of your site, e.g. /blog/
-last_updated: false # set to true if you want to display last updated in the footer
-impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
-
-# -----------------------------------------------------------------------------
-# Layout
-# -----------------------------------------------------------------------------
-
+# Layout settings
 navbar_fixed: true
 footer_fixed: true
 
-# Dimensions
+## Dimension settings
 max_width: 800px
 
-# TODO: add layout settings (single page vs. multi-page)
+# Open Graph Settings
+serve_og_meta: false
+og_image: # Site-wide default Open Graph preview image
 
-# -----------------------------------------------------------------------------
-# Open Graph
-# -----------------------------------------------------------------------------
-# Display links to the page with a preview object on social media.
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
-
-# -----------------------------------------------------------------------------
-# Social integration
-# -----------------------------------------------------------------------------
-
-github_username: # your GitHub user name
-twitter_username: # your Twitter handle
-linkedin_username: # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
-orcid_id: # your ORCID ID
-medium_username: # your Medium username
-quora_username: # your Quora username
-publons_id: # your ID on Publons
-research_gate_profile: # your profile on ResearchGate
-blogger_url: # your blogger URL
-work_url: # work page URL
-keybase_username: # your keybase user name
-wikidata_id: # your wikidata id
+# Socials
+github_username: SoftwareSystemsLaboratory
+# twitter_username: # your Twitter handle
+# linkedin_username: # your LinkedIn user name
+# scholar_userid: # your Google Scholar ID
+# orcid_id: # your ORCID ID
+# medium_username: # your Medium username
+# quora_username: # your Quora username
+# publons_id: # your ID on Publons
+# research_gate_profile: # your profile on ResearchGate
+# blogger_url: # your blogger URL
+work_url: https://www.luc.edu/cs/
+# keybase_username: # your keybase user name
+# wikidata_id: # your wikidata id
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Contact Email: <a href="mailto:ssl@cs.luc.edu">ssl@cs.luc.edu</a>
 
-google_analytics: UA-XXXXXXXXX # out your google-analytics code
-panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
+# google_analytics: UA-XXXXXXXXX # TODO: Add Google Analytics
+# panelbear_analytics: XXXXXXXXX # TODO: Look into PanelBear
 
-# -----------------------------------------------------------------------------
-# Blog
-# -----------------------------------------------------------------------------
+# Blog Settings
 
-blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_name: Test
+blog_description: This is a simple test of the al-folio blog system
 permalink: /blog/:year/:title/
 
-# Pagination
+## Pagination
 pagination:
   enabled: true
 
-# Comments
-disqus_shortname: al-folio # put your disqus shortname
-
-# -----------------------------------------------------------------------------
 # Collections
-# -----------------------------------------------------------------------------
-
 collections:
   news:
     defaults:
@@ -93,9 +71,7 @@ collections:
 
 news_limit: 5
 
-# -----------------------------------------------------------------------------
 # Jekyll settings
-# -----------------------------------------------------------------------------
 
 # Markdown and syntax highlight
 markdown: kramdown
@@ -132,9 +108,7 @@ plugins:
   - jekyll-twitter-plugin
   - jemoji
 
-# -----------------------------------------------------------------------------
 # Jekyll Scholar
-# -----------------------------------------------------------------------------
 
 scholar:
 
@@ -157,21 +131,17 @@ scholar:
 
   query: "@*"
 
-# -----------------------------------------------------------------------------
 # Optional Features
-# -----------------------------------------------------------------------------
 
 enable_google_analytics:    false
 enable_panelbear_analytics: false
 enable_mansory:             true
 enable_math:                true
-enable_tooltips:            false
+enable_tooltips:            true
 enable_darkmode:            true
-show_social_icons:          false
+show_social_icons:          true
 
-# -----------------------------------------------------------------------------
 # Library versions
-# -----------------------------------------------------------------------------
 
 academicons:
   version: "1.9.0"
