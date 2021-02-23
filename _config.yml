@@ -50,8 +50,8 @@ contact_note: >
 
 # Blog Settings
 
-blog_name: Test
-blog_description: This is a simple test of the al-folio blog system
+blog_name: Software and Systems Laboratory
+blog_description: A Loyola University Chicago Computer Science Research Laboratory
 permalink: /blog/:year/:title/
 
 ## Pagination
