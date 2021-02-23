@@ -11,7 +11,7 @@ description: >
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-url: # TODO: Change this to the CNAME domain
+url: # Leave blank
 baseurl: # TODO: Change this to the base directory of the website
 last_updated: false
 impressum_path:  # Impressum link located in the footer
