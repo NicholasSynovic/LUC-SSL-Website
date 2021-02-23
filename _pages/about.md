@@ -16,7 +16,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 <!-- Markdown Syntax: https://www.markdownguide.org/ -->
-<!-- TODO: Convert the old rst files into Markdown -->
 
 # Software and Systems Research Laboratory {#ssl}
 
@@ -36,13 +35,13 @@ SSL embraces the notion that diversity drives creativity and innovation. We foll
 
 ## > Apply {#apply}
 
-While we are based at [Loyola University Chicago](https://www.luc.edu/), we welcome anyone interested in using emerging technologies and software engineering to solve problems.
+While we are based at [Loyola University Chicago](https://www.luc.edu/), and we welcome anyone interested in using emerging technologies and software engineering to solve problems.
 
-To learn more about how to apply, see our [Apply]() page.
+To learn more about how to apply, see our [Apply](/apply/) page.
 
 ## > Website Issues {#website-issues}
 
-See [our GitHub Page](https://github.com/LoyolaChicagoCS/ssl2) for source code or to report issues for this website. Current SSL members should use the issue tracker or pull requests to suggest content changes.
+See [our GitHub repository](https://github.com/LoyolaChicagoCS/ssl2) for the source code of this project or to report issues for this website. Current SSL members should use the issue tracker or pull requests to suggest content changes.
 
 <!-- TODO: Create other formats of the website and host them on GitHub releases -->
 <!-- ## > Other Formats {#other-formats}
