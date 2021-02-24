@@ -1,0 +1,100 @@
+- last:
+  first: Shilpika
+  roles:
+    - Software Developer
+  projects:
+    - Metrics Dashboard
+  url: https://www.luc.edu/cs/people/ftfaculty/klingensmithneil.shtml
+
+- last: Clarkson
+  first: Riley
+  roles:
+    - Software Developer
+  projects:
+    - ZettelGeist
+  url: https://www.luc.edu/cs/people/ftfaculty/klingensmithneil.shtml
+
+- last: Gallagher
+  first: Zachary
+  roles: Software Developer
+  projects:
+    - ZettelGeist
+  url:
+
+- last: Higgins
+  first: Sean
+  roles: Software Developer
+  projects:
+    - ZettelGeist
+    - Metrics Dashboard
+  url:
+
+- last: Lake
+  first: Andrew
+  roles: Software Developer
+  projects: Not Assigned
+  url:
+
+- last: Putter
+  first: Jean-Luc
+  roles: Software Developer
+  projects: Metrics Dashboard
+  url:
+
+- last: Maliakal
+  first: Linette
+  roles: Software Developer
+  projects: ZettelGeist
+  url:
+
+- last: Miller
+  first: Allan
+  roles: Software Engineer
+  projects:
+    - ZettelGeist
+    - Metrics Dashboard
+  url:
+
+- last: Motyashok
+  first: Iryna
+  roles: Software Developer
+  projects: Not Assigned
+  url:
+
+- last: Narowski
+  first: Jack
+  roles: Software Developer
+  projects: Not Assigned
+  url:
+
+- last: Palacios
+  first: Daniel
+  roles: Software Developer
+  projects: Not Assigned
+  url:
+
+- last: Richardson
+  first: Morgan
+  roles: Software Developer
+  projects: ZettelGeist
+  url:
+
+- last: Robinson
+  first: Mike
+  roles: Software Developer
+  projects: Not Assigned
+  url:
+
+- last: Warkentin
+  first: Jonathan
+  roles: Software Developer
+  projects:
+    - ZettelGeist
+    - Shape Analysis
+  url:
+
+- last: Zugschwert
+  first: Martin
+  roles: Software Developer
+  projects: Metrics Dashboard
+  url:
