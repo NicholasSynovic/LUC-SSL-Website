@@ -21,7 +21,7 @@ nav: true
         <img src="{{ alumni.img | relative_url }}" alt="alumni thumbnail">
         {% endif %}
         <div class="card-body">
-          <h2 class="card-title">{{ alumni.first + " " + alumni.last }}</h2>
+          <h2 class="card-title">{{ alumni.first | append: " " | append: alumni.last }}</h2>
           <div class="row ml-1 mr-1 p-0">
             {% if alumni.github %}
             <div class="github-icon">

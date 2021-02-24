@@ -4,6 +4,7 @@ title: Allan Miller
 description: Allan Miller's Webpage
 img: /assets/img/allan.jpeg
 importance: 1
+permalink: /alumni/allanMiller/
 ---
 
 Every project has a beautiful feature showcase page.
