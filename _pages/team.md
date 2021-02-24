@@ -6,8 +6,19 @@ description: Our current team list.
 nav: true
 ---
 
-<div class="projects grid">
+## Undergrads
 
+---
+
+## Grads
+
+---
+
+## Alumni
+
+---
+<!-- Alumni Projects Grid -->
+<div class="projects grid">
   {% assign sorted_alumni = site.data.alumni %}
   {% for alumni in sorted_alumni %}
   <div class="grid-item">
