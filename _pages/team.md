@@ -1,8 +1,8 @@
 ---
 layout: page
-title: alumni
-permalink: /alumni/
-description: The current list of our Alumni.
+title: Team
+permalink: /team/
+description: Our current team list.
 nav: true
 ---
 
