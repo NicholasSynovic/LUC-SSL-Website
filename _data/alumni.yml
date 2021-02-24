@@ -4,7 +4,11 @@
     - Software Developer
   projects:
     - Metrics Dashboard
-  url: https://www.luc.edu/cs/people/ftfaculty/klingensmithneil.shtml
+  url:
+  redirect:
+  img:
+  title:
+  github:
 
 - last: Clarkson
   first: Riley
@@ -12,7 +16,11 @@
     - Software Developer
   projects:
     - ZettelGeist
-  url: https://www.luc.edu/cs/people/ftfaculty/klingensmithneil.shtml
+  url:
+  redirect:
+  img:
+  title:
+  github:
 
 - last: Gallagher
   first: Zachary
@@ -20,6 +28,10 @@
   projects:
     - ZettelGeist
   url:
+  redirect:
+  img:
+  title:
+  github:
 
 - last: Higgins
   first: Sean
@@ -28,24 +40,40 @@
     - ZettelGeist
     - Metrics Dashboard
   url:
+  redirect:
+  img:
+  title:
+  github:
 
 - last: Lake
   first: Andrew
   roles: Software Developer
   projects: Not Assigned
   url:
+  redirect:
+  img:
+  title:
+  github:
 
 - last: Putter
   first: Jean-Luc
   roles: Software Developer
   projects: Metrics Dashboard
   url:
+  redirect:
+  img:
+  title:
+  github:
 
 - last: Maliakal
   first: Linette
   roles: Software Developer
   projects: ZettelGeist
   url:
+  redirect:
+  img:
+  title:
+  github:
 
 - last: Miller
   first: Allan
@@ -54,36 +82,60 @@
     - ZettelGeist
     - Metrics Dashboard
   url:
+  redirect:
+  img: /assets/img/allan.jpeg
+  title:
+  github:
 
 - last: Motyashok
   first: Iryna
   roles: Software Developer
   projects: Not Assigned
   url:
+  redirect:
+  img:
+  title:
+  github:
 
 - last: Narowski
   first: Jack
   roles: Software Developer
   projects: Not Assigned
   url:
+  redirect:
+  img:
+  title:
+  github:
 
 - last: Palacios
   first: Daniel
   roles: Software Developer
   projects: Not Assigned
   url:
+  redirect:
+  img:
+  title:
+  github:
 
 - last: Richardson
   first: Morgan
   roles: Software Developer
   projects: ZettelGeist
   url:
+  redirect:
+  img:
+  title:
+  github:
 
 - last: Robinson
   first: Mike
   roles: Software Developer
   projects: Not Assigned
   url:
+  redirect:
+  img:
+  title:
+  github:
 
 - last: Warkentin
   first: Jonathan
@@ -92,9 +144,17 @@
     - ZettelGeist
     - Shape Analysis
   url:
+  redirect:
+  img:
+  title:
+  github:
 
 - last: Zugschwert
   first: Martin
   roles: Software Developer
   projects: Metrics Dashboard
   url:
+  redirect:
+  img:
+  title:
+  github:

@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Allan Miller
-description: Allan Miller's Alumni page
-img: /assets/img/12.jpg
+description: Allan Miller's Webpage
+img: /assets/img/allan.jpeg
 importance: 1
 ---
 
@@ -15,7 +15,7 @@ To give your project a background in the portfolio page, just add the img tag to
     ---
     layout: page
     title: project
-    description: Allan Miller
+    description: a project with a background image
     img: /assets/img/allan.jpeg
     ---
 
@@ -45,6 +45,7 @@ To give your project a background in the portfolio page, just add the img tag to
 You can also put regular text between your rows of images.
 Say you wanted to write a little bit about your project before you posted the rest of the images.
 You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
+
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
