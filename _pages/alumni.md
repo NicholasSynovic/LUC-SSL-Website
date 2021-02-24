@@ -2,7 +2,7 @@
 layout: page
 title: alumni
 permalink: /alumni/
-description: Our current team list.
+description: Our current alumni list.
 nav: true
 ---
 

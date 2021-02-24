@@ -55,16 +55,6 @@
   title: Software Developer
   github:
 
-- last: Putter
-  first: Jean-Luc
-  roles: Software Developer
-  projects: Metrics Dashboard
-  url:
-  redirect:
-  img: /assets/img/user.jpg
-  title: Software Developer
-  github:
-
 - last: Maliakal
   first: Linette
   roles: Software Developer
@@ -146,15 +136,5 @@
   url:
   redirect:
   img: /assets/img/user.jpg
-  title: Software Developer
-  github:
-
-- last: Zugschwert
-  first: Martin
-  roles: Software Developer
-  projects: Metrics Dashboard
-  url:
-  redirect:
-  img: /assets/img/martinZugschwert.jpg
   title: Software Developer
   github:
