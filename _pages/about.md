@@ -7,9 +7,10 @@ profile:
  align: right
  image: ssl.jpeg
  address: >
-   <p>Doyle Hall</p>
+   <p>Loyola University Chicago</p>
+   <p>Doyle Centerl</p>
    <p>1052 W Loyola Ave</p>
-   <p>Chicago, IL 60626</p>
+   <p>Chicago, IL 60660</p>
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -20,6 +21,9 @@ social: true  # includes social icons at the bottom of the page
 # Software and Systems Research Laboratory {#ssl}
 
 ## > Hello World
+
+We are in the process of migrating our web site.
+If for any reason you are looking for something, please see [the Old SSL web site](https://loyolachicagocs.github.io/ssl/).
 
 Thank you for checking out the Software and Systems Laboratory (SSL) website. We are a research laboratory based in the [Computer Science Department at Loyola University Chicago](https://www.luc.edu/cs).
 
