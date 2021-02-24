@@ -19,6 +19,8 @@ social: true  # includes social icons at the bottom of the page
 
 # Software and Systems Research Laboratory {#ssl}
 
+---
+
 ## > Hello World
 
 Thank you for checking out the Software and Systems Laboratory (SSL) website. We are a research laboratory based in the [Computer Science Department at Loyola University Chicago](https://www.luc.edu/cs).

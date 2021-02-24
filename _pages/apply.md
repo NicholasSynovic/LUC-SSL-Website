@@ -14,17 +14,6 @@ social: true  # includes social icons at the bottom of the page
 
 ---
 
-## > Table of Contents
-
-- [Application Process](#application-process)
-  - [> Table of Contents](#-table-of-contents)
-  - [> Introduction](#-introduction)
-    - [❗Note About GPA Requirments](#note-about-gpa-requirments)
-  - [> What Applicants Need to Do](#-what-applicants-need-to-do)
-  - [> What We Will Do](#-what-we-will-do)
-    - [❗Note About Application Questions](#note-about-application-questions)
-  - [> Final Steps](#-final-steps)
-
 ## > Introduction
 
 We consider applicants for the Software and Systems Laboratory (SSL) on an ongoing basis. However, it is best to apply at the end of the Fall or Spring semester as that will put applicants in the best position to begin working on research the following semester.
