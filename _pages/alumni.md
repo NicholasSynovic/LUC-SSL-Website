@@ -4,6 +4,7 @@ title: alumni
 permalink: /alumni/
 description: Our current alumni list.
 nav: true
+social: true  # includes social icons at the bottom of the page
 ---
 
 ## Alumna

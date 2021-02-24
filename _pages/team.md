@@ -4,6 +4,7 @@ title: team
 permalink: /team/
 description: Our current team list.
 nav: true
+social: true  # includes social icons at the bottom of the page
 ---
 
 ## Grad Students
@@ -86,4 +87,3 @@ nav: true
   {% endif %}
 {% endfor %}
 </div>
-<br>
