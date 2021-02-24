@@ -22,6 +22,8 @@ nav: true
         {% endif %}
         <div class="card-body">
           <h2 class="card-title">{{ alumni.first | append: " " | append: alumni.last }}</h2>
+          <p class="card-text">{{ alumni.title }}</p>
+
           <div class="row ml-1 mr-1 p-0">
             {% if alumni.github %}
             <div class="github-icon">
