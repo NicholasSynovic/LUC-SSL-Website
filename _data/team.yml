@@ -119,7 +119,6 @@
   gradeLevel: Undergraduate
   roles:
     - Software Engineer
-    - Team Lead
   projects:
     - Metrics Dashboard
     - PoliPy
@@ -127,7 +126,7 @@
   url:
   redirect:
   img: /assets/img/user.jpg
-  title: Team Lead
+  title: Software Engineer
   github:
 
 - last: Zugschwert
