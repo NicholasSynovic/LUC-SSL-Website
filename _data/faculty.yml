@@ -1,11 +1,109 @@
 - last: Thiruvathukal
   first: George
-  middles: K.
-  role: Director
+  gradeLevel: Faculty Leadership
+  roles: Director
+  projects:
   url: https://thiruvathukal.com
+  redirect: https://thiruvathukal.com
+  img: /assets/img/user.jpg
+  title: Director
+  github:
 
 - last: Klingensmith
   first: Neil
-  role: Co-Director
+  gradeLevel: Faculty Leadership
+  roles: Co-Director
+  projects:
   url: https://www.luc.edu/cs/people/ftfaculty/klingensmithneil.shtml
+  redirect: https://www.luc.edu/cs/people/ftfaculty/klingensmithneil.shtml
+  img: /assets/img/user.jpg
+  title: Co-Director
+  github:
 
+- last: Abegaz
+  first: Brook
+  gradeLevel: Faculty Advisor
+  roles: Advisor
+  projects:
+  url:
+  redirect:
+  img: /assets/img/user.jpg
+  title: Advisor
+  github:
+
+- last: Chan-tin
+  first: Eric
+  gradeLevel: Faculty Advisor
+  roles: Advisor
+  projects:
+  url: https://www.luc.edu/cs/people/ftfaculty/chan-tineric.shtml
+  redirect: https://www.luc.edu/cs/people/ftfaculty/chan-tineric.shtml
+  img: /assets/img/user.jpg
+  title: Advisor
+  github:
+
+- last: Dennis
+  first: David
+  gradeLevel: Faculty Advisor
+  roles: Advisor
+  projects:
+  url:
+  redirect:
+  img: /assets/img/user.jpg
+  title: Advisor
+  github:
+
+- last: Hayward
+  first: Nicholas
+  gradeLevel: Faculty Advisor
+  roles: Advisor
+  projects:
+  url: https://www.luc.edu/cs/people/ftfaculty/haywardnicholas.shtml
+  redirect: https://www.luc.edu/cs/people/ftfaculty/haywardnicholas.shtml
+  img: /assets/img/user.jpg
+  title: Advisor
+  github:
+
+- last: Honig
+  first: William
+  gradeLevel: Faculty Advisor
+  roles: Advisor
+  projects:
+  url: https://www.luc.edu/cs/people/ftfaculty/honigwilliaml.shtml
+  redirect: https://www.luc.edu/cs/people/ftfaculty/honigwilliaml.shtml
+  img: /assets/img/user.jpg
+  title: Advisor
+  github:
+
+- last: Läufer
+  first: Konstantin
+  gradeLevel: Faculty Advisor
+  roles: Advisor
+  projects:
+  url: https://www.luc.edu/cs/people/ftfaculty/lauferkonstantin.shtml
+  redirect: https://www.luc.edu/cs/people/ftfaculty/lauferkonstantin.shtml
+  img: /assets/img/user.jpg
+  title: Advisor
+  github:
+
+- last: Gregory
+  first: Matthews
+  gradeLevel: Faculty Advisor
+  roles: Advisor
+  projects:
+  url:
+  redirect:
+  img: /assets/img/user.jpg
+  title: Advisor
+  github:
+
+- last: David
+  first: Wetzel
+  gradeLevel: Faculty Advisor
+  roles: Advisor
+  projects:
+  url:
+  redirect:
+  img: /assets/img/user.jpg
+  title: Advisor
+  github:

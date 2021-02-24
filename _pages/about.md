@@ -6,7 +6,7 @@ permalink: /
 profile:
  align: right
  image: ssl.jpeg
- address: >
+ address:
    <p>Loyola University Chicago</p>
    <p>Doyle Center</p>
    <p>1052 W Loyola Ave</p>
@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 <!-- Markdown Syntax: https://www.markdownguide.org/ -->
 
-# > Hello World
+## Hello World
 
 **We are in the process of migrating our web site.**
 If for any reason you are looking for something, please see [the Old SSL web site](https://loyolachicagocs.github.io/ssl/).
@@ -29,19 +29,19 @@ Our [members]() form an interdisciplinary group with [faculty and student intere
 
 The laboratory’s focus is on researching computer systems and applied Software Engineering to solve STEAM-related problems.
 
-# > Methodology
+## Methodology
 
 We foster innovation by encouraging experimentation and collaboration with a strong emphasis on openness. To uphold this commitment, we enforce [open-source software development](https://github.com/SoftwareSystemsLaboratory), open access, and dissemination of research software by creating reproducible results within all of our projects.
 
 SSL embraces the notion that diversity drives creativity and innovation. We follow the principles of the [IEEE Special Technical Community on Broadening Participation](http://stcbp.org/) allowing anyone regardless of gender, race, ethnicity, socio-economic status, physical, mental, and cognitive ability, or LGBTQA+ status to join our lab.
 
-# > Apply
+## Apply
 
 While we are based at [Loyola University Chicago](https://www.luc.edu/), and we welcome anyone interested in using emerging technologies and software engineering to solve problems.
 
 To learn more about how to apply, see our [Apply](/apply/) page.
 
-# > Website Issues
+## Website Issues
 
 See [our GitHub repository](https://github.com/LoyolaChicagoCS/ssl2) for the source code of this project or to report issues for this website. Current SSL members should use the issue tracker or pull requests to suggest content changes.
 
