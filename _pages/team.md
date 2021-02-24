@@ -1,26 +1,11 @@
 ---
 layout: page
-title: team
-permalink: /team/
+title: alumni
+permalink: /alumni/
 description: Our current team list.
 nav: true
 ---
 
-## Student Leaders
-
----
-
-## Undergrads
-
----
-
-## Grads
-
----
-
-## Alumni
-
----
 <!-- Alumni Projects Grid -->
 <div class="projects grid">
   {% assign sorted_alumni = site.data.alumni %}
