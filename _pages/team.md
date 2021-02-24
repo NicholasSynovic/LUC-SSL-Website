@@ -6,6 +6,10 @@ description: Our current team list.
 nav: true
 ---
 
+## Student Leaders
+
+---
+
 ## Undergrads
 
 ---
