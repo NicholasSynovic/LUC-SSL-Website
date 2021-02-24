@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Team
+title: team
 permalink: /team/
 description: Our current team list.
 nav: true
