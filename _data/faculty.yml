@@ -1,25 +1,3 @@
-- last: Thiruvathukal
-  first: George
-  gradeLevel: Faculty Leadership
-  roles: Director
-  projects:
-  url: https://thiruvathukal.com
-  redirect: https://thiruvathukal.com
-  img: /assets/img/user.jpg
-  title: Director
-  github:
-
-- last: Klingensmith
-  first: Neil
-  gradeLevel: Faculty Leadership
-  roles: Co-Director
-  projects:
-  url: https://www.luc.edu/cs/people/ftfaculty/klingensmithneil.shtml
-  redirect: https://www.luc.edu/cs/people/ftfaculty/klingensmithneil.shtml
-  img: /assets/img/user.jpg
-  title: Co-Director
-  github:
-
 - last: Abegaz
   first: Brook
   gradeLevel: Faculty Advisor
@@ -75,6 +53,17 @@
   title: Advisor
   github:
 
+- last: Klingensmith
+  first: Neil
+  gradeLevel: Faculty Leadership
+  roles: Co-Director
+  projects:
+  url: https://www.luc.edu/cs/people/ftfaculty/klingensmithneil.shtml
+  redirect: https://www.luc.edu/cs/people/ftfaculty/klingensmithneil.shtml
+  img: /assets/img/user.jpg
+  title: Co-Director
+  github:
+
 - last: Läufer
   first: Konstantin
   gradeLevel: Faculty Advisor
@@ -86,8 +75,8 @@
   title: Advisor
   github:
 
-- last: Gregory
-  first: Matthews
+- last: Matthews
+  first: Gregory
   gradeLevel: Faculty Advisor
   roles: Advisor
   projects:
@@ -97,8 +86,19 @@
   title: Advisor
   github:
 
-- last: David
-  first: Wetzel
+- last: Thiruvathukal
+  first: George
+  gradeLevel: Faculty Leadership
+  roles: Director
+  projects:
+  url: https://thiruvathukal.com
+  redirect: https://thiruvathukal.com
+  img: /assets/img/user.jpg
+  title: Director
+  github:
+
+- last: Wetzel
+  first: David
   gradeLevel: Faculty Advisor
   roles: Advisor
   projects:
