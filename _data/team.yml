@@ -1,0 +1,120 @@
+# - last: Ahlgren
+#   first: Isaac
+#   gradeLevel: Undergraduate
+#   roles: Software Developer
+#   projects:
+#     - Non-Local Mean Curvature
+#     - VoltKey
+#   url:
+#   redirect:
+#   img: /assets/img/user.jpg
+#   title: Software Developer
+#   github:
+
+# - last: Amobi
+#   first: Emmanuel
+#   gradeLevel: Undergraduate
+#   roles: Software Developer
+#   projects:
+#     - Metrics Dashboard
+#     - ZettelGeist
+#   url:
+#   redirect:
+#   img: /assets/img/user.jpg
+#   title: Software Developer
+#   github:
+
+# - last: Crane
+#   first: Alexandra
+#   gradeLevel: Undergraduate
+#   roles: Software Developer
+#   projects: History of Computing
+#   url:
+#   redirect:
+#   img: /assets/img/user.jpg
+#   title: Software Developer
+#   github:
+
+# - last: Jones
+#   first: Collin
+#   gradeLevel: Undergraduate
+#   roles: Software Developer
+#   projects: Cyclometric Complexity
+#   url:
+#   redirect:
+#   img: /assets/img/user.jpg
+#   title: Software Developer
+#   github:
+
+# - last: Meister
+#   first: Emily
+#   gradeLevel: Undergraduate
+#   roles: Software Developer
+#   projects: Metrics Dashboard
+#   url:
+#   redirect:
+#   img: /assets/img/user.jpg
+#   title: Software Developer
+#   github:
+
+# - last: Pinderski
+#   first: Austin
+#   gradeLevel: Undergraduate
+#   roles: Software Developer
+#   projects: Metrics Dashboard
+#   url:
+#   redirect:
+#   img: /assets/img/user.jpg
+#   title: Software Developer
+#   github:
+
+# - last: Roche
+#   first: Trey
+#   gradeLevel: Undergraduate
+#   roles: Software Developer
+#   projects: Color Deficiency Correction
+#   url:
+#   redirect:
+#   img: /assets/img/user.jpg
+#   title: Software Developer
+#   github:
+
+# - last: Rodriguez
+#   first: Stephanie
+#   gradeLevel: Undergraduate
+#   roles: Software Developer
+#   projects: Metrics Dashboard
+#   url:
+#   redirect:
+#   img: /assets/img/user.jpg
+#   title: Software Developer
+#   github:
+
+# - last: Rose
+#   first: Alex
+#   gradeLevel: Undergraduate
+#   roles: Software Engineer
+#   projects:
+#     - History of Computing
+#     - Metrics Dashboard
+#   url:
+#   redirect:
+#   img: /assets/img/user.jpg
+#   title: Software Engineer
+#   github:
+
+# - last: Synovic
+# first: Nicholas
+# gradeLevel: Undergraduate
+# roles:
+#   - Software Engineer
+#   - Team Lead
+# projects:
+#   - Metrics Dashboard
+#   - PoliPy
+#   - SSL Website
+# url:
+# redirect:
+# img: /assets/img/user.jpg
+# title: Team Lead
+# github:
