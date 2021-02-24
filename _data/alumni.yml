@@ -1,5 +1,6 @@
 - last:
   first: Shilpika
+  gradeLevel: Alumna
   roles:
     - Software Developer
   projects:
@@ -12,6 +13,7 @@
 
 - last: Clarkson
   first: Riley
+  gradeLevel: Alumna
   roles:
     - Software Developer
   projects:
@@ -24,6 +26,7 @@
 
 - last: Gallagher
   first: Zachary
+  gradeLevel: Alumnus
   roles: Software Developer
   projects:
     - ZettelGeist
@@ -35,6 +38,7 @@
 
 - last: Higgins
   first: Sean
+  gradeLevel: Alumnus
   roles: Software Developer
   projects:
     - ZettelGeist
@@ -47,6 +51,7 @@
 
 - last: Lake
   first: Andrew
+  gradeLevel: Alumnus
   roles: Software Developer
   projects: Not Assigned
   url:
@@ -57,6 +62,7 @@
 
 - last: Maliakal
   first: Linette
+  gradeLevel: Alumna
   roles: Software Developer
   projects: ZettelGeist
   url:
@@ -67,6 +73,7 @@
 
 - last: Miller
   first: Allan
+  gradeLevel: Alumnus
   roles: Software Engineer
   projects:
     - ZettelGeist
@@ -79,6 +86,7 @@
 
 - last: Motyashok
   first: Iryna
+  gradeLevel: Alumna
   roles: Software Developer
   projects: Not Assigned
   url:
@@ -89,6 +97,7 @@
 
 - last: Narowski
   first: Jack
+  gradeLevel: Alumnus
   roles: Software Developer
   projects: Not Assigned
   url:
@@ -99,6 +108,7 @@
 
 - last: Palacios
   first: Daniel
+  gradeLevel: Alumnus
   roles: Software Developer
   projects: Not Assigned
   url:
@@ -109,6 +119,7 @@
 
 - last: Richardson
   first: Morgan
+  gradeLevel: Alumna
   roles: Software Developer
   projects: ZettelGeist
   url:
@@ -119,6 +130,7 @@
 
 - last: Robinson
   first: Mike
+  gradeLevel: Alumnus
   roles: Software Developer
   projects: Not Assigned
   url:
@@ -129,6 +141,7 @@
 
 - last: Warkentin
   first: Jonathan
+  gradeLevel: Alumnus
   roles: Software Developer
   projects:
     - ZettelGeist
