@@ -27,8 +27,10 @@
     - studentLeadership:
     - facultyLeadership:
     - other:
-    - ProjectName:
-      - Title:
+    - projects:
+      - 0:
+        - projectName:
+        - role:
         - tenure:
 
 - lastName:
@@ -64,7 +66,6 @@
         - projectName: Metrics Dashboard
         - role: Software Developer
         - tenure: 2015
-
 
 - last: Ahlgren
   first: Isaac
