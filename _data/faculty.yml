@@ -1,14 +1,33 @@
-# Example data scheme
-# - last:
-#   first:
-#   gradeLevel:
-#   roles:
-#   projects:
-#   url:
-#   redirect:
-#   img: /assets/img/user.jpg
-#   title:
-#   github:
+# Template Profile
+- lastName:
+  firstName:
+  middleInitial:
+  sections:
+    - alumni:
+    - facultyAdvisor:
+    - facultyLeadership:
+    - graduateStudent:
+    - studentLeadership:
+    - undergraduateStudent:
+    - other:
+  associatedProjects:
+    - ProjectName:
+      - Role:
+        - tenure:
+  webpage:
+  externalWebpage:
+  img:
+  socials:
+    - github:
+    - linkedin:
+  titles:
+    - default:
+    - studentLeadership:
+    - facultyLeadership:
+    - other:
+    - ProjectName:
+      - Title:
+        - tenure:
 
 - last: Abegaz
   first: Brook
