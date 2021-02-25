@@ -222,6 +222,28 @@
   title: Computer Scientist
   github:
 
+- last: Sophie
+  first: Von Hatten
+  gradeLevel: Student Leadership
+  roles: Administrator
+  projects:
+  url:
+  redirect:
+  img: /assets/img/user.jpg
+  title: Administrator
+  github:
+
+- last: West
+  first: Jack
+  gradeLevel: Student Leadership
+  roles: Administrator
+  projects:
+  url:
+  redirect:
+  img: /assets/img/user.jpg
+  title: Administrator
+  github:
+
 - last: Wetzel
   first: David
   gradeLevel: Faculty Advisor
