@@ -29,6 +29,20 @@
       - Title:
         - tenure:
 
+- last:
+  first: Shilpika
+  gradeLevel: Alumna
+  roles:
+    - Software Developer
+  projects:
+    - Metrics Dashboard
+  url:
+  redirect:
+  img: /assets/img/shilpika.jpeg
+  title: Software Developer
+  github:
+
+
 - last: Ahlgren
   first: Isaac
   gradeLevel: Undergraduate
@@ -55,6 +69,19 @@
   title: Software Developer
   github:
 
+- last: Clarkson
+  first: Riley
+  gradeLevel: Alumna
+  roles:
+    - Software Developer
+  projects:
+    - ZettelGeist
+  url:
+  redirect:
+  img: /assets/img/user.jpg
+  title: Software Developer
+  github:
+
 - last: Crane
   first: Alexandra
   gradeLevel: Undergraduate
@@ -63,6 +90,32 @@
   url:
   redirect:
   img: /assets/img/user.jpg
+  title: Software Developer
+  github:
+
+- last: Gallagher
+  first: Zachary
+  gradeLevel: Alumnus
+  roles: Software Developer
+  projects:
+    - ZettelGeist
+  url:
+  redirect:
+  img: /assets/img/user.jpg
+  title: Software Developer
+  github:
+
+
+- last: Higgins
+  first: Sean
+  gradeLevel: Alumnus
+  roles: Software Developer
+  projects:
+    - ZettelGeist
+    - Metrics Dashboard
+  url:
+  redirect:
+  img: /assets/img/seanHiggins.jpeg
   title: Software Developer
   github:
 
@@ -77,11 +130,79 @@
   title: Software Developer
   github:
 
+- last: Lake
+  first: Andrew
+  gradeLevel: Alumnus
+  roles: Software Developer
+  projects: Not Assigned
+  url:
+  redirect:
+  img: /assets/img/user.jpg
+  title: Software Developer
+  github:
+
+- last: Maliakal
+  first: Linette
+  gradeLevel: Alumna
+  roles: Software Developer
+  projects: ZettelGeist
+  url:
+  redirect:
+  img: /assets/img/user.jpg
+  title: Software Developer
+  github:
+
 - last: Meister
   first: Emily
   gradeLevel: Undergraduate
   roles: Software Developer
   projects: Metrics Dashboard
+  url:
+  redirect:
+  img: /assets/img/user.jpg
+  title: Software Developer
+  github:
+
+- last: Miller
+  first: Allan
+  gradeLevel: Alumnus
+  roles: Software Engineer
+  projects:
+    - ZettelGeist
+    - Metrics Dashboard
+  url: /alumni/allanMiller
+  redirect:
+  img: /assets/img/allanMiller.jpeg
+  title: Software Engineer
+  github:
+
+- last: Motyashok
+  first: Iryna
+  gradeLevel: Alumna
+  roles: Software Developer
+  projects: Not Assigned
+  url:
+  redirect:
+  img: /assets/img/user.jpg
+  title: Software Developer
+  github:
+
+- last: Narowski
+  first: Jack
+  gradeLevel: Alumnus
+  roles: Software Developer
+  projects: Not Assigned
+  url:
+  redirect:
+  img: /assets/img/user.jpg
+  title: Software Developer
+  github:
+
+- last: Palacios
+  first: Daniel
+  gradeLevel: Alumnus
+  roles: Software Developer
+  projects: Not Assigned
   url:
   redirect:
   img: /assets/img/user.jpg
@@ -104,6 +225,28 @@
   gradeLevel: Graduate
   roles: Software Developer
   projects: Metrics Dashboard
+  url:
+  redirect:
+  img: /assets/img/user.jpg
+  title: Software Developer
+  github:
+
+- last: Richardson
+  first: Morgan
+  gradeLevel: Alumna
+  roles: Software Developer
+  projects: ZettelGeist
+  url:
+  redirect:
+  img: /assets/img/user.jpg
+  title: Software Developer
+  github:
+
+- last: Robinson
+  first: Mike
+  gradeLevel: Alumnus
+  roles: Software Developer
+  projects: Not Assigned
   url:
   redirect:
   img: /assets/img/user.jpg
@@ -165,6 +308,19 @@
   gradeLevel: Graduate
   roles: Software Developer
   projects: Metrics Dashboard
+  url:
+  redirect:
+  img: /assets/img/user.jpg
+  title: Software Developer
+  github:
+
+- last: Warkentin
+  first: Jonathan
+  gradeLevel: Alumnus
+  roles: Software Developer
+  projects:
+    - ZettelGeist
+    - Shape Analysis
   url:
   redirect:
   img: /assets/img/user.jpg
