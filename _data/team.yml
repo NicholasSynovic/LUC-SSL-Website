@@ -129,6 +129,30 @@
   title: Software Engineer
   github:
 
+- last: Sophie
+  first: Von Hatten
+  gradeLevel: Graduate
+  roles: Software Developer
+  projects: Metrics Dashboard
+  url:
+  redirect:
+  img: /assets/img/user.jpg
+  title: Software Developer
+  github:
+
+- last: West
+  first: Jack
+  gradeLevel: Graduate
+  roles: Software Engineer
+  projects:
+  - VoltKey
+  - ZettleGeist
+  url:
+  redirect:
+  img: /assets/img/user.jpg
+  title: Software Engineer
+  github:
+
 - last: Zugschwert
   first: Martin
   gradeLevel: Graduate
