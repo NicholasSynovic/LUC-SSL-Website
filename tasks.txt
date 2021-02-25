@@ -1,7 +1,6 @@
 Tasks
 
 YAML Files
-- Move all alumni profiles into the team file
 - Change all profiles to the new template profiles
 
 Layouts

@@ -3,7 +3,8 @@
   firstName:
   middleInitial:
   sections:
-    - alumni:
+    - alumna:
+    - alumnus:
     - facultyAdvisor:
     - facultyLeadership:
     - graduateStudent:
@@ -11,9 +12,10 @@
     - undergraduateStudent:
     - other:
   associatedProjects:
-    - ProjectName:
-      - Role:
-        - tenure:
+    - 0:
+      - projectName:
+      - role:
+      - tenure:
   webpage:
   externalWebpage:
   img:
@@ -29,18 +31,39 @@
       - Title:
         - tenure:
 
-- last:
-  first: Shilpika
-  gradeLevel: Alumna
-  roles:
-    - Software Developer
-  projects:
-    - Metrics Dashboard
-  url:
-  redirect:
+- lastName:
+  firstName: Shilpika
+  middleInitial:
+  sections:
+    - alumna: true
+    - alumnus: false
+    - facultyAdvisor: false
+    - facultyLeadership: false
+    - graduateStudent: false
+    - studentLeadership: false
+    - undergraduateStudent: false
+    - other:
+  associatedProjects:
+    - 0:
+      - projectName: Metrics Dashboard
+      - role: Software Developer
+      - tenure: 2015
+  webpage:
+  externalWebpage:
   img: /assets/img/shilpika.jpeg
-  title: Software Developer
-  github:
+  socials:
+    - github:
+    - linkedin:
+  titles:
+    - default: Software Developer
+    - studentLeadership:
+    - facultyLeadership:
+    - other:
+    - projects:
+      - 0:
+        - projectName: Metrics Dashboard
+        - role: Software Developer
+        - tenure: 2015
 
 
 - last: Ahlgren
