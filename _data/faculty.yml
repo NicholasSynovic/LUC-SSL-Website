@@ -1,3 +1,15 @@
+# Example data scheme
+# - last:
+#   first:
+#   gradeLevel:
+#   roles:
+#   projects:
+#   url:
+#   redirect:
+#   img: /assets/img/user.jpg
+#   title:
+#   github:
+
 - last: Abegaz
   first: Brook
   gradeLevel: Faculty Advisor
@@ -7,6 +19,39 @@
   redirect:
   img: /assets/img/user.jpg
   title: Advisor
+  github:
+
+- last: Amobi
+  first: Emmanuel
+  gradeLevel: Student Leadership
+  roles: Administrator
+  projects:
+  url:
+  redirect:
+  img: /assets/img/user.jpg
+  title: Administrator
+  github:
+
+- last: Brophy
+  first: Juliet
+  gradeLevel: Louisiana State University Collaborators
+  roles: Collaborator
+  projects:
+  url:
+  redirect:
+  img: /assets/img/user.jpg
+  title: Assistant Professor of Anthropology
+  github:
+
+- last: Carver
+  first: Jeffrey
+  gradeLevel: University of Alabama Collaborators
+  roles: Collaborator
+  projects:
+  url:
+  redirect:
+  img: /assets/img/user.jpg
+  title: Professor of Computer Science
   github:
 
 - last: Chan-tin
@@ -20,6 +65,17 @@
   title: Advisor
   github:
 
+- last: Dematties
+  first: Dario
+  gradeLevel: Outside Ph.D. Student Collaborators
+  roles: Collaborator
+  projects:
+  url:
+  redirect:
+  img: /assets/img/user.jpg
+  title: University of Buenos Aires Ph.D. Collaborator
+  github:
+
 - last: Dennis
   first: David
   gradeLevel: Faculty Advisor
@@ -29,6 +85,17 @@
   redirect:
   img: /assets/img/user.jpg
   title: Advisor
+  github:
+
+- last: Eisty
+  first: Nasir
+  gradeLevel: Outside Ph.D. Student Collaborators
+  roles: Collaborator
+  projects:
+  url:
+  redirect:
+  img: /assets/img/user.jpg
+  title: University of Alabama Ph.D. Collaborator
   github:
 
 - last: Hayward
@@ -53,6 +120,18 @@
   title: Advisor
   github:
 
+- last: Jin,
+
+  first: Xiaoyong
+  gradeLevel: Argonne National Laboratory Collaborators
+  roles: Collaborator
+  projects:
+  url:
+  redirect:
+  img: /assets/img/user.jpg
+  title: Assistant Scientist
+  github:
+
 - last: Klingensmith
   first: Neil
   gradeLevel: Faculty Leadership
@@ -75,6 +154,17 @@
   title: Advisor
   github:
 
+- last: Lu
+  first: Yung-Hsiang
+  gradeLevel: Purdue University Collaborators
+  roles: Collaborator
+  projects:
+  url:
+  redirect:
+  img: /assets/img/user.jpg
+  title: Professor of Computer Engineering at High-Energy Low-Power Systems Laboratory
+  github:
+
 - last: Matthews
   first: Gregory
   gradeLevel: Faculty Advisor
@@ -86,6 +176,30 @@
   title: Advisor
   github:
 
+- last: Rizzi
+  first: Silvio
+  gradeLevel: Argonne National Laboratory Collaborators
+  roles: Collaborator
+  projects:
+  url:
+  redirect:
+  img: /assets/img/user.jpg
+  title: Computer Scientist
+  github:
+
+- last: Synovic
+  first: Nicholas
+  gradeLevel: Student Leadership
+  roles:
+    - Administrator
+    - UI Developer
+  projects:
+  url:
+  redirect:
+  img: /assets/img/user.jpg
+  title: Administrator/ UI Developer
+  github:
+
 - last: Thiruvathukal
   first: George
   gradeLevel: Faculty Leadership
@@ -95,6 +209,17 @@
   redirect: https://thiruvathukal.com
   img: /assets/img/user.jpg
   title: Director
+  github:
+
+- last: Vishwanath
+  first: Venkatram
+  gradeLevel: Argonne National Laboratory Collaborators
+  roles: Collaborator
+  projects:
+  url:
+  redirect:
+  img: /assets/img/user.jpg
+  title: Computer Scientist
   github:
 
 - last: Wetzel
