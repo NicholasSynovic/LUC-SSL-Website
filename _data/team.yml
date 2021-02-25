@@ -18,7 +18,7 @@
       - tenure:
   webpage:
   externalWebpage:
-  img:
+  img: /assets/img/user.jpg
   socials:
     - github:
     - linkedin:
@@ -27,23 +27,18 @@
     - studentLeadership:
     - facultyLeadership:
     - other:
-    - projects:
-      - 0:
-        - projectName:
-        - role:
-        - tenure:
 
 - lastName:
   firstName: Shilpika
   middleInitial:
   sections:
     - alumna: true
-    - alumnus: false
-    - facultyAdvisor: false
-    - facultyLeadership: false
-    - graduateStudent: false
-    - studentLeadership: false
-    - undergraduateStudent: false
+    - alumnus:
+    - facultyAdvisor:
+    - facultyLeadership:
+    - graduateStudent:
+    - studentLeadership:
+    - undergraduateStudent:
     - other:
   associatedProjects:
     - 0:
@@ -61,87 +56,192 @@
     - studentLeadership:
     - facultyLeadership:
     - other:
-    - projects:
-      - 0:
-        - projectName: Metrics Dashboard
-        - role: Software Developer
-        - tenure: 2015
 
-- last: Ahlgren
-  first: Isaac
-  gradeLevel: Undergraduate
-  roles: Software Developer
-  projects:
-    - Non-Local Mean Curvature
-    - VoltKey
-  url:
-  redirect:
+- lastName: Ahlgren
+  firstName: Isaac
+  middleInitial:
+  sections:
+    - alumna:
+    - alumnus:
+    - facultyAdvisor:
+    - facultyLeadership:
+    - graduateStudent:
+    - studentLeadership:
+    - undergraduateStudent: true
+    - other:
+  associatedProjects:
+    - 0:
+      - projectName: Non-Local Mean Curvature
+      - role: Software Developer
+      - tenure:
+    - 1:
+      - projectName: VoltKey
+      - role: Software Developer
+      - tenure:
+  webpage:
+  externalWebpage:
   img: /assets/img/user.jpg
-  title: Software Developer
-  github:
+  socials:
+    - github:
+    - linkedin:
+  titles:
+    - default: Software Developer
+    - studentLeadership:
+    - facultyLeadership:
+    - other:
 
-- last: Amobi
-  first: Emmanuel
-  gradeLevel: Undergraduate
-  roles: Software Developer
-  projects:
-    - Metrics Dashboard
-    - ZettelGeist
-  url:
-  redirect:
+- lastName: Amobi
+  firstName: Emmanuel
+  middleInitial:
+  sections:
+    - alumna:
+    - alumnus:
+    - facultyAdvisor:
+    - facultyLeadership:
+    - graduateStudent:
+    - studentLeadership: true
+    - undergraduateStudent: true
+    - other:
+  associatedProjects:
+    - 0:
+      - projectName: Metrics Dashboard
+      - role: Software Developer
+      - tenure: 2019 - 2021
+    - 1:
+      - projectName: ZettelGeist
+      - role: Software Developer
+      - tenure: 2018 - 2019
+  webpage:
+  externalWebpage:
   img: /assets/img/user.jpg
-  title: Software Developer
-  github:
+  socials:
+    - github:
+    - linkedin:
+  titles:
+    - default: Software Developer
+    - studentLeadership: Administrator
+    - facultyLeadership:
+    - other:
 
-- last: Clarkson
-  first: Riley
-  gradeLevel: Alumna
-  roles:
-    - Software Developer
-  projects:
-    - ZettelGeist
-  url:
-  redirect:
+- lastName: Clarkson
+  firstName: Riley
+  middleInitial:
+  sections:
+    - alumna: true
+    - alumnus:
+    - facultyAdvisor:
+    - facultyLeadership:
+    - graduateStudent:
+    - studentLeadership:
+    - undergraduateStudent:
+    - other:
+  associatedProjects:
+    - 0:
+      - projectName: ZettelGeist
+      - role: Software Developer
+      - tenure: 2018 - 2019
+  webpage:
+  externalWebpage:
   img: /assets/img/user.jpg
-  title: Software Developer
-  github:
+  socials:
+    - github:
+    - linkedin:
+  titles:
+    - default: Software Developer
+    - studentLeadership:
+    - facultyLeadership:
+    - other:
 
-- last: Crane
-  first: Alexandra
-  gradeLevel: Undergraduate
-  roles: Software Developer
-  projects: History of Computing
-  url:
-  redirect:
+- lastName: Crane
+  firstName: Alexandra
+  middleInitial:
+  sections:
+    - alumna:
+    - alumnus:
+    - facultyAdvisor:
+    - facultyLeadership:
+    - graduateStudent:
+    - studentLeadership:
+    - undergraduateStudent: true
+    - other:
+  associatedProjects:
+    - 0:
+      - projectName: History of Computing
+      - role: Software Developer
+      - tenure: 2020 - 2021
+  webpage:
+  externalWebpage:
   img: /assets/img/user.jpg
-  title: Software Developer
-  github:
+  socials:
+    - github:
+    - linkedin:
+  titles:
+    - default: Software Developer
+    - studentLeadership:
+    - facultyLeadership:
+    - other:
 
-- last: Gallagher
-  first: Zachary
-  gradeLevel: Alumnus
-  roles: Software Developer
-  projects:
-    - ZettelGeist
-  url:
-  redirect:
+- lastName: Gallagher
+  firstName: Zachary
+  middleInitial:
+  sections:
+    - alumna:
+    - alumnus: true
+    - facultyAdvisor:
+    - facultyLeadership:
+    - graduateStudent:
+    - studentLeadership:
+    - undergraduateStudent:
+    - other:
+  associatedProjects:
+    - 0:
+      - projectName: ZettelGeist
+      - role: Software Developer
+      - tenure: 2018 - 2019
+  webpage:
+  externalWebpage:
   img: /assets/img/user.jpg
-  title: Software Developer
-  github:
+  socials:
+    - github:
+    - linkedin:
+  titles:
+    - default: Software Developer
+    - studentLeadership:
+    - facultyLeadership:
+    - other:
 
-
-- last: Higgins
-  first: Sean
-  gradeLevel: Alumnus
-  roles: Software Developer
-  projects:
-    - ZettelGeist
-    - Metrics Dashboard
-  url:
-  redirect:
-  img: /assets/img/seanHiggins.jpeg
-  title: Software Developer
-  github:
+- lastName: Higgins
+  firstName: Sean
+  middleInitial:
+  sections:
+    - alumna:
+    - alumnus: true
+    - facultyAdvisor:
+    - facultyLeadership:
+    - graduateStudent:
+    - studentLeadership:
+    - undergraduateStudent:
+    - other:
+  associatedProjects:
+    - 0:
+      - projectName: Metrics Dashboard
+      - role: Software Developer
+      - tenure: 2019 - 2020
+    - 1:
+      - projectName: ZettleGeist
+      - role: Software Developer
+      - tenure: 2018 - 2019
+  webpage:
+  externalWebpage:
+  img: /assets/img/user.jpg
+  socials:
+    - github:
+    - linkedin:
+  titles:
+    - default:
+    - studentLeadership:
+    - facultyLeadership:
+    - other:
 
 - last: Jones
   first: Collin
