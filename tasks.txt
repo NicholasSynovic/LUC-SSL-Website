@@ -1,1 +1,13 @@
 Tasks
+
+YAML Files
+- Move all alumni profiles into the team file
+- Change all profiles to the new template profiles
+
+Layouts
+- Create layout for team grid
+- Create layout for faculty grid
+
+Profiles
+
+Projects
