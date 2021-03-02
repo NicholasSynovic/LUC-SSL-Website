@@ -11,6 +11,8 @@ description: Our current list of in progress and incubating research endeavours
 
 ## In Progress
 
+---
+
 <div class="projects grid">
   {% for project in projects %}
   {% if project.status == "In Progress" %}
@@ -42,11 +44,12 @@ description: Our current list of in progress and incubating research endeavours
   </div>
 {% endif %}
 {% endfor %}
-
 </div>
 <br>
 
 ## Incubating
+
+---
 
 <div class="projects grid">
   {% for project in projects %}
@@ -79,5 +82,5 @@ description: Our current list of in progress and incubating research endeavours
   </div>
 {% endif %}
 {% endfor %}
-
 </div>
+<br>
