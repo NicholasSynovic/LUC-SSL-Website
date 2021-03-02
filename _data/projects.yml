@@ -5,6 +5,19 @@
 #   shortDescription:
 #   status:
 
+- projectName: SSL Website
+  img:
+  webpage:
+  shortDescription: The current homepage of the SSL website.
+  status: In Progress
+
+- projectName: PoliPy
+  img:
+  webpage:
+  shortDescription: Conducting a network analysis of the United States Legislative branch of Federal government.
+  status: In Progress
+
+
 - projectName: Cyclometric Complexity
   img:
   webpage:

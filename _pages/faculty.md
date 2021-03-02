@@ -11,7 +11,7 @@ social: true  # includes social icons at the bottom of the page
 
 ---
 
-{% assign staff = site.data.faculty %}
+{% assign staff = site.data.faculty | sort: "lastName" %}
 
 <!-- SSL Faculty Leadership Projects Grid -->
 <div class="projects grid">

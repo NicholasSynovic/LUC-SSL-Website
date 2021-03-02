@@ -19,8 +19,8 @@ In the spirit of being true peers, we list all names in alphabetical order by la
 
 ---
 
-{% assign staff = site.data.faculty %}
-{% assign team = site.data.team %}
+{% assign staff = site.data.faculty | sort: "lastName" %}
+{% assign team = site.data.team | sort: "lastName" %}
 
 <!-- SSL Faculty Leadership Projects Grid -->
 <div class="projects grid">

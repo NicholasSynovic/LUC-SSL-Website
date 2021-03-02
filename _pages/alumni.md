@@ -11,7 +11,7 @@ social: true  # includes social icons at the bottom of the page
 
 ---
 
-{% assign team = site.data.team %}
+{% assign team = site.data.team | sort: "lastName" %}
 
 <!-- Alumna Projects Grid -->
 <div class="projects grid">
