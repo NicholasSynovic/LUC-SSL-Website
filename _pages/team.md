@@ -4,31 +4,37 @@ title: team
 permalink: /team/
 description: Our current team list.
 nav: true
+social: true  # includes social icons at the bottom of the page
 ---
 
-<!-- Team Projects Grid -->
+## Grad Students
+
+---
+
+{% assign team = site.data.team %}
+
+<!-- Graduate Students Projects Grid -->
 <div class="projects grid">
-  {% assign sorted_team = site.data.team %}
-  {% for team in sorted_team %}
+  {% for grad in team %}
+  {% if grad.section.graduateStudent%}
   <div class="grid-item">
-    {% if team.redirect %}
-    <a href="{{ team.redirect }}" target="_blank">
+    {% if grad.externalWebpage %}
+    <a href="{{ grad.externalWebpage }}" target="_blank">
     {% else %}
-    <a href="{{ team.url | relative_url }}">
+    <a href="{{ grad.webpage | relative_url }}">
     {% endif %}
       <div class="card hoverable">
-        {% if team.img %}
-        <img src="{{ team.img | relative_url }}" alt="team thumbnail">
+        {% if grad.img %}
+        <img src="{{ grad.img | relative_url }}" alt="grad thumbnail">
         {% endif %}
         <div class="card-body">
-          <h5>{{ team.first | append: " " | append: team.last }}</h5>
-          <p class="card-text">{{ team.title }}</p>
-
+          <h5>{{ grad.firstName | append: " " | append: grad.lastName }}</h5>
+          <p class="card-text">{{ grad.titles.default }}</p>
           <div class="row ml-1 mr-1 p-0">
-            {% if team.github %}
+            {% if grad.github %}
             <div class="github-icon">
               <div class="icon" data-toggle="tooltip" title="GitHub Profile">
-                <a href="{{ team.github }}" target="_blank"><i class="fab fa-github gh-icon"></i></a>
+                <a href="{{ grad.github }}" target="_blank"><i class="fab fa-github gh-icon"></i></a>
               </div>
             </div>
             {% endif %}
@@ -37,6 +43,45 @@ nav: true
       </div>
     </a>
   </div>
+  {% endif %}
 {% endfor %}
+</div>
+<br>
 
+## Undergrads
+
+---
+
+<!-- Undergraduate Students Projects Grid -->
+<div class="projects grid">
+  {% for undergrad in team %}
+  {% if undergrad.section.undergraduateStudent%}
+  <div class="grid-item">
+    {% if undergrad.externalWebpage %}
+    <a href="{{ undergrad.externalWebpage }}" target="_blank">
+    {% else %}
+    <a href="{{ undergrad.webpage | relative_url }}">
+    {% endif %}
+      <div class="card hoverable">
+        {% if undergrad.img %}
+        <img src="{{ undergrad.img | relative_url }}" alt="undergrad thumbnail">
+        {% endif %}
+        <div class="card-body">
+          <h5>{{ undergrad.firstName | append: " " | append: undergrad.lastName }}</h5>
+          <p class="card-text">{{ undergrad.titles.default }}</p>
+          <div class="row ml-1 mr-1 p-0">
+            {% if undergrad.github %}
+            <div class="github-icon">
+              <div class="icon" data-toggle="tooltip" title="GitHub Profile">
+                <a href="{{ undergrad.github }}" target="_blank"><i class="fab fa-github gh-icon"></i></a>
+              </div>
+            </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+  {% endif %}
+{% endfor %}
 </div>

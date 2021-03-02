@@ -12,6 +12,7 @@
     "markdownlint.run": "onSave",
     "restructuredtext.confPath": "${workspaceFolder}/source",
     "restructuredtext.linter.run": "onSave",
+    "editor.tabSize": 2
   },
   "postCreateCommand": "bash -i -c 'bundle update && bundle install'"
 }
