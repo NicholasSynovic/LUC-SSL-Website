@@ -1,12 +1,13 @@
 ---
 layout: profile
-title: Trey Roche
-description: Trey Roche's Webpage
-profile:
- align: right
- image: user.jpg
-importance: 1
 permalink: /undergraduateStudents/treyRoche
+
+title: Trey Roche
+img: /assets/img/treyRoche.jpg
+github:
+linkedin:
+externalWebpage:
+resume:
 ---
 
 ## About
@@ -37,8 +38,8 @@ Trey is an undergraduate researcher at SSL pursuing a B.S. in Computer Science. 
 <div class="projects grid">
   <div class="grid-item">
     {% if member.associatedProjects %}
-    {% for associatedProject in member.associatedProjects %}
     {% for project in projects %}
+    {% for associatedProject in member.associatedProjects %}
     {% if associatedProject == project.projectName %}
     <a href="{{ project.webpage | relative_url }}">
       <div class="card hoverable">

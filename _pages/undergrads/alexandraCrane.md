@@ -1,12 +1,13 @@
 ---
 layout: profile
-title: Alexandra Crane
-description: Alexandra Crane's Webpage
-profile:
- align: right
- image: user.jpg
-importance: 1
 permalink: /undergraduateStudents/alexandraCrane
+
+title: Alexandra Crane
+img: /assets/img/alexandraCrane.jpg
+github:
+linkedin:
+externalWebpage:
+resume:
 ---
 
 ## About

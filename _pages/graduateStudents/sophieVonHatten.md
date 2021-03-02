@@ -1,12 +1,13 @@
 ---
 layout: profile
-title: Sophie Von Hatten
-description: Sophie Von Hatten's Webpage
-profile:
- align: right
- image: user.jpg
-importance: 1
 permalink: /graduateStudents/sophieVonHatten
+
+title: Sophie Von Hatten
+img: /assets/img/user.jpg
+github:
+linkedin:
+externalWebpage:
+resume:
 ---
 
 ## About

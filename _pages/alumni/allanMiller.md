@@ -1,12 +1,13 @@
 ---
 layout: profile
-title: Allan Miller
-description: Allan Miller's Webpage
-profile:
- align: right
- image: allanMiller.jpeg
-importance: 1
 permalink: /alumni/allanMiller
+
+title: Allan Miller
+img: /assets/img/allanMiller.jpeg
+github:
+linkedin:
+externalWebpage:
+resume:
 ---
 
 ## About

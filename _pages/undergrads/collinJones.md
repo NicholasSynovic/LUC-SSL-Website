@@ -1,12 +1,13 @@
 ---
 layout: profile
-title: Collin Jones
-description: Collin Jone's Webpage
-profile:
- align: right
- image: user.jpg
-importance: 1
 permalink: /undergraduateStudents/collinJones
+
+title: Collin Jones
+img: /assets/img/collinJones
+github:
+linkedin:
+externalWebpage:
+resume:
 ---
 
 ## About

@@ -1,9 +1,13 @@
 ---
 layout: profile
-title: Nicholas Synovic
 permalink: /undergraduateStudents/nicholasSynovic
+
+title: Nicholas Synovic
 img: /assets/img/nicholasSynovic.png
 github: https://github.com/NicholasSynovic
+linkedin:
+externalWebpage:
+resume:
 ---
 
 ## About
