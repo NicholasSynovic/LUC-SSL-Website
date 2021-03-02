@@ -7,7 +7,7 @@ img: /assets/img/emmanuelAmobi.jpg
 github: https://github.com/emmaamobi
 linkedin: https://www.linkedin.com/in/emmaamobi/
 externalWebpage:
-resume:
+resume: /assets/pdf/Emmanuel_Amobi-Resume.pdf
 ---
 
 ## About

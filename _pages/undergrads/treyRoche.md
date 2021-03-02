@@ -7,7 +7,7 @@ img: /assets/img/treyRoche.jpg
 github: https://github.com/Troche4
 linkedin: https://www.linkedin.com/in/trey-roche-587b7717a/
 externalWebpage: http://treyroche.com/
-resume:
+resume: /assets/docs/ResumeTreyRoche-Trey_Roche.docx
 ---
 
 ## About

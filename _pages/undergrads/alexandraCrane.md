@@ -7,7 +7,7 @@ img: /assets/img/alexandraCrane.jpg
 github: https://github.com/alexandratcrane
 linkedin: https://www.linkedin.com/in/alexandra-crane/
 externalWebpage:
-resume:
+resume: /assets/pdf/CraneResume_2020-Alexandra_Crane.pdf
 ---
 
 ## About

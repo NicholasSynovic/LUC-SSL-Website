@@ -7,7 +7,7 @@ img:
 github: https://github.com/isaac-ahlgren
 linkedin: https://www.linkedin.com/in/isaac-ahlgren-3412811bb/
 externalWebpage:
-resume:
+resume: /assets/pdf/Resume-Isaac_Ahlgren.pdf
 ---
 
 ## About

@@ -6,7 +6,7 @@ title: Sophie Von Hatten
 img: /assets/img/user.jpg
 github: https://github.com/svonhatten
 linkedin: https://www.linkedin.com/in/sophie-von-hatten-9863a018b/
-externalWebpage:
+externalWebpage: /assets/docs/SophieVonHattenResume-Sophie_Von_Hatten.docx
 resume:
 ---
 

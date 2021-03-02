@@ -7,7 +7,7 @@ img: /assets/img/nicholasSynovic.png
 github: https://github.com/NicholasSynovic
 linkedin: https://linkedin.com/in/nsynovic
 externalWebpage: https://loyolachicagocs.github.io/ssl/members/undergraduate-researchers-pages/nicholassynovic.github.io/
-resume:
+resume: https://nicholassynovic.github.io/assets/Nicholas_Synovic-Resume.pdf
 ---
 
 ## About

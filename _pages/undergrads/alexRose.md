@@ -7,7 +7,7 @@ img: /assets/img/alexRose.jpg
 github: https://github.com/acrose99
 linkedin: https://www.linkedin.com/in/alexander-r-5a14b0118/
 externalWebpage: https://acrose99.github.io/PersonalWebsite/
-resume:
+resume: /assets/docs/ResumeSSL-Alex_Rose.docx
 
 ---
 

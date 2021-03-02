@@ -7,7 +7,7 @@ img: /assets/img/allanMiller.jpeg
 github: https://github.com/AJM10565/
 linkedin: https://www.linkedin.com/in/ajm10565/
 externalWebpage:
-resume:
+resume: /assets/pdf/AllanMillerResume_07_24_2020-Allan_Miller.pdf
 ---
 
 ## About

@@ -7,7 +7,7 @@ img: /assets/img/seanHiggins.jpeg
 github: https://github.com/sean-m-higgins
 linkedin: https://www.linkedin.com/in/sean-m-higgins20/
 externalWebpage: https://www.seanmh.com/
-resume:
+resume: /assets/pdf/Resume-Sean_Higgins.pdf
 ---
 
 ## About
