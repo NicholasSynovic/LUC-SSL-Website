@@ -39,24 +39,23 @@ Software Engineer at Ensighten Inc.
 {% assign projects = site.data.projects %}
 {% assign team = site.data.team %}
 
-{% if team.lastName == lastName %}
-{% if team.firstName == firstName %}
+{% for member in team %}
+{% if member.lastName == lastName %}
+{% if member.firstName == firstName %}
 <div class="projects grid">
   <div class="grid-item">
-    {% if team.associatedProjects %}
-    {% for project in team.associatedProjects %}
-    {% if lastName %}
-    <a href="{{ project.redirect }}" target="_blank">
-    {% else %}
-    <a href="{{ project.url | relative_url }}">
-    {% endif %}
+    {% if member.associatedProjects %}
+    {% for associatedProject in member.associatedProjects %}
+    {% for project in projects %}
+    {% if associatedProject == project.projectName %}
+    <a href="{{ project.webpage | relative_url }}">
       <div class="card hoverable">
         {% if project.img %}
         <img src="{{ project.img | relative_url }}" alt="project thumbnail">
         {% endif %}
         <div class="card-body">
-          <h2 class="card-title text-lowercase">{{ project.title }}</h2>
-          <p class="card-text">{{ project.description }}</p>
+          <h2 class="card-title text-lowercase">{{ project.projectName }}</h2>
+          <p class="card-text">{{ project.shortDescription }}</p>
           <div class="row ml-1 mr-1 p-0">
             {% if project.github %}
             <div class="github-icon">
@@ -75,9 +74,12 @@ Software Engineer at Ensighten Inc.
         </div>
       </div>
     </a>
+    {% endif %}
+    {% endfor %}
     {% endfor %}
     {% endif %}
   </div>
 </div>
 {% endif %}
 {% endif %}
+{% endfor %}

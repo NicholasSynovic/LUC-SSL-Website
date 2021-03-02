@@ -1,0 +1,84 @@
+# Template Project
+# - projectName:
+#   img:
+#   webpage:
+#   shortDescription:
+#   status:
+
+- projectName: Metrics Dashboard
+  img:
+  webpage:
+  shortDescription:
+  status:
+
+- projectName: ZettleGeist
+  img:
+  webpage:
+  shortDescription:
+  status:
+
+- projectName: Shape Analysis
+  img:
+  webpage:
+  shortDescription:
+  status:
+
+- projectName: History of Computing
+  img:
+  webpage:
+  shortDescription:
+  status:
+
+- projectName: Testing Effectiveness
+  img:
+  webpage:
+  shortDescription:
+  status:
+
+- projectName: VoltKey
+  img:
+  webpage:
+  shortDescription:
+  status:
+
+- projectName: Computer vision
+  img:
+  webpage:
+  shortDescription:
+  status:
+
+- projectName: Neuroscience
+  img:
+  webpage:
+  shortDescription:
+  status:
+
+- projectName: Shape Analysis
+  img:
+  webpage:
+  shortDescription:
+  status:
+
+- projectName: Laptop Ensemble and Software
+  img:
+  webpage:
+  shortDescription:
+  status:
+
+- projectName: Hermes
+  img:
+  webpage:
+  shortDescription:
+  status:
+
+- projectName: Non-Local Mean Curvature
+  img:
+  webpage:
+  shortDescription:
+  status:
+
+- projectName: "FLIC: Fog Linked Internet of Things Cache"
+  img:
+  webpage:
+  shortDescription:
+  status:
