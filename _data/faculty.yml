@@ -2,7 +2,7 @@
 # - lastName:
 #   firstName:
 #   middleInitial:
-#   sections:
+#   section:
 #     - alumna:
 #     - alumnus:
 #     - facultyAdvisor:
@@ -31,7 +31,7 @@
 - lastName: Abegaz
   firstName: Brook
   middleInitial:
-  sections:
+  section:
     - alumna:
     - alumnus:
     - facultyAdvisor: true
@@ -60,7 +60,7 @@
 - lastName: Brophy
   firstName: Juliet
   middleInitial:
-  sections:
+  section:
     - alumna:
     - alumnus:
     - facultyAdvisor:
@@ -89,7 +89,7 @@
 - lastName: Carver
   firstName: Jeffrey
   middleInitial:
-  sections:
+  section:
     - alumna:
     - alumnus:
     - facultyAdvisor:
@@ -118,7 +118,7 @@
 - lastName: Chan-tin
   firstName: Eric
   middleInitial:
-  sections:
+  section:
     - alumna:
     - alumnus:
     - facultyAdvisor: true
@@ -147,7 +147,7 @@
 - lastName: Dematties
   firstName: Dario
   middleInitial:
-  sections:
+  section:
     - alumna:
     - alumnus:
     - facultyAdvisor:
@@ -176,7 +176,7 @@
 - lastName: Dennis
   firstName: David
   middleInitial:
-  sections:
+  section:
     - alumna:
     - alumnus:
     - facultyAdvisor:
@@ -205,7 +205,7 @@
 - lastName: Eisty
   firstName: Nasir
   middleInitial:
-  sections:
+  section:
     - alumna:
     - alumnus:
     - facultyAdvisor:
@@ -234,7 +234,7 @@
 - lastName: Hayward
   firstName: Nicholas
   middleInitial:
-  sections:
+  section:
     - alumna:
     - alumnus:
     - facultyAdvisor: true
@@ -263,7 +263,7 @@
 - lastName: Honig
   firstName: William
   middleInitial:
-  sections:
+  section:
     - alumna:
     - alumnus:
     - facultyAdvisor: true
@@ -292,7 +292,7 @@
 - lastName: Xiaoyong
   firstName: Jin
   middleInitial:
-  sections:
+  section:
     - alumna:
     - alumnus:
     - facultyAdvisor:
@@ -321,7 +321,7 @@
 - lastName: Klingensmith
   firstName: Neil
   middleInitial:
-  sections:
+  section:
     - alumna:
     - alumnus:
     - facultyAdvisor:
@@ -350,7 +350,7 @@
 - lastName: Läufer
   firstName: Konstantin
   middleInitial:
-  sections:
+  section:
     - alumna:
     - alumnus:
     - facultyAdvisor: true
@@ -379,7 +379,7 @@
 - lastName: Lu
   firstName: Yung-Hsiang
   middleInitial:
-  sections:
+  section:
     - alumna:
     - alumnus:
     - facultyAdvisor:
@@ -408,7 +408,7 @@
 - lastName: Matthews
   firstName: Gregory
   middleInitial:
-  sections:
+  section:
     - alumna:
     - alumnus:
     - facultyAdvisor: true
@@ -437,7 +437,7 @@
 - lastName: Rizzi
   firstName: Silvio
   middleInitial:
-  sections:
+  section:
     - alumna:
     - alumnus:
     - facultyAdvisor:
@@ -466,7 +466,7 @@
 - lastName: Thiruvathukal
   firstName: George
   middleInitial:
-  sections:
+  section:
     - alumna:
     - alumnus:
     - facultyAdvisor:
@@ -495,7 +495,7 @@
 - lastName: Vishwanath
   firstName: Venkatram
   middleInitial:
-  sections:
+  section:
     - alumna:
     - alumnus:
     - facultyAdvisor:
@@ -524,7 +524,7 @@
 - lastName: Wetzel
   firstName: David
   middleInitial:
-  sections:
+  section:
     - alumna:
     - alumnus:
     - facultyAdvisor: true

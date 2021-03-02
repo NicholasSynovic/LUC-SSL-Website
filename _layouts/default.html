@@ -2,26 +2,30 @@
 <html>
 
 <head>
-  {% include head.html %}
-  {% include scripts/mathjax.html %}
+    {% include head.html %}
+    {% include scripts/mathjax.html %}
 </head>
 
-<body
-  class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+<body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless
+    site.footer_fixed %}sticky-bottom-footer{% endunless %}">
 
-  <!-- Header -->
+    <!-- Liquid variables -->
+    {% assign faculty = site.data.faculty %}
 
-  {% include header.html %}
 
-  <!-- Content -->
+    <!-- Header -->
 
-  <div class="container mt-5">
-    {{ content }}
-  </div>
+    {% include header.html %}
 
-  <!-- Footer -->
+    <!-- Content -->
 
-  <!-- {% include footer.html %} -->
+    <div class="container mt-5">
+        {{ content }}
+    </div>
+
+    <!-- Footer -->
+
+    <!-- {% include footer.html %} -->
 
 </body>
 
