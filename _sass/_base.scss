@@ -47,6 +47,7 @@ a, table.table a {
     margin-top: 5px;
     font-family: monospace;
     font-size: 1.2rem;
+    text-align: right;
     p {
       display: inline-block;
       margin: 0;
@@ -56,6 +57,34 @@ a, table.table a {
 
 @media (min-width: 576px) {
   .profile {
+    width: 30%;
+    .address {
+      p { display: block; }
+    }
+  }
+}
+
+// About
+
+.about {
+  margin-left: 1rem;
+  width: 100%;
+
+  .address {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: monospace;
+    font-size: 1.2rem;
+    text-align: left;
+    p {
+      display: inline-block;
+      margin: 0;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .about {
     width: 30%;
     .address {
       p { display: block; }

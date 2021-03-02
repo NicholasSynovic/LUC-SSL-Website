@@ -2,50 +2,54 @@
 layout: default
 ---
 
+<!-- This formats the title and side image -->
+<!-- Required variables -->
+<!-- title: First Name, Middle Initial (optional), Last Name -->
+<!-- img: Path to profile image. Should be stored in /assets/img/ -->
+<!-- github: Link to user's GitHub account page  -->
+<!-- linkedin: Link to user's LinkedIn account page (optional)  -->
+<!-- externalWebpage: Link to user's external webpage (optional)  -->
+<!-- resume: Path to user's resume (optional) -->
+
 <div class="post">
 
   <header class="post-header">
     <h1 class="post-title">
-      {% if page.title == blank %}{{ site.title }}{% else %} {{
-      page.title }}{% endif %}
+      {{ page.title }}
     </h1>
-    <p class="desc">{{ page.description }}</p>
   </header>
 
   <article>
-    {% if page.profile %}
-    <div
-      class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-      {% if page.profile.image %}
+    <div class="profile float-right">
+      {% if page.img %}
       <img class="img-fluid z-depth-1 rounded"
-        src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}">
+        src="{{ page.img | relative_url }}">
+      {% else %}
+      <img class="img-fluid z-depth-1 rounded"
+        src="{{ '/assets/img/user.jpg' | relative_url }}">
       {% endif %}
-      {% if page.profile.address %}
       <div class="address">
-        {{ page.profile.address }}
+        <a href="{{ page.github }}" target="_blank">GitHub</a>
+        {% if page.linkedin %}
+        <a href="{{ page.linkedin }}" target="_blank">LinkedIn`</a>
+        {% endif %}
+        {% if page.externalWebpage %}
+        <a href="{{ page.externalWebpage }}" target="_blank">Website</a>
+        {% endif %}
+        {% if page.resume %}
+        <a href="{{ page.resume }}" target="_blank">Resume</a>
+        {% endif %}
       </div>
-      {% endif %}
     </div>
-    {% endif %}
 
     <div class="clearfix">
       {{ content }}
     </div>
 
-    {% if page.news %}
-    {% include news.html %}
-    {% endif %}
-
-    {% if page.selected_papers %}
-    {% include selected_papers.html %}
-    {% endif %}
-
-    {% if page.social %}
     <div class="social">
       {% include social.html %}
       <div class="contact-note">{{ site.contact_note }}</div>
     </div>
-    {% endif %}
   </article>
 
 </div>
