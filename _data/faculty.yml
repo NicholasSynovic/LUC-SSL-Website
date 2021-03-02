@@ -233,7 +233,7 @@
 
 - lastName: Hayward
   firstName: Nicholas
-  middleInitial:
+  middleInitial: J
   section:
     alumna:
     alumnus:
@@ -262,7 +262,7 @@
 
 - lastName: Honig
   firstName: William
-  middleInitial:
+  middleInitial: L
   section:
     alumna:
     alumnus:
@@ -407,7 +407,7 @@
 
 - lastName: Matthews
   firstName: Gregory
-  middleInitial:
+  middleInitial: J
   section:
     alumna:
     alumnus:
@@ -523,7 +523,7 @@
 
 - lastName: Wetzel
   firstName: David
-  middleInitial:
+  middleInitial: B
   section:
     alumna:
     alumnus:

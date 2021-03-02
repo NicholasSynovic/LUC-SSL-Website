@@ -384,14 +384,14 @@
       projectName: Metrics Dashboard
       role: Software Engineer
       tenure:
-  webpage: /alumni/allanMiller
+  webpage: alumni/allanMiller
   externalWebpage:
   img: /assets/img/allanMiller.jpeg
   socials:
     github:
     linkedin:
   titles:
-    default:
+    default: Software Engineer
     studentLeadership:
     facultyLeadership:
     other:
@@ -839,7 +839,7 @@
       projectName: Metrics Dashboard
       role: Software Developer
       tenure: 2019 - 2021
-  webpage:
+  webpage: graduateStudents/martinZugschwert
   externalWebpage:
   img: /assets/img/martinZugschwert.jpg
   socials:

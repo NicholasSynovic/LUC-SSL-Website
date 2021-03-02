@@ -20,8 +20,10 @@ social: true  # includes social icons at the bottom of the page
   <div class="grid-item">
     {% if alumna.externalWebpage %}
     <a href="{{ alumna.externalWebpage }}" target="_blank">
-    {% else %}
+    {% elsif alumna.webpage %}
     <a href="{{ alumna.webpage | relative_url }}">
+    {% else %}
+    <!-- Do nothing -->
     {% endif %}
       <div class="card hoverable">
         {% if alumna.img %}
@@ -34,14 +36,22 @@ social: true  # includes social icons at the bottom of the page
             {% if alumna.github %}
             <div class="github-icon">
               <div class="icon" data-toggle="tooltip" title="GitHub Profile">
-                <a href="{{ alumna.github }}" target="_blank"><i class="fab fa-github gh-icon"></i></a>
+                <a href="{{ alumna.github }}" target="_blank">
+                <i class="fab fa-github gh-icon"></i>
+                </a>
               </div>
             </div>
             {% endif %}
           </div>
         </div>
       </div>
+    {% if alumna.externalWebpage %}
     </a>
+    {% elsif alumna.webpage %}
+    </a>
+    {% else %}
+    <!-- Do nothing -->
+    {% endif %}
   </div>
   {% endif %}
 {% endfor %}
@@ -59,8 +69,10 @@ social: true  # includes social icons at the bottom of the page
   <div class="grid-item">
     {% if alumnus.externalWebpage %}
     <a href="{{ alumnus.externalWebpage }}" target="_blank">
-    {% else %}
+    {% elsif alumnus.webpage %}
     <a href="{{ alumnus.webpage | relative_url }}">
+    {% else %}
+    <!-- Do nothing -->
     {% endif %}
       <div class="card hoverable">
         {% if alumnus.img %}
@@ -73,14 +85,22 @@ social: true  # includes social icons at the bottom of the page
             {% if alumnus.github %}
             <div class="github-icon">
               <div class="icon" data-toggle="tooltip" title="GitHub Profile">
-                <a href="{{ alumnus.github }}" target="_blank"><i class="fab fa-github gh-icon"></i></a>
+                <a href="{{ alumnus.github }}" target="_blank">
+                <i class="fab fa-github gh-icon"></i>
+                </a>
               </div>
             </div>
             {% endif %}
           </div>
         </div>
       </div>
+    {% if alumnus.externalWebpage %}
     </a>
+    {% elsif alumnus.webpage %}
+    </a>
+    {% else %}
+    <!-- Do nothing -->
+    {% endif %}
   </div>
   {% endif %}
 {% endfor %}
