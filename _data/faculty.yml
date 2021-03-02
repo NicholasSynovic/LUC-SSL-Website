@@ -175,16 +175,16 @@
 
 - lastName: Dennis
   firstName: David
-  middleInitial:
+  middleInitial: B
   section:
     alumna:
     alumnus:
-    facultyAdvisor:
+    facultyAdvisor: true
     facultyLeadership:
     graduateStudent:
     studentLeadership:
     undergraduateStudent:
-    other: Faculty Advisor
+    other:
   associatedProjects:
     0:
       projectName:
@@ -192,7 +192,7 @@
       tenure:
   webpage:
   externalWebpage:
-  img: /assets/img/user.jpg
+  img: /assets/img/davidBDennis.jpg
   socials:
     github:
     linkedin:
@@ -337,7 +337,7 @@
       tenure:
   webpage:
   externalWebpage: https://www.luc.edu/cs/people/ftfaculty/klingensmithneil.shtml
-  img: /assets/img/user.jpg
+  img: /assets/img/neilKlingensmith.jpg
   socials:
     github:
     linkedin:
@@ -366,7 +366,7 @@
       tenure:
   webpage:
   externalWebpage: https://www.luc.edu/cs/people/ftfaculty/lauferkonstantin.shtml
-  img: /assets/img/user.jpg
+  img: /assets/img/läuferKonstantin.jpg
   socials:
     github:
     linkedin:
@@ -395,7 +395,7 @@
       tenure:
   webpage:
   externalWebpage:
-  img: /assets/img/user.jpg
+  img: /assets/img/yungluhsiangLu.jpg
   socials:
     github:
     linkedin:
@@ -424,7 +424,7 @@
       tenure:
   webpage:
   externalWebpage:
-  img: /assets/img/user.jpg
+  img: /assets/img/gregoryMatthews.jpg
   socials:
     github:
     linkedin:
@@ -482,7 +482,7 @@
       tenure:
   webpage:
   externalWebpage: https://thiruvathukal.com
-  img: /assets/img/user.jpg
+  img: /assets/img/georgeThiruvathukal.jpg
   socials:
     github:
     linkedin:
@@ -540,7 +540,7 @@
       tenure:
   webpage:
   externalWebpage:
-  img: /assets/img/user.jpg
+  img: /assets/img/davidWetzel.jpg
   socials:
     github:
     linkedin:
