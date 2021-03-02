@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <div class="post">
 
   <header class="post-header">
@@ -11,14 +12,12 @@ layout: default
   <article>
     {{ content }}
 
-    <br>
+    <hr>
 
-    {% if page.social %}
     <div class="social">
       {% include social.html %}
       <div class="contact-note">{{ site.contact_note }}</div>
     </div>
-    {% endif %}
 
   </article>
 
