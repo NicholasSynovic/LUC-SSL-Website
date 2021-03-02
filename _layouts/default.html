@@ -6,8 +6,7 @@
   {% include scripts/mathjax.html %}
 </head>
 
-<body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless
-    site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+<body class="fixed-top-nav sticky-bottom-footer">
 
   <!-- Header -->
 
@@ -18,10 +17,6 @@
   <div class="container mt-5">
     {{ content }}
   </div>
-
-  <!-- Footer -->
-
-  <!-- {% include footer.html %} -->
 
 </body>
 
