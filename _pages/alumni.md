@@ -17,7 +17,6 @@ social: true  # includes social icons at the bottom of the page
 <div class="projects grid">
   {% for alumna in team %}
   {% if alumna.section.alumna %}
-  <p>PENIS</p>
   <div class="grid-item">
     {% if alumna.externalWebpage %}
     <a href="{{ alumna.externalWebpage }}" target="_blank">
