@@ -1,10 +1,9 @@
 ---
 layout: about
 permalink: /apply/
+nav: true
 
 title: apply
-nav: true
-social: true  # includes social icons at the bottom of the page
 ---
 <!-- Markdown Syntax: https://www.markdownguide.org/ -->
 

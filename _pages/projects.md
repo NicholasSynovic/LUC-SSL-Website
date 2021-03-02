@@ -1,10 +1,10 @@
 ---
 layout: page
 permalink: /projects/
+nav: true
 
 title: projects
 description: Our current list of in progress and incubating research endeavours
-nav: true
 ---
 
 {% assign projects = site.data.projects | sort: "projectName" %}

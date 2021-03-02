@@ -11,12 +11,7 @@ profile:
    <p>Doyle Center</p>
    <p>1052 W Loyola Ave</p>
    <p>Chicago, IL 60660</p>
-
-news: false  # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
 ---
-<!-- Markdown Syntax: https://www.markdownguide.org/ -->
 
 ## Hello World
 

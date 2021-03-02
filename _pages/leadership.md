@@ -1,11 +1,10 @@
 ---
 layout: page
 permalink: /leadership/
+nav: true
 
 title: leadership
 description: Our current leaders list.
-nav: true
-social: true  # includes social icons at the bottom of the page
 ---
 
 ## Introduction

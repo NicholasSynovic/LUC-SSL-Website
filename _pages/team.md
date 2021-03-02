@@ -1,10 +1,10 @@
 ---
 layout: page
-title: team
 permalink: /team/
-description: Our current team list.
 nav: true
-social: true  # includes social icons at the bottom of the page
+
+title: team
+description: Our current team list.
 ---
 
 ## Grad Students
