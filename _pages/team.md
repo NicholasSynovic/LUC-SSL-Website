@@ -20,8 +20,10 @@ social: true  # includes social icons at the bottom of the page
   <div class="grid-item">
     {% if grad.externalWebpage %}
     <a href="{{ grad.externalWebpage }}" target="_blank">
-    {% else %}
+    {% elsif grad.webpage %}
     <a href="{{ grad.webpage | relative_url }}">
+    {% else %}
+    <!-- Do nothing -->
     {% endif %}
       <div class="card hoverable">
         {% if grad.img %}
@@ -41,7 +43,13 @@ social: true  # includes social icons at the bottom of the page
           </div>
         </div>
       </div>
+    {% if grad.externalWebpage %}
     </a>
+    {% elsif grad.webpage %}
+    </a>
+    {% else %}
+    <!-- Do nothing -->
+    {% endif %}
   </div>
   {% endif %}
 {% endfor %}
@@ -59,8 +67,10 @@ social: true  # includes social icons at the bottom of the page
   <div class="grid-item">
     {% if undergrad.externalWebpage %}
     <a href="{{ undergrad.externalWebpage }}" target="_blank">
-    {% else %}
+    {% elsif undergrad.webpage %}
     <a href="{{ undergrad.webpage | relative_url }}">
+    {% else %}
+    <!-- Do nothing -->
     {% endif %}
       <div class="card hoverable">
         {% if undergrad.img %}
@@ -80,7 +90,13 @@ social: true  # includes social icons at the bottom of the page
           </div>
         </div>
       </div>
+    {% if undergrad.externalWebpage %}
     </a>
+    {% elsif undergrad.webpage %}
+    </a>
+    {% else %}
+    <!-- Do nothing -->
+    {% endif %}
   </div>
   {% endif %}
 {% endfor %}
