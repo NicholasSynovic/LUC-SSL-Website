@@ -11,11 +11,18 @@ permalink: /undergraduateStudents/collinJones
 
 ## About
 
+Collin Jones is a senior studying computer science and computer crime and forensics. His research currently includes structural metrics of software, with a focus on cyclomatic complexity. Collin is interested in internet privacy, network security, software design, and blockchain technologies.
+
 ## Education Background
 
-## Professional and Community Affiliations
+- BS in Computer Science from Loyola University Chicago. Estimated Graduation: 2021
+- Minor in Computer Crime and Forensics from Loyola University Chicago. Estimated Graduation: 2021
 
 ## Research Interests
+
+- Structural Metrics
+- Internet Privacy
+- Tor
 
 ## Research Projects
 

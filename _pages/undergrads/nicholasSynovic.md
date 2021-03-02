@@ -1,8 +1,6 @@
 ---
 layout: profile
 title: Nicholas Synovic
-description: Nicholas Synovic's Webpage
-importance: 1
 permalink: /undergraduateStudents/nicholasSynovic
 img: /assets/img/nicholasSynovic.png
 github: https://github.com/NicholasSynovic
