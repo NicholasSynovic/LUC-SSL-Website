@@ -1,275 +1,551 @@
 # Template Profile
-- lastName:
-  firstName:
+# - lastName:
+#   firstName:
+#   middleInitial:
+#   sections:
+#     - alumna:
+#     - alumnus:
+#     - facultyAdvisor:
+#     - facultyLeadership:
+#     - graduateStudent:
+#     - studentLeadership:
+#     - undergraduateStudent:
+#     - other:
+#   associatedProjects:
+#     - 0:
+#       - projectName:
+#       - role:
+#       - tenure:
+#   webpage:
+#   externalWebpage:
+#   img: /assets/img/user.jpg
+#   socials:
+#     - github:
+#     - linkedin:
+#   titles:
+#     - default:
+#     - studentLeadership:
+#     - facultyLeadership:
+#     - other:
+
+- lastName: Abegaz
+  firstName: Brook
   middleInitial:
   sections:
-    - alumni:
-    - facultyAdvisor:
+    - alumna:
+    - alumnus:
+    - facultyAdvisor: true
     - facultyLeadership:
     - graduateStudent:
     - studentLeadership:
     - undergraduateStudent:
     - other:
   associatedProjects:
-    - ProjectName:
-      - Role:
-        - tenure:
+    - 0:
+      - projectName:
+      - role:
+      - tenure:
   webpage:
   externalWebpage:
-  img:
+  img: /assets/img/user.jpg
+  socials:
+    - github:
+    - linkedin:
+  titles:
+    - default: Faculty Advisor
+    - studentLeadership:
+    - facultyLeadership:
+    - other: Advisor
+
+- lastName: Brophy
+  firstName: Juliet
+  middleInitial:
+  sections:
+    - alumna:
+    - alumnus:
+    - facultyAdvisor:
+    - facultyLeadership:
+    - graduateStudent:
+    - studentLeadership:
+    - undergraduateStudent:
+    - other: Louisiana State University Collaborators
+  associatedProjects:
+    - 0:
+      - projectName:
+      - role:
+      - tenure:
+  webpage:
+  externalWebpage:
+  img: /assets/img/user.jpg
+  socials:
+    - github:
+    - linkedin:
+  titles:
+    - default: Assistant Professor of Anthropology
+    - studentLeadership:
+    - facultyLeadership:
+    - other: Collaborator
+
+- lastName: Carver
+  firstName: Jeffrey
+  middleInitial:
+  sections:
+    - alumna:
+    - alumnus:
+    - facultyAdvisor:
+    - facultyLeadership:
+    - graduateStudent:
+    - studentLeadership:
+    - undergraduateStudent:
+    - other: University of Alabama Collaborators
+  associatedProjects:
+    - 0:
+      - projectName:
+      - role:
+      - tenure:
+  webpage:
+  externalWebpage:
+  img: /assets/img/user.jpg
+  socials:
+    - github:
+    - linkedin:
+  titles:
+    - default: Professor of Computer Science
+    - studentLeadership:
+    - facultyLeadership:
+    - other: Collaborator
+
+- lastName: Chan-tin
+  firstName: Eric
+  middleInitial:
+  sections:
+    - alumna:
+    - alumnus:
+    - facultyAdvisor: true
+    - facultyLeadership:
+    - graduateStudent:
+    - studentLeadership:
+    - undergraduateStudent:
+    - other:
+  associatedProjects:
+    - 0:
+      - projectName:
+      - role:
+      - tenure:
+  webpage:
+  externalWebpage: https://www.luc.edu/cs/people/ftfaculty/chan-tineric.shtml
+  img: /assets/img/user.jpg
+  socials:
+    - github:
+    - linkedin:
+  titles:
+    - default: Faculty Advisor
+    - studentLeadership:
+    - facultyLeadership:
+    - other: Advisor
+
+- lastName: Dematties
+  firstName: Dario
+  middleInitial:
+  sections:
+    - alumna:
+    - alumnus:
+    - facultyAdvisor:
+    - facultyLeadership:
+    - graduateStudent:
+    - studentLeadership:
+    - undergraduateStudent:
+    - other: Outside Ph.D. Student Collaborators
+  associatedProjects:
+    - 0:
+      - projectName:
+      - role:
+      - tenure:
+  webpage:
+  externalWebpage:
+  img: /assets/img/user.jpg
+  socials:
+    - github:
+    - linkedin:
+  titles:
+    - default: University of Buenos Aires Ph.D. Collaborator
+    - studentLeadership:
+    - facultyLeadership:
+    - other: Collaborator
+
+- lastName: Dennis
+  firstName: David
+  middleInitial:
+  sections:
+    - alumna:
+    - alumnus:
+    - facultyAdvisor:
+    - facultyLeadership:
+    - graduateStudent:
+    - studentLeadership:
+    - undergraduateStudent:
+    - other: Faculty Advisor
+  associatedProjects:
+    - 0:
+      - projectName:
+      - role:
+      - tenure:
+  webpage:
+  externalWebpage:
+  img: /assets/img/user.jpg
+  socials:
+    - github:
+    - linkedin:
+  titles:
+    - default: Faculty Advisor
+    - studentLeadership:
+    - facultyLeadership:
+    - other: Advisor
+
+- lastName: Eisty
+  firstName: Nasir
+  middleInitial:
+  sections:
+    - alumna:
+    - alumnus:
+    - facultyAdvisor:
+    - facultyLeadership:
+    - graduateStudent:
+    - studentLeadership:
+    - undergraduateStudent:
+    - other:  University of Alabama Ph.D. Collaborator
+  associatedProjects:
+    - 0:
+      - projectName:
+      - role:
+      - tenure:
+  webpage:
+  externalWebpage:
+  img: /assets/img/user.jpg
+  socials:
+    - github:
+    - linkedin:
+  titles:
+    - default: Outside Ph.D. Student Collaborators
+    - studentLeadership:
+    - facultyLeadership:
+    - other: Collaborator
+
+- lastName: Hayward
+  firstName: Nicholas
+  middleInitial:
+  sections:
+    - alumna:
+    - alumnus:
+    - facultyAdvisor: true
+    - facultyLeadership:
+    - graduateStudent:
+    - studentLeadership:
+    - undergraduateStudent:
+    - other:
+  associatedProjects:
+    - 0:
+      - projectName:
+      - role:
+      - tenure:
+  webpage:
+  externalWebpage: https://www.luc.edu/cs/people/ftfaculty/haywardnicholas.shtml
+  img: /assets/img/user.jpg
+  socials:
+    - github:
+    - linkedin:
+  titles:
+    - default: Faculty Advisor
+    - studentLeadership:
+    - facultyLeadership:
+    - other: Advisor
+
+- lastName: Honig
+  firstName: William
+  middleInitial:
+  sections:
+    - alumna:
+    - alumnus:
+    - facultyAdvisor: true
+    - facultyLeadership:
+    - graduateStudent:
+    - studentLeadership:
+    - undergraduateStudent:
+    - other:
+  associatedProjects:
+    - 0:
+      - projectName:
+      - role:
+      - tenure:
+  webpage:
+  externalWebpage: https://www.luc.edu/cs/people/ftfaculty/honigwilliaml.shtml
+  img: /assets/img/user.jpg
+  socials:
+    - github:
+    - linkedin:
+  titles:
+    - default: Faculty Advisor
+    - studentLeadership:
+    - facultyLeadership:
+    - other: Advisor
+
+- lastName: Xiaoyong
+  firstName: Jin
+  middleInitial:
+  sections:
+    - alumna:
+    - alumnus:
+    - facultyAdvisor:
+    - facultyLeadership:
+    - graduateStudent:
+    - studentLeadership:
+    - undergraduateStudent:
+    - other: Argonne National Laboratory Collaborators
+  associatedProjects:
+    - 0:
+      - projectName:
+      - role:
+      - tenure:
+  webpage:
+  externalWebpage:
+  img: /assets/img/user.jpg
+  socials:
+    - github:
+    - linkedin:
+  titles:
+    - default: Assistant Scientist
+    - studentLeadership:
+    - facultyLeadership:
+    - other: Collaborator
+
+- lastName: Klingensmith
+  firstName: Neil
+  middleInitial:
+  sections:
+    - alumna:
+    - alumnus:
+    - facultyAdvisor:
+    - facultyLeadership: true
+    - graduateStudent:
+    - studentLeadership:
+    - undergraduateStudent:
+    - other:
+  associatedProjects:
+    - 0:
+      - projectName:
+      - role:
+      - tenure:
+  webpage:
+  externalWebpage: https://www.luc.edu/cs/people/ftfaculty/klingensmithneil.shtml
+  img: /assets/img/user.jpg
   socials:
     - github:
     - linkedin:
   titles:
     - default:
     - studentLeadership:
-    - facultyLeadership:
+    - facultyLeadership: Co-Director
     - other:
-    - ProjectName:
-      - Title:
-        - tenure:
 
-- last: Abegaz
-  first: Brook
-  gradeLevel: Faculty Advisor
-  roles: Advisor
-  projects:
-  url:
-  redirect:
+- lastName: Läufer
+  firstName: Konstantin
+  middleInitial:
+  sections:
+    - alumna:
+    - alumnus:
+    - facultyAdvisor: true
+    - facultyLeadership:
+    - graduateStudent:
+    - studentLeadership:
+    - undergraduateStudent:
+    - other:
+  associatedProjects:
+    - 0:
+      - projectName:
+      - role:
+      - tenure:
+  webpage:
+  externalWebpage: https://www.luc.edu/cs/people/ftfaculty/lauferkonstantin.shtml
   img: /assets/img/user.jpg
-  title: Advisor
-  github:
+  socials:
+    - github:
+    - linkedin:
+  titles:
+    - default: Faculty Advisor
+    - studentLeadership:
+    - facultyLeadership:
+    - other: Advisor
 
-- last: Amobi
-  first: Emmanuel
-  gradeLevel: Student Leadership
-  roles: Administrator
-  projects:
-  url:
-  redirect:
+- lastName: Lu
+  firstName: Yung-Hsiang
+  middleInitial:
+  sections:
+    - alumna:
+    - alumnus:
+    - facultyAdvisor:
+    - facultyLeadership:
+    - graduateStudent:
+    - studentLeadership:
+    - undergraduateStudent:
+    - other: Purdue University Collaborators
+  associatedProjects:
+    - 0:
+      - projectName:
+      - role:
+      - tenure:
+  webpage:
+  externalWebpage:
   img: /assets/img/user.jpg
-  title: Administrator
-  github:
+  socials:
+    - github:
+    - linkedin:
+  titles:
+    - default: Professor of Computer Engineering at High-Energy Low-Power Systems Laboratory
+    - studentLeadership:
+    - facultyLeadership:
+    - other: Collaborator
 
-- last: Brophy
-  first: Juliet
-  gradeLevel: Louisiana State University Collaborators
-  roles: Collaborator
-  projects:
-  url:
-  redirect:
+- lastName: Matthews
+  firstName: Gregory
+  middleInitial:
+  sections:
+    - alumna:
+    - alumnus:
+    - facultyAdvisor: true
+    - facultyLeadership:
+    - graduateStudent:
+    - studentLeadership:
+    - undergraduateStudent:
+    - other:
+  associatedProjects:
+    - 0:
+      - projectName:
+      - role:
+      - tenure:
+  webpage:
+  externalWebpage:
   img: /assets/img/user.jpg
-  title: Assistant Professor of Anthropology
-  github:
+  socials:
+    - github:
+    - linkedin:
+  titles:
+    - default: Faculty Advisor
+    - studentLeadership:
+    - facultyLeadership:
+    - other: Advisor
 
-- last: Carver
-  first: Jeffrey
-  gradeLevel: University of Alabama Collaborators
-  roles: Collaborator
-  projects:
-  url:
-  redirect:
+- lastName: Rizzi
+  firstName: Silvio
+  middleInitial:
+  sections:
+    - alumna:
+    - alumnus:
+    - facultyAdvisor:
+    - facultyLeadership:
+    - graduateStudent:
+    - studentLeadership:
+    - undergraduateStudent:
+    - other: Argonne National Laboratory Collaborators
+  associatedProjects:
+    - 0:
+      - projectName:
+      - role:
+      - tenure:
+  webpage:
+  externalWebpage:
   img: /assets/img/user.jpg
-  title: Professor of Computer Science
-  github:
+  socials:
+    - github:
+    - linkedin:
+  titles:
+    - default: Computer Scientist
+    - studentLeadership:
+    - facultyLeadership:
+    - other: Collaborator
 
-- last: Chan-tin
-  first: Eric
-  gradeLevel: Faculty Advisor
-  roles: Advisor
-  projects:
-  url: https://www.luc.edu/cs/people/ftfaculty/chan-tineric.shtml
-  redirect: https://www.luc.edu/cs/people/ftfaculty/chan-tineric.shtml
+- lastName: Thiruvathukal
+  firstName: George
+  middleInitial:
+  sections:
+    - alumna:
+    - alumnus:
+    - facultyAdvisor:
+    - facultyLeadership: true
+    - graduateStudent:
+    - studentLeadership:
+    - undergraduateStudent:
+    - other:
+  associatedProjects:
+    - 0:
+      - projectName:
+      - role:
+      - tenure:
+  webpage:
+  externalWebpage: https://thiruvathukal.com
   img: /assets/img/user.jpg
-  title: Advisor
-  github:
+  socials:
+    - github:
+    - linkedin:
+  titles:
+    - default:
+    - studentLeadership:
+    - facultyLeadership: Director
+    - other:
 
-- last: Dematties
-  first: Dario
-  gradeLevel: Outside Ph.D. Student Collaborators
-  roles: Collaborator
-  projects:
-  url:
-  redirect:
+- lastName: Vishwanath
+  firstName: Venkatram
+  middleInitial:
+  sections:
+    - alumna:
+    - alumnus:
+    - facultyAdvisor:
+    - facultyLeadership:
+    - graduateStudent:
+    - studentLeadership:
+    - undergraduateStudent:
+    - other: Argonne National Laboratory Collaborators
+  associatedProjects:
+    - 0:
+      - projectName:
+      - role:
+      - tenure:
+  webpage:
+  externalWebpage:
   img: /assets/img/user.jpg
-  title: University of Buenos Aires Ph.D. Collaborator
-  github:
+  socials:
+    - github:
+    - linkedin:
+  titles:
+    - default: Computer Scientist
+    - studentLeadership:
+    - facultyLeadership:
+    - other: Collaborator
 
-- last: Dennis
-  first: David
-  gradeLevel: Faculty Advisor
-  roles: Advisor
-  projects:
-  url:
-  redirect:
+- lastName: Wetzel
+  firstName: David
+  middleInitial:
+  sections:
+    - alumna:
+    - alumnus:
+    - facultyAdvisor: true
+    - facultyLeadership:
+    - graduateStudent:
+    - studentLeadership:
+    - undergraduateStudent:
+    - other:
+  associatedProjects:
+    - 0:
+      - projectName:
+      - role:
+      - tenure:
+  webpage:
+  externalWebpage:
   img: /assets/img/user.jpg
-  title: Advisor
-  github:
-
-- last: Eisty
-  first: Nasir
-  gradeLevel: Outside Ph.D. Student Collaborators
-  roles: Collaborator
-  projects:
-  url:
-  redirect:
-  img: /assets/img/user.jpg
-  title: University of Alabama Ph.D. Collaborator
-  github:
-
-- last: Hayward
-  first: Nicholas
-  gradeLevel: Faculty Advisor
-  roles: Advisor
-  projects:
-  url: https://www.luc.edu/cs/people/ftfaculty/haywardnicholas.shtml
-  redirect: https://www.luc.edu/cs/people/ftfaculty/haywardnicholas.shtml
-  img: /assets/img/user.jpg
-  title: Advisor
-  github:
-
-- last: Honig
-  first: William
-  gradeLevel: Faculty Advisor
-  roles: Advisor
-  projects:
-  url: https://www.luc.edu/cs/people/ftfaculty/honigwilliaml.shtml
-  redirect: https://www.luc.edu/cs/people/ftfaculty/honigwilliaml.shtml
-  img: /assets/img/user.jpg
-  title: Advisor
-  github:
-
-- last: Jin,
-
-  first: Xiaoyong
-  gradeLevel: Argonne National Laboratory Collaborators
-  roles: Collaborator
-  projects:
-  url:
-  redirect:
-  img: /assets/img/user.jpg
-  title: Assistant Scientist
-  github:
-
-- last: Klingensmith
-  first: Neil
-  gradeLevel: Faculty Leadership
-  roles: Co-Director
-  projects:
-  url: https://www.luc.edu/cs/people/ftfaculty/klingensmithneil.shtml
-  redirect: https://www.luc.edu/cs/people/ftfaculty/klingensmithneil.shtml
-  img: /assets/img/user.jpg
-  title: Co-Director
-  github:
-
-- last: Läufer
-  first: Konstantin
-  gradeLevel: Faculty Advisor
-  roles: Advisor
-  projects:
-  url: https://www.luc.edu/cs/people/ftfaculty/lauferkonstantin.shtml
-  redirect: https://www.luc.edu/cs/people/ftfaculty/lauferkonstantin.shtml
-  img: /assets/img/user.jpg
-  title: Advisor
-  github:
-
-- last: Lu
-  first: Yung-Hsiang
-  gradeLevel: Purdue University Collaborators
-  roles: Collaborator
-  projects:
-  url:
-  redirect:
-  img: /assets/img/user.jpg
-  title: Professor of Computer Engineering at High-Energy Low-Power Systems Laboratory
-  github:
-
-- last: Matthews
-  first: Gregory
-  gradeLevel: Faculty Advisor
-  roles: Advisor
-  projects:
-  url:
-  redirect:
-  img: /assets/img/user.jpg
-  title: Advisor
-  github:
-
-- last: Rizzi
-  first: Silvio
-  gradeLevel: Argonne National Laboratory Collaborators
-  roles: Collaborator
-  projects:
-  url:
-  redirect:
-  img: /assets/img/user.jpg
-  title: Computer Scientist
-  github:
-
-- last: Synovic
-  first: Nicholas
-  gradeLevel: Student Leadership
-  roles:
-    - Administrator
-    - UI Developer
-  projects:
-  url:
-  redirect:
-  img: /assets/img/user.jpg
-  title: Administrator/ UI Developer
-  github:
-
-- last: Thiruvathukal
-  first: George
-  gradeLevel: Faculty Leadership
-  roles: Director
-  projects:
-  url: https://thiruvathukal.com
-  redirect: https://thiruvathukal.com
-  img: /assets/img/user.jpg
-  title: Director
-  github:
-
-- last: Vishwanath
-  first: Venkatram
-  gradeLevel: Argonne National Laboratory Collaborators
-  roles: Collaborator
-  projects:
-  url:
-  redirect:
-  img: /assets/img/user.jpg
-  title: Computer Scientist
-  github:
-
-- last: Sophie
-  first: Von Hatten
-  gradeLevel: Student Leadership
-  roles: Administrator
-  projects:
-  url:
-  redirect:
-  img: /assets/img/user.jpg
-  title: Administrator
-  github:
-
-- last: West
-  first: Jack
-  gradeLevel: Student Leadership
-  roles: Administrator
-  projects:
-  url:
-  redirect:
-  img: /assets/img/user.jpg
-  title: Administrator
-  github:
-
-- last: Wetzel
-  first: David
-  gradeLevel: Faculty Advisor
-  roles: Advisor
-  projects:
-  url:
-  redirect:
-  img: /assets/img/user.jpg
-  title: Advisor
-  github:
+  socials:
+    - github:
+    - linkedin:
+  titles:
+    - default: Faculty Advisor
+    - studentLeadership:
+    - facultyLeadership:
+    - other: Advisor
