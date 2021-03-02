@@ -33,25 +33,23 @@ Nicholas Synovic is an undergraduate researcher working with SSL as a Team Lead 
 - User Experiences
 - Accessibility Software
 
-
-
 ## Research Projects
 
 {% assign splitTitle = page.title | split: " " %}
 {% assign lastName = splitTitle[1] %}
 {% assign firstName = splitTitle[0] %}
-{% assign projects = site.data.projects %}
-{% assign team = site.data.team %}
+{% assign projects = site.data.projects | sort: "projectName" %}
+{% assign team = site.data.team | sort: "lastName" %}
 
+<div class="projects grid">
 {% for member in team %}
 {% if member.lastName == lastName %}
 {% if member.firstName == firstName %}
-<div class="projects grid">
+  {% if member.associatedProjects %}
+  {% for associatedProject in member.associatedProjects %}
+  {% for project in projects %}
+  {% if associatedProject == project.projectName %}
   <div class="grid-item">
-    {% if member.associatedProjects %}
-    {% for associatedProject in member.associatedProjects %}
-    {% for project in projects %}
-    {% if associatedProject == project.projectName %}
     <a href="{{ project.webpage | relative_url }}">
       <div class="card hoverable">
         {% if project.img %}
@@ -78,11 +76,11 @@ Nicholas Synovic is an undergraduate researcher working with SSL as a Team Lead 
         </div>
       </div>
     </a>
-    {% endif %}
-    {% endfor %}
-    {% endfor %}
-    {% endif %}
   </div>
+  {% endif %}
+  {% endfor %}
+  {% endfor %}
+  {% endif %}
 </div>
 {% endif %}
 {% endif %}
