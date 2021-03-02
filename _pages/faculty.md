@@ -12,7 +12,6 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 {% assign staff = site.data.faculty %}
-{% assign team = site.data.team %}
 
 <!-- SSL Faculty Leadership Projects Grid -->
 <div class="projects grid">
@@ -21,8 +20,10 @@ social: true  # includes social icons at the bottom of the page
   <div class="grid-item">
     {% if leader.externalWebpage %}
     <a href="{{ leader.externalWebpage }}" target="_blank">
-    {% else %}
+    {% elsif leader.webpage %}
     <a href="{{ leader.webpage | relative_url }}">
+    {% else %}
+    <!-- Do nothing -->
     {% endif %}
       <div class="card hoverable">
         {% if leader.img %}
@@ -42,46 +43,13 @@ social: true  # includes social icons at the bottom of the page
           </div>
         </div>
       </div>
-    </a>
-  </div>
-  {% endif %}
-{% endfor %}
-</div>
-<br>
-
-## Student Leadership
-
----
-
-<!-- SSL Student Leadership Projects Grid -->
-<div class="projects grid">
-  {% for leader in team %}
-  {% if leader.section.studentLeadership %}
-  <div class="grid-item">
     {% if leader.externalWebpage %}
-    <a href="{{ leader.externalWebpage }}" target="_blank">
-    {% else %}
-    <a href="{{ leader.webpage | relative_url }}">
-    {% endif %}
-      <div class="card hoverable">
-        {% if leader.img %}
-        <img src="{{ leader.img | relative_url }}" alt="leader thumbnail">
-        {% endif %}
-        <div class="card-body">
-          <h5>{{ leader.firstName | append: " " | append: leader.lastName }}</h5>
-          <p class="card-text">{{ leader.titles.studentLeadership }}</p>
-          <div class="row ml-1 mr-1 p-0">
-            {% if leader.socials.github %}
-            <div class="github-icon">
-              <div class="icon" data-toggle="tooltip" title="GitHub Profile">
-                <a href="{{ leader.socials.github }}" target="_blank"><i class="fab fa-github gh-icon"></i></a>
-              </div>
-            </div>
-            {% endif %}
-          </div>
-        </div>
-      </div>
     </a>
+    {% elsif leader.webpage %}
+    </a>
+    {% else %}
+    <!-- Do nothing -->
+    {% endif %}
   </div>
   {% endif %}
 {% endfor %}
@@ -99,8 +67,10 @@ social: true  # includes social icons at the bottom of the page
   <div class="grid-item">
     {% if advisor.externalWebpage %}
     <a href="{{ advisor.externalWebpage }}" target="_blank">
-    {% else %}
+    {% elsif advisor.webpage %}
     <a href="{{ advisor.webpage | relative_url }}">
+    {% else %}
+    <!-- Do nothing -->
     {% endif %}
       <div class="card hoverable">
         {% if advisor.img %}
@@ -120,7 +90,13 @@ social: true  # includes social icons at the bottom of the page
           </div>
         </div>
       </div>
+    {% if advisor.externalWebpage %}
     </a>
+    {% elsif advisor.webpage %}
+    </a>
+    {% else %}
+    <!-- Do nothing -->
+    {% endif %}
   </div>
   {% endif %}
 {% endfor %}
@@ -138,8 +114,10 @@ social: true  # includes social icons at the bottom of the page
   <div class="grid-item">
     {% if argonne.externalWebpage %}
     <a href="{{ argonne.externalWebpage }}" target="_blank">
-    {% else %}
+    {% elsif argonne.webpage %}
     <a href="{{ argonne.webpage | relative_url }}">
+    {% else %}
+    <!-- Do nothing -->
     {% endif %}
       <div class="card hoverable">
         {% if argonne.img %}
@@ -159,7 +137,13 @@ social: true  # includes social icons at the bottom of the page
           </div>
         </div>
       </div>
+    {% if argonne.externalWebpage %}
     </a>
+    {% elsif argonne.webpage %}
+    </a>
+    {% else %}
+    <!-- Do nothing -->
+    {% endif %}
   </div>
   {% endif %}
 {% endfor %}
@@ -177,8 +161,10 @@ social: true  # includes social icons at the bottom of the page
   <div class="grid-item">
     {% if lsu.externalWebpage %}
     <a href="{{ lsu.externalWebpage }}" target="_blank">
-    {% else %}
+    {% elsif lsu.webpage %}
     <a href="{{ lsu.webpage | relative_url }}">
+    {% else %}
+    <!-- Do nothing -->
     {% endif %}
       <div class="card hoverable">
         {% if lsu.img %}
@@ -198,7 +184,13 @@ social: true  # includes social icons at the bottom of the page
           </div>
         </div>
       </div>
+    {% if lsu.externalWebpage %}
     </a>
+    {% elsif lsu.webpage %}
+    </a>
+    {% else %}
+    <!-- Do nothing -->
+    {% endif %}
   </div>
   {% endif %}
 {% endfor %}
@@ -216,8 +208,10 @@ social: true  # includes social icons at the bottom of the page
   <div class="grid-item">
     {% if phd.externalWebpage %}
     <a href="{{ phd.externalWebpage }}" target="_blank">
-    {% else %}
+    {% elsif phd.webpage %}
     <a href="{{ phd.webpage | relative_url }}">
+    {% else %}
+    <!-- Do nothing -->
     {% endif %}
       <div class="card hoverable">
         {% if phd.img %}
@@ -237,7 +231,13 @@ social: true  # includes social icons at the bottom of the page
           </div>
         </div>
       </div>
+    {% if phd.externalWebpage %}
     </a>
+    {% elsif phd.webpage %}
+    </a>
+    {% else %}
+    <!-- Do nothing -->
+    {% endif %}
   </div>
   {% endif %}
 {% endfor %}
@@ -255,8 +255,10 @@ social: true  # includes social icons at the bottom of the page
   <div class="grid-item">
     {% if purdue.externalWebpage %}
     <a href="{{ purdue.externalWebpage }}" target="_blank">
-    {% else %}
+    {% elsif purdue.webpage %}
     <a href="{{ purdue.webpage | relative_url }}">
+    {% else %}
+    <!-- Do nothing -->
     {% endif %}
       <div class="card hoverable">
         {% if purdue.img %}
@@ -276,7 +278,13 @@ social: true  # includes social icons at the bottom of the page
           </div>
         </div>
       </div>
+    {% if purude.externalWebpage %}
     </a>
+    {% elsif purude.webpage %}
+    </a>
+    {% else %}
+    <!-- Do nothing -->
+    {% endif %}
   </div>
   {% endif %}
 {% endfor %}
@@ -294,8 +302,10 @@ social: true  # includes social icons at the bottom of the page
   <div class="grid-item">
     {% if alabama.externalWebpage %}
     <a href="{{ alabama.externalWebpage }}" target="_blank">
-    {% else %}
+    {% elsif alabama.webpage %}
     <a href="{{ alabama.webpage | relative_url }}">
+    {% else %}
+    <!-- Do nothing -->
     {% endif %}
       <div class="card hoverable">
         {% if alabama.img %}
@@ -315,7 +325,13 @@ social: true  # includes social icons at the bottom of the page
           </div>
         </div>
       </div>
+    {% if alumnus.externalWebpage %}
     </a>
+    {% elsif alumnus.webpage %}
+    </a>
+    {% else %}
+    <!-- Do nothing -->
+    {% endif %}
   </div>
   {% endif %}
 {% endfor %}

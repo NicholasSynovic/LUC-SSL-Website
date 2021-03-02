@@ -29,8 +29,10 @@ In the spirit of being true peers, we list all names in alphabetical order by la
   <div class="grid-item">
     {% if leader.externalWebpage %}
     <a href="{{ leader.externalWebpage }}" target="_blank">
-    {% else %}
+    {% elsif leader.webpage %}
     <a href="{{ leader.webpage | relative_url }}">
+    {% else %}
+    <!-- Do nothing -->
     {% endif %}
       <div class="card hoverable">
         {% if leader.img %}
@@ -50,7 +52,13 @@ In the spirit of being true peers, we list all names in alphabetical order by la
           </div>
         </div>
       </div>
+    {% if leader.externalWebpage %}
     </a>
+    {% elsif leader.webpage %}
+    </a>
+    {% else %}
+    <!-- Do nothing -->
+    {% endif %}
   </div>
   {% endif %}
 {% endfor %}
@@ -68,8 +76,10 @@ In the spirit of being true peers, we list all names in alphabetical order by la
   <div class="grid-item">
     {% if leader.externalWebpage %}
     <a href="{{ leader.externalWebpage }}" target="_blank">
-    {% else %}
+    {% elsif leader.webpage %}
     <a href="{{ leader.webpage | relative_url }}">
+    {% else %}
+    <!-- Do nothing -->
     {% endif %}
       <div class="card hoverable">
         {% if leader.img %}
@@ -89,7 +99,13 @@ In the spirit of being true peers, we list all names in alphabetical order by la
           </div>
         </div>
       </div>
+    {% if leader.externalWebpage %}
     </a>
+    {% elsif leader.webpage %}
+    </a>
+    {% else %}
+    <!-- Do nothing -->
+    {% endif %}
   </div>
   {% endif %}
 {% endfor %}
