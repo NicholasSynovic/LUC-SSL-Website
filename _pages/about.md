@@ -25,7 +25,7 @@ If for any reason you are looking for something, please see [the Old SSL web sit
 
 Thank you for checking out the Software and Systems Laboratory (SSL) website. We are a (mostly virtual) research laboratory based in the [Computer Science Department at Loyola University Chicago](https://www.luc.edu/cs).
 
-Our [members]() form an interdisciplinary group with [faculty and student interests]() in Computer Science, Software Engineering, Information Technology, Cyber Security, and Engineering.
+Our [members](/team) form an interdisciplinary group with [faculty and student interests](/projects) in Computer Science, Software Engineering, Information Technology, Cyber Security, and Engineering.
 
 The laboratory’s focus is on researching computer systems and applied Software Engineering to solve STEAM-related problems.
 
