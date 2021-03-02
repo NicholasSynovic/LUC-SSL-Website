@@ -4,9 +4,9 @@ permalink: /undergraduateStudents/collinJones
 
 title: Collin Jones
 img: /assets/img/collinJones
-github:
-linkedin:
-externalWebpage:
+github: https://github.com/CJones217
+linkedin: https://www.linkedin.com/in/the-real-collin-jones/
+externalWebpage: https://collinjones.xyz/
 resume:
 ---
 

@@ -4,8 +4,8 @@ permalink: /undergraduateStudents/emmanuelAmobi
 
 title: Emmanuel Amobi
 img: /assets/img/emmanuelAmobi.jpg
-github:
-linkedin:
+github: https://github.com/emmaamobi
+linkedin: https://www.linkedin.com/in/emmaamobi/
 externalWebpage:
 resume:
 ---

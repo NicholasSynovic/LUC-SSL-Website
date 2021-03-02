@@ -4,8 +4,8 @@ permalink: /graduateStudents/sophieVonHatten
 
 title: Sophie Von Hatten
 img: /assets/img/user.jpg
-github:
-linkedin:
+github: https://github.com/svonhatten
+linkedin: https://www.linkedin.com/in/sophie-von-hatten-9863a018b/
 externalWebpage:
 resume:
 ---

@@ -4,8 +4,8 @@ permalink: /undergraduateStudents/isaacAhlgren
 
 title: Isaac Ahlgren
 img:
-github:
-linkedin:
+github: https://github.com/isaac-ahlgren
+linkedin: https://www.linkedin.com/in/isaac-ahlgren-3412811bb/
 externalWebpage:
 resume:
 ---

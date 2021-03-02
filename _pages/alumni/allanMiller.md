@@ -4,8 +4,8 @@ permalink: /alumni/allanMiller
 
 title: Allan Miller
 img: /assets/img/allanMiller.jpeg
-github:
-linkedin:
+github: https://github.com/AJM10565/
+linkedin: https://www.linkedin.com/in/ajm10565/
 externalWebpage:
 resume:
 ---

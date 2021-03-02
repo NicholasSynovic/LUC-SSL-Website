@@ -4,9 +4,9 @@ permalink: /alumni/seanHiggins
 
 title: Sean Higgins
 img: /assets/img/seanHiggins.jpeg
-github:
-linkedin:
-externalWebpage:
+github: https://github.com/sean-m-higgins
+linkedin: https://www.linkedin.com/in/sean-m-higgins20/
+externalWebpage: https://www.seanmh.com/
 resume:
 ---
 

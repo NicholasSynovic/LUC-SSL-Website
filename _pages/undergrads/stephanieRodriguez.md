@@ -2,10 +2,10 @@
 layout: profile
 permalink: /undergraduateStudents/stephanieRodriquez
 
-title: Stephanie Rodriquez
+title: Stephanie Rodriguez
 img:
-github:
-linkedin:
+github: https://github.com/Steph99rod
+linkedin: https://www.linkedin.com/in/stephanie99rodriguez/
 externalWebpage:
 resume:
 ---

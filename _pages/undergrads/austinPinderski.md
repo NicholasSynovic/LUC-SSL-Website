@@ -4,8 +4,8 @@ permalink: /undergraduateStudents/austinPinderski
 
 title: Austin Pinderski
 img:
-github:
-linkedin:
+github: https://github.com/apinderski
+linkedin: https://www.linkedin.com/in/austin-pinderski/
 externalWebpage:
 resume:
 ---

@@ -4,8 +4,8 @@ permalink: /graduateStudents/martinZugschwert/
 
 title: Martin Zugschwert
 img: /assets/img/martinZugschwert.jpg
-github:
-linkedin:
+github: https://github.com/MartinZugs
+linkedin: https://www.linkedin.com/in/martinzugschwert/
 externalWebpage:
 resume:
 ---

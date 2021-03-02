@@ -4,8 +4,8 @@ permalink: /undergraduateStudents/alexandraCrane
 
 title: Alexandra Crane
 img: /assets/img/alexandraCrane.jpg
-github:
-linkedin:
+github: https://github.com/alexandratcrane
+linkedin: https://www.linkedin.com/in/alexandra-crane/
 externalWebpage:
 resume:
 ---
