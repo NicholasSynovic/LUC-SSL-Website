@@ -7,7 +7,7 @@
 
 - projectName: SSL Website
   img:
-  webpage:
+  webpage: /projects/sslWebsite
   shortDescription: The current homepage of the SSL website.
   status: In Progress
 
