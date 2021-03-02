@@ -12,10 +12,7 @@
 #     undergraduateStudent:
 #     other:
 #   associatedProjects:
-#     0:
-#       projectName:
-#       role:
-#       tenure:
+#     - projectName
 #   webpage:
 #   externalWebpage:
 #   img: /assets/img/user.jpg
@@ -41,10 +38,6 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    0:
-      projectName:
-      role:
-      tenure:
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
@@ -70,10 +63,6 @@
     undergraduateStudent:
     other: Louisiana State University Collaborators
   associatedProjects:
-    0:
-      projectName:
-      role:
-      tenure:
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
@@ -99,10 +88,6 @@
     undergraduateStudent:
     other: University of Alabama Collaborators
   associatedProjects:
-    0:
-      projectName:
-      role:
-      tenure:
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
@@ -128,10 +113,6 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    0:
-      projectName:
-      role:
-      tenure:
   webpage:
   externalWebpage: https://www.luc.edu/cs/people/ftfaculty/chan-tineric.shtml
   img: /assets/img/user.jpg
@@ -157,10 +138,6 @@
     undergraduateStudent:
     other: Outside Ph.D. Student Collaborators
   associatedProjects:
-    0:
-      projectName:
-      role:
-      tenure:
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
@@ -186,10 +163,6 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    0:
-      projectName:
-      role:
-      tenure:
   webpage:
   externalWebpage:
   img: /assets/img/davidBDennis.jpg
@@ -215,10 +188,6 @@
     undergraduateStudent:
     other:  University of Alabama Ph.D. Collaborator
   associatedProjects:
-    0:
-      projectName:
-      role:
-      tenure:
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
@@ -244,10 +213,6 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    0:
-      projectName:
-      role:
-      tenure:
   webpage:
   externalWebpage: https://www.luc.edu/cs/people/ftfaculty/haywardnicholas.shtml
   img: /assets/img/user.jpg
@@ -273,10 +238,6 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    0:
-      projectName:
-      role:
-      tenure:
   webpage:
   externalWebpage: https://www.luc.edu/cs/people/ftfaculty/honigwilliaml.shtml
   img: /assets/img/user.jpg
@@ -302,10 +263,6 @@
     undergraduateStudent:
     other: Argonne National Laboratory Collaborators
   associatedProjects:
-    0:
-      projectName:
-      role:
-      tenure:
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
@@ -331,10 +288,6 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    0:
-      projectName:
-      role:
-      tenure:
   webpage:
   externalWebpage: https://www.luc.edu/cs/people/ftfaculty/klingensmithneil.shtml
   img: /assets/img/neilKlingensmith.jpg
@@ -360,10 +313,6 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    0:
-      projectName:
-      role:
-      tenure:
   webpage:
   externalWebpage: https://www.luc.edu/cs/people/ftfaculty/lauferkonstantin.shtml
   img: /assets/img/läuferKonstantin.jpg
@@ -389,10 +338,6 @@
     undergraduateStudent:
     other: Purdue University Collaborators
   associatedProjects:
-    0:
-      projectName:
-      role:
-      tenure:
   webpage:
   externalWebpage:
   img: /assets/img/yungluhsiangLu.jpg
@@ -418,10 +363,6 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    0:
-      projectName:
-      role:
-      tenure:
   webpage:
   externalWebpage:
   img: /assets/img/gregoryMatthews.jpg
@@ -447,10 +388,6 @@
     undergraduateStudent:
     other: Argonne National Laboratory Collaborators
   associatedProjects:
-    0:
-      projectName:
-      role:
-      tenure:
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
@@ -476,10 +413,6 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    0:
-      projectName:
-      role:
-      tenure:
   webpage:
   externalWebpage: https://thiruvathukal.com
   img: /assets/img/georgeThiruvathukal.jpg
@@ -505,10 +438,6 @@
     undergraduateStudent:
     other: Argonne National Laboratory Collaborators
   associatedProjects:
-    0:
-      projectName:
-      role:
-      tenure:
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
@@ -534,10 +463,6 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    0:
-      projectName:
-      role:
-      tenure:
   webpage:
   externalWebpage:
   img: /assets/img/davidWetzel.jpg

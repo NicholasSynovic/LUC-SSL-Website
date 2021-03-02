@@ -15,6 +15,6 @@ permalink: /undergraduateStudents/emmanuelAmobi
 
 ## Professional and Community Affiliations
 
-## Research Areas
+## Research Interests
 
 ## Research Projects

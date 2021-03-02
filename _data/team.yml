@@ -12,10 +12,7 @@
 #     undergraduateStudent:
 #     other:
 #   associatedProjects:
-#     0:
-#       projectName:
-#       role:
-#       tenure:
+#     - projectName
 #   webpage:
 #   externalWebpage:
 #   img: /assets/img/user.jpg
@@ -41,10 +38,7 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    0:
-      projectName: Metrics Dashboard
-      role: Software Developer
-      tenure: 2015
+    - Metrics Dashboard
   webpage:
   externalWebpage:
   img: /assets/img/shilpika.jpeg
@@ -70,14 +64,8 @@
     undergraduateStudent: true
     other:
   associatedProjects:
-    0:
-      projectName: Non-Local Mean Curvature
-      role: Software Developer
-      tenure:
-    1:
-      projectName: VoltKey
-      role: Software Developer
-      tenure:
+    - Non-Local Mean Curvature
+    - VoltKey
   webpage: undergraduateStudents/isaacAhlgren
   externalWebpage:
   img: /assets/img/user.jpg
@@ -103,14 +91,8 @@
     undergraduateStudent: true
     other:
   associatedProjects:
-    0:
-      projectName: Metrics Dashboard
-      role: Software Developer
-      tenure: 2019 - 2021
-    1:
-      projectName: ZettelGeist
-      role: Software Developer
-      tenure: 2018 - 2019
+    - Metrics Dashboard
+    - ZettelGeist
   webpage: undergraduateStudents/emmanuelAmobi
   externalWebpage:
   img: /assets/img/emmanuelAmobi.jpg
@@ -136,10 +118,7 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    0:
-      projectName: ZettelGeist
-      role: Software Developer
-      tenure: 2018 - 2019
+   - ZettelGeist
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
@@ -165,10 +144,7 @@
     undergraduateStudent: true
     other:
   associatedProjects:
-    0:
-      projectName: History of Computing
-      role: Software Developer
-      tenure: 2020 - 2021
+    - History of Computing
   webpage: undergraduateStudents/alexandraCrane
   externalWebpage:
   img: /assets/img/alexandraCrane.jpg
@@ -194,10 +170,7 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    0:
-      projectName: ZettelGeist
-      role: Software Developer
-      tenure: 2018 - 2019
+   - ZettelGeist
   webpage:
   externalWebpage:
   img: /assets/img/zacharyGallagher.jpeg
@@ -223,14 +196,8 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    0:
-      projectName: Metrics Dashboard
-      role: Software Developer
-      tenure: 2019 - 2020
-    1:
-      projectName: ZettleGeist
-      role: Software Developer
-      tenure: 2018 - 2019
+    - Metrics Dashboard
+    - ZettleGeist
   webpage: alumni/seanHiggins
   externalWebpage:
   img: /assets/img/seanHiggins.jpeg
@@ -256,10 +223,7 @@
     undergraduateStudent: true
     other:
   associatedProjects:
-    0:
-      projectName: Cyclometric Complexity
-      role: Software Developer
-      tenure:
+    - Cyclometric Complexity
   webpage: undergraduateStudents/collinJones
   externalWebpage:
   img: /assets/img/collinJones.jpg
@@ -285,10 +249,6 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    0:
-      projectName:
-      role:
-      tenure:
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
@@ -314,14 +274,8 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    0:
-      projectName: ZettelGeist
-      role: Software Developer
-      tenure:
-    1:
-      projectName: Metrics Dashboard
-      role: Software Developer
-      tenure: 2019 - 2020
+    - Metrics Dashboard
+    - ZettelGeist
   webpage:
   externalWebpage:
   img: /assets/img/linetteMaliakal.jpeg
@@ -347,10 +301,7 @@
     undergraduateStudent: true
     other:
   associatedProjects:
-    0:
-      projectName: Metrics Dashboard
-      role: Software Developer
-      tenure:
+   - Metrics Dashboard
   webpage: undergraduateStudents/stephanieRodriquez
   externalWebpage:
   img: /assets/img/user.jpg
@@ -376,14 +327,8 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    0:
-      projectName: ZettelGeist
-      role: Software Developer
-      tenure:
-    1:
-      projectName: Metrics Dashboard
-      role: Software Engineer
-      tenure:
+    - Metrics Dashboard
+    - ZettelGeist
   webpage: alumni/allanMiller
   externalWebpage:
   img: /assets/img/allanMiller.jpeg
@@ -409,10 +354,6 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    0:
-      projectName:
-      role:
-      tenure:
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
@@ -438,10 +379,6 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    0:
-      projectName:
-      role:
-      tenure:
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
@@ -467,10 +404,6 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    0:
-      projectName:
-      role:
-      tenure:
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
@@ -496,10 +429,7 @@
     undergraduateStudent: true
     other:
   associatedProjects:
-    0:
-      projectName: Metrics Dashboard
-      role: Software Developer
-      tenure: 2020 - 2021
+    - Metrics Dashboard
   webpage: undergraduateStudents/austinPinderski
   externalWebpage:
   img: /assets/img/user.jpg
@@ -525,10 +455,7 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    0:
-      projectName: Metrics Dashboard
-      role: Software Developer
-      tenure: 2020 - 2020
+    - Metrics Dashboard
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
@@ -554,10 +481,7 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    0:
-      projectName: ZettelGeist
-      role: Software Developer
-      tenure:
+    - ZettleGeist
   webpage:
   externalWebpage:
   img: /assets/img/morganRichardson.jpg
@@ -583,10 +507,6 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    0:
-      projectName:
-      role:
-      tenure:
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
@@ -612,10 +532,7 @@
     undergraduateStudent: true
     other:
   associatedProjects:
-    0:
-      projectName: Color deficiency Correction
-      role: Software Developer
-      tenure: 2021 - 2021
+    - Color deficiency Correction
   webpage: undergraduateStudents/treyRoche
   externalWebpage:
   img: /assets/img/treyRoche.jpg
@@ -641,10 +558,7 @@
     undergraduateStudent: true
     other:
   associatedProjects:
-    0:
-      projectName: Metrics Dashboard
-      role: Software Developer
-      tenure: 2020 - 2021
+    - Metrics Dashboard
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
@@ -670,14 +584,8 @@
     undergraduateStudent: true
     other:
   associatedProjects:
-    0:
-      projectName: Metrics Dashboard
-      role: Software Developer
-      tenure: 2019 - 2020
-    1:
-      projectName: History of Computing
-      role: Software Engineer
-      tenure: 2020 - 2021
+    - History of Computing
+    - Metrics Dashboard
   webpage: undergraduateStudents/alexRose
   externalWebpage:
   img: /assets/img/alexRose.jpg
@@ -703,18 +611,9 @@
     undergraduateStudent: true
     other:
   associatedProjects:
-    0:
-      projectName: Metrics Dashboard
-      role: Team Lead
-      tenure: 2020 - 2021
-    1:
-      projectName: PoliPy
-      role: Team Lead
-      tenure: 2019 - 2021
-    2:
-      projectName: SSL Website
-      role: UI Developer
-      tenure: 2020 - 2021
+    - Metrics Dashboard
+    - PoliPy
+    - SSL Website
   webpage: undergraduateStudents/nicholasSynovic
   externalWebpage:
   img: /assets/img/nicholasSynovic.png
@@ -740,10 +639,7 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    0:
-      projectName: Metrics Dashboard
-      role: Team Lead
-      tenure: 2020 - 2021
+    - Metrics Dashboard
   webpage: graduateStudents/sophieVonHatten
   externalWebpage:
   img: /assets/img/user.jpg
@@ -769,14 +665,8 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    0:
-      projectName: ZettelGeist
-      role: Software Developer
-      tenure:
-    1:
-      projectName: Shape Analysis
-      role: Software Developer
-      tenure:
+    - Shape Analysis
+    - ZettleGeist
   webpage:
   externalWebpage:
   img: /assets/img/jonathanWarkentin.jpg
@@ -802,14 +692,8 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    0:
-      projectName: ZettleGeist
-      role: Software Developer
-      tenure:
-    1:
-      projectName: VoltKey
-      role: Software Engineer
-      tenure: 2019 - 2021
+    - VoltKey
+    - ZettleGeist
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
@@ -835,10 +719,7 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    0:
-      projectName: Metrics Dashboard
-      role: Software Developer
-      tenure: 2019 - 2021
+    - Metrics Dashboard
   webpage: graduateStudents/martinZugschwert
   externalWebpage:
   img: /assets/img/martinZugschwert.jpg

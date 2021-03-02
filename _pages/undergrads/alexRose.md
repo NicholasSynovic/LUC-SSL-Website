@@ -15,6 +15,6 @@ permalink: /undergraduateStudents/alexRose
 
 ## Professional and Community Affiliations
 
-## Research Areas
+## Research Interests
 
 ## Research Projects

@@ -15,6 +15,6 @@ permalink: /alumni/seanHiggins
 
 ## Professional and Community Affiliations
 
-## Research Areas
+## Research Interests
 
 ## Research Projects

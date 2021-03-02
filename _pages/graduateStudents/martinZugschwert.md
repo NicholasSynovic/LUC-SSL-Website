@@ -15,6 +15,6 @@ permalink: /graduateStudents/martinZugschwert/
 
 ## Professional and Community Affiliations
 
-## Research Areas
+## Research Interests
 
 ## Research Projects

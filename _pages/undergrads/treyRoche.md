@@ -15,6 +15,6 @@ permalink: /undergraduateStudents/treyRoche
 
 ## Professional and Community Affiliations
 
-## Research Areas
+## Research Interests
 
 ## Research Projects
