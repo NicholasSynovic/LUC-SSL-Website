@@ -13,7 +13,7 @@ social: true  # includes social icons at the bottom of the page
 
 {% assign team = site.data.team %}
 
-<!-- Grad Students Projects Grid -->
+<!-- Graduate Students Projects Grid -->
 <div class="projects grid">
   {% for grad in team %}
   {% if grad.section.graduateStudent%}
@@ -52,29 +52,28 @@ social: true  # includes social icons at the bottom of the page
 
 ---
 
-<!-- Grad Students Projects Grid -->
+<!-- Undergraduate Students Projects Grid -->
 <div class="projects grid">
-  {% assign sorted_team = site.data.team %}
-  {% for team in sorted_team %}
-  {% if team.gradeLevel == "Undergraduate" %}
+  {% for undergrad in team %}
+  {% if undergrad.section.undergraduateStudent%}
   <div class="grid-item">
-    {% if team.redirect %}
-    <a href="{{ team.redirect }}" target="_blank">
+    {% if undergrad.externalWebpage %}
+    <a href="{{ undergrad.externalWebpage }}" target="_blank">
     {% else %}
-    <a href="{{ team.url | relative_url }}">
+    <a href="{{ undergrad.webpage | relative_url }}">
     {% endif %}
       <div class="card hoverable">
-        {% if team.img %}
-        <img src="{{ team.img | relative_url }}" alt="team thumbnail">
+        {% if undergrad.img %}
+        <img src="{{ undergrad.img | relative_url }}" alt="undergrad thumbnail">
         {% endif %}
         <div class="card-body">
-          <h5>{{ team.first | append: " " | append: team.last }}</h5>
-          <p class="card-text">{{ team.title }}</p>
+          <h5>{{ undergrad.firstName | append: " " | append: undergrad.lastName }}</h5>
+          <p class="card-text">{{ undergrad.titles.default }}</p>
           <div class="row ml-1 mr-1 p-0">
-            {% if team.github %}
+            {% if undergrad.github %}
             <div class="github-icon">
               <div class="icon" data-toggle="tooltip" title="GitHub Profile">
-                <a href="{{ team.github }}" target="_blank"><i class="fab fa-github gh-icon"></i></a>
+                <a href="{{ undergrad.github }}" target="_blank"><i class="fab fa-github gh-icon"></i></a>
               </div>
             </div>
             {% endif %}
