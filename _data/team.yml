@@ -12,16 +12,16 @@
 #     undergraduateStudent:
 #     other:
 #   associatedProjects:
-#     - 0:
-#       - projectName:
-#       - role:
-#       - tenure:
+#     0:
+#       projectName:
+#       role:
+#       tenure:
 #   webpage:
 #   externalWebpage:
 #   img: /assets/img/user.jpg
 #   socials:
-#    github:
-#    linkedin:
+#     github:
+#     linkedin:
 #   titles:
 #     default:
 #     studentLeadership:
@@ -49,8 +49,8 @@
   externalWebpage:
   img: /assets/img/shilpika.jpeg
   socials:
-   github:
-   linkedin:
+    github:
+    linkedin:
   titles:
     default: Software Developer
     studentLeadership:
@@ -70,20 +70,20 @@
     undergraduateStudent: true
     other:
   associatedProjects:
-    - 0:
-      - projectName: Non-Local Mean Curvature
-      - role: Software Developer
-      - tenure:
-    - 1:
-      - projectName: VoltKey
-      - role: Software Developer
-      - tenure:
+    0:
+      projectName: Non-Local Mean Curvature
+      role: Software Developer
+      tenure:
+    1:
+      projectName: VoltKey
+      role: Software Developer
+      tenure:
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
   socials:
-   github:
-   linkedin:
+    github:
+    linkedin:
   titles:
     default: Software Developer
     studentLeadership:
@@ -103,20 +103,20 @@
     undergraduateStudent: true
     other:
   associatedProjects:
-    - 0:
-      - projectName: Metrics Dashboard
-      - role: Software Developer
-      - tenure: 2019 - 2021
-    - 1:
-      - projectName: ZettelGeist
-      - role: Software Developer
-      - tenure: 2018 - 2019
+    0:
+      projectName: Metrics Dashboard
+      role: Software Developer
+      tenure: 2019 - 2021
+    1:
+      projectName: ZettelGeist
+      role: Software Developer
+      tenure: 2018 - 2019
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
   socials:
-   github:
-   linkedin:
+    github:
+    linkedin:
   titles:
     default: Software Developer
     studentLeadership: Administrator
@@ -136,16 +136,16 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    - 0:
-      - projectName: ZettelGeist
-      - role: Software Developer
-      - tenure: 2018 - 2019
+    0:
+      projectName: ZettelGeist
+      role: Software Developer
+      tenure: 2018 - 2019
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
   socials:
-   github:
-   linkedin:
+    github:
+    linkedin:
   titles:
     default: Software Developer
     studentLeadership:
@@ -165,16 +165,16 @@
     undergraduateStudent: true
     other:
   associatedProjects:
-    - 0:
-      - projectName: History of Computing
-      - role: Software Developer
-      - tenure: 2020 - 2021
+    0:
+      projectName: History of Computing
+      role: Software Developer
+      tenure: 2020 - 2021
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
   socials:
-   github:
-   linkedin:
+    github:
+    linkedin:
   titles:
     default: Software Developer
     studentLeadership:
@@ -194,16 +194,16 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    - 0:
-      - projectName: ZettelGeist
-      - role: Software Developer
-      - tenure: 2018 - 2019
+    0:
+      projectName: ZettelGeist
+      role: Software Developer
+      tenure: 2018 - 2019
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
   socials:
-   github:
-   linkedin:
+    github:
+    linkedin:
   titles:
     default: Software Developer
     studentLeadership:
@@ -223,20 +223,20 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    - 0:
-      - projectName: Metrics Dashboard
-      - role: Software Developer
-      - tenure: 2019 - 2020
-    - 1:
-      - projectName: ZettleGeist
-      - role: Software Developer
-      - tenure: 2018 - 2019
+    0:
+      projectName: Metrics Dashboard
+      role: Software Developer
+      tenure: 2019 - 2020
+    1:
+      projectName: ZettleGeist
+      role: Software Developer
+      tenure: 2018 - 2019
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
   socials:
-   github:
-   linkedin:
+    github:
+    linkedin:
   titles:
     default:
     studentLeadership:
@@ -256,16 +256,16 @@
     undergraduateStudent: true
     other:
   associatedProjects:
-    - 0:
-      - projectName: Cyclometric Complexity
-      - role: Software Developer
-      - tenure:
+    0:
+      projectName: Cyclometric Complexity
+      role: Software Developer
+      tenure:
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
   socials:
-   github:
-   linkedin:
+    github:
+    linkedin:
   titles:
     default: Software Developer
     studentLeadership:
@@ -285,16 +285,16 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    - 0:
-      - projectName:
-      - role:
-      - tenure:
+    0:
+      projectName:
+      role:
+      tenure:
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
   socials:
-   github:
-   linkedin:
+    github:
+    linkedin:
   titles:
     default: Software Developer
     studentLeadership:
@@ -314,20 +314,20 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    - 0:
-      - projectName: ZettelGeist
-      - role: Software Developer
-      - tenure:
-    - 1:
-      - projectName: Metrics Dashboard
-      - role: Software Developer
-      - tenure: 2019 - 2020
+    0:
+      projectName: ZettelGeist
+      role: Software Developer
+      tenure:
+    1:
+      projectName: Metrics Dashboard
+      role: Software Developer
+      tenure: 2019 - 2020
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
   socials:
-   github:
-   linkedin:
+    github:
+    linkedin:
   titles:
     default: Software Developer
     studentLeadership:
@@ -347,16 +347,16 @@
     undergraduateStudent: true
     other:
   associatedProjects:
-    - 0:
-      - projectName: Metrics Dashboard
-      - role: Software Developer
-      - tenure:
+    0:
+      projectName: Metrics Dashboard
+      role: Software Developer
+      tenure:
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
   socials:
-   github:
-   linkedin:
+    github:
+    linkedin:
   titles:
     default: Software Developer
     studentLeadership:
@@ -376,22 +376,22 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    - 0:
-      - projectName: ZettelGeist
-      - role: Software Developer
-      - tenure:
-    - 1:
-      - projectName: Metrics Dashboard
-      - role: Software Engineer
-      - tenure:
+    0:
+      projectName: ZettelGeist
+      role: Software Developer
+      tenure:
+    1:
+      projectName: Metrics Dashboard
+      role: Software Engineer
+      tenure:
   webpage: /alumni/allanMiller
   externalWebpage:
   img: /assets/img/allanMiller.jpeg
   socials:
-   github:
-   linkedin:
+    github:
+    linkedin:
   titles:
-    default: Software Engineer
+    default:
     studentLeadership:
     facultyLeadership:
     other:
@@ -409,16 +409,16 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    - 0:
-      - projectName:
-      - role:
-      - tenure:
+    0:
+      projectName:
+      role:
+      tenure:
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
   socials:
-   github:
-   linkedin:
+    github:
+    linkedin:
   titles:
     default: Software Developer
     studentLeadership:
@@ -438,16 +438,16 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    - 0:
-      - projectName:
-      - role:
-      - tenure:
+    0:
+      projectName:
+      role:
+      tenure:
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
   socials:
-   github:
-   linkedin:
+    github:
+    linkedin:
   titles:
     default: Software Developer
     studentLeadership:
@@ -467,16 +467,16 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    - 0:
-      - projectName:
-      - role:
-      - tenure:
+    0:
+      projectName:
+      role:
+      tenure:
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
   socials:
-   github:
-   linkedin:
+    github:
+    linkedin:
   titles:
     default: Software Developer
     studentLeadership:
@@ -496,16 +496,16 @@
     undergraduateStudent: true
     other:
   associatedProjects:
-    - 0:
-      - projectName: Metrics Dashboard
-      - role: Software Developer
-      - tenure: 2020 - 2021
+    0:
+      projectName: Metrics Dashboard
+      role: Software Developer
+      tenure: 2020 - 2021
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
   socials:
-   github:
-   linkedin:
+    github:
+    linkedin:
   titles:
     default: Software Developer
     studentLeadership:
@@ -525,16 +525,16 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    - 0:
-      - projectName: Metrics Dashboard
-      - role: Software Developer
-      - tenure: 2020 - 2020
+    0:
+      projectName: Metrics Dashboard
+      role: Software Developer
+      tenure: 2020 - 2020
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
   socials:
-   github:
-   linkedin:
+    github:
+    linkedin:
   titles:
     default: Software Developer
     studentLeadership:
@@ -554,16 +554,16 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    - 0:
-      - projectName: ZettelGeist
-      - role: Software Developer
-      - tenure:
+    0:
+      projectName: ZettelGeist
+      role: Software Developer
+      tenure:
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
   socials:
-   github:
-   linkedin:
+    github:
+    linkedin:
   titles:
     default: Software Developer
     studentLeadership:
@@ -583,16 +583,16 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    - 0:
-      - projectName:
-      - role:
-      - tenure:
+    0:
+      projectName:
+      role:
+      tenure:
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
   socials:
-   github:
-   linkedin:
+    github:
+    linkedin:
   titles:
     default: Software Developer
     studentLeadership:
@@ -612,16 +612,16 @@
     undergraduateStudent: true
     other:
   associatedProjects:
-    - 0:
-      - projectName: Color deficiency Correction
-      - role: Software Developer
-      - tenure: 2021 - 2021
+    0:
+      projectName: Color deficiency Correction
+      role: Software Developer
+      tenure: 2021 - 2021
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
   socials:
-   github:
-   linkedin:
+    github:
+    linkedin:
   titles:
     default:
     studentLeadership: Software Developer
@@ -641,16 +641,16 @@
     undergraduateStudent: true
     other:
   associatedProjects:
-    - 0:
-      - projectName: Metrics Dashboard
-      - role: Software Developer
-      - tenure: 2020 - 2021
+    0:
+      projectName: Metrics Dashboard
+      role: Software Developer
+      tenure: 2020 - 2021
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
   socials:
-   github:
-   linkedin:
+    github:
+    linkedin:
   titles:
     default: Software Developer
     studentLeadership:
@@ -670,20 +670,20 @@
     undergraduateStudent: true
     other:
   associatedProjects:
-    - 0:
-      - projectName: Metrics Dashboard
-      - role: Software Developer
-      - tenure: 2019 - 2020
-    - 1:
-      - projectName: History of Computing
-      - role: Software Engineer
-      - tenure: 2020 - 2021
+    0:
+      projectName: Metrics Dashboard
+      role: Software Developer
+      tenure: 2019 - 2020
+    1:
+      projectName: History of Computing
+      role: Software Engineer
+      tenure: 2020 - 2021
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
   socials:
-   github:
-   linkedin:
+    github:
+    linkedin:
   titles:
     default: Software Engineer
     studentLeadership:
@@ -703,24 +703,24 @@
     undergraduateStudent: true
     other:
   associatedProjects:
-    - 0:
-      - projectName: Metrics Dashboard
-      - role: Team Lead
-      - tenure: 2020 - 2021
-    - 1:
-      - projectName: PoliPy
-      - role: Team Lead
-      - tenure: 2019 - 2021
-    - 2:
-      - projectName: SSL Website
-      - role: UI Developer
-      - tenure: 2020 - 2021
+    0:
+      projectName: Metrics Dashboard
+      role: Team Lead
+      tenure: 2020 - 2021
+    1:
+      projectName: PoliPy
+      role: Team Lead
+      tenure: 2019 - 2021
+    2:
+      projectName: SSL Website
+      role: UI Developer
+      tenure: 2020 - 2021
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
   socials:
-   github:
-   linkedin:
+    github:
+    linkedin:
   titles:
     default: Software Engineer
     studentLeadership: Administrator
@@ -740,16 +740,16 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    - 0:
-      - projectName: Metrics Dashboard
-      - role: Team Lead
-      - tenure: 2020 - 2021
+    0:
+      projectName: Metrics Dashboard
+      role: Team Lead
+      tenure: 2020 - 2021
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
   socials:
-   github:
-   linkedin:
+    github:
+    linkedin:
   titles:
     default: Software Developer
     studentLeadership: Administrator
@@ -769,20 +769,20 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    - 0:
-      - projectName: ZettelGeist
-      - role: Software Developer
-      - tenure:
-    - 1:
-      - projectName: Shape Analysis
-      - role: Software Developer
-      - tenure:
+    0:
+      projectName: ZettelGeist
+      role: Software Developer
+      tenure:
+    1:
+      projectName: Shape Analysis
+      role: Software Developer
+      tenure:
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
   socials:
-   github:
-   linkedin:
+    github:
+    linkedin:
   titles:
     default: Software Developer
     studentLeadership:
@@ -798,24 +798,24 @@
     facultyAdvisor:
     facultyLeadership:
     graduateStudent: true
-    studentLeadership:
+    studentLeadership: true
     undergraduateStudent:
     other:
   associatedProjects:
-    - 0:
-      - projectName: ZettleGeist
-      - role: Software Developer
-      - tenure:
-    - 1:
-      - projectName: VoltKey
-      - role: Software Engineer
-      - tenure: 2019 - 2021
+    0:
+      projectName: ZettleGeist
+      role: Software Developer
+      tenure:
+    1:
+      projectName: VoltKey
+      role: Software Engineer
+      tenure: 2019 - 2021
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
   socials:
-   github:
-   linkedin:
+    github:
+    linkedin:
   titles:
     default: Software Engineer
     studentLeadership: Administrator
@@ -835,16 +835,16 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    - 0:
-      - projectName: Metrics Dashboard
-      - role: Software Developer
-      - tenure: 2019 - 2021
+    0:
+      projectName: Metrics Dashboard
+      role: Software Developer
+      tenure: 2019 - 2021
   webpage:
   externalWebpage:
   img: /assets/img/martinZugschwert.jpg
   socials:
-   github:
-   linkedin:
+    github:
+    linkedin:
   titles:
     default: Software Developer
     studentLeadership:

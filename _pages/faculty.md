@@ -11,29 +11,31 @@ social: true  # includes social icons at the bottom of the page
 
 ---
 
+{% assign staff = site.data.faculty %}
+{% assign team = site.data.team %}
+
 <!-- SSL Faculty Leadership Projects Grid -->
 <div class="projects grid">
-  {% assign sorted_faculty = site.data.faculty %}
-  {% for faculty in sorted_faculty %}
-  {% if faculty.gradeLevel == "Faculty Leadership" %}
+  {% for leader in staff %}
+  {% if leader.section.facultyLeadership %}
   <div class="grid-item">
-    {% if faculty.redirect %}
-    <a href="{{ faculty.redirect }}" target="_blank">
+    {% if leader.externalWebpage %}
+    <a href="{{ leader.externalWebpage }}" target="_blank">
     {% else %}
-    <a href="{{ faculty.url | relative_url }}">
+    <a href="{{ leader.webpage | relative_url }}">
     {% endif %}
       <div class="card hoverable">
-        {% if faculty.img %}
-        <img src="{{ faculty.img | relative_url }}" alt="faculty thumbnail">
+        {% if leader.img %}
+        <img src="{{ leader.img | relative_url }}" alt="leader thumbnail">
         {% endif %}
         <div class="card-body">
-          <h5>{{ faculty.first | append: " " | append: faculty.last }}</h5>
-          <p class="card-text">{{ faculty.title }}</p>
+          <h5>{{ leader.firstName | append: " " | append: leader.lastName }}</h5>
+          <p class="card-text">{{ leader.titles.facultyLeadership }}</p>
           <div class="row ml-1 mr-1 p-0">
-            {% if faculty.github %}
+            {% if leader.socials.github %}
             <div class="github-icon">
               <div class="icon" data-toggle="tooltip" title="GitHub Profile">
-                <a href="{{ faculty.github }}" target="_blank"><i class="fab fa-github gh-icon"></i></a>
+                <a href="{{ leader.socials.github }}" target="_blank"><i class="fab fa-github gh-icon"></i></a>
               </div>
             </div>
             {% endif %}
@@ -51,29 +53,28 @@ social: true  # includes social icons at the bottom of the page
 
 ---
 
-<!-- SSL Faculty Leadership Projects Grid -->
+<!-- SSL Student Leadership Projects Grid -->
 <div class="projects grid">
-  {% assign sorted_faculty = site.data.faculty %}
-  {% for faculty in sorted_faculty %}
-  {% if faculty.gradeLevel == "Student Leadership" %}
+  {% for leader in team %}
+  {% if leader.section.studentLeadership %}
   <div class="grid-item">
-    {% if faculty.redirect %}
-    <a href="{{ faculty.redirect }}" target="_blank">
+    {% if leader.externalWebpage %}
+    <a href="{{ leader.externalWebpage }}" target="_blank">
     {% else %}
-    <a href="{{ faculty.url | relative_url }}">
+    <a href="{{ leader.webpage | relative_url }}">
     {% endif %}
       <div class="card hoverable">
-        {% if faculty.img %}
-        <img src="{{ faculty.img | relative_url }}" alt="faculty thumbnail">
+        {% if leader.img %}
+        <img src="{{ leader.img | relative_url }}" alt="leader thumbnail">
         {% endif %}
         <div class="card-body">
-          <h5>{{ faculty.first | append: " " | append: faculty.last }}</h5>
-          <p class="card-text">{{ faculty.title }}</p>
+          <h5>{{ leader.firstName | append: " " | append: leader.lastName }}</h5>
+          <p class="card-text">{{ leader.titles.studentLeadership }}</p>
           <div class="row ml-1 mr-1 p-0">
-            {% if faculty.github %}
+            {% if leader.socials.github %}
             <div class="github-icon">
               <div class="icon" data-toggle="tooltip" title="GitHub Profile">
-                <a href="{{ faculty.github }}" target="_blank"><i class="fab fa-github gh-icon"></i></a>
+                <a href="{{ leader.socials.github }}" target="_blank"><i class="fab fa-github gh-icon"></i></a>
               </div>
             </div>
             {% endif %}
@@ -91,29 +92,28 @@ social: true  # includes social icons at the bottom of the page
 
 ---
 
-<!-- Alumna Projects Grid -->
+<!-- Faculty Advisors Projects Grid -->
 <div class="projects grid">
-  {% assign sorted_faculty = site.data.faculty %}
-  {% for faculty in sorted_faculty %}
-  {% if faculty.gradeLevel == "Faculty Advisor" %}
+  {% for advisor in staff %}
+  {% if advisor.section.facultyAdvisor %}
   <div class="grid-item">
-    {% if faculty.redirect %}
-    <a href="{{ faculty.redirect }}" target="_blank">
+    {% if advisor.externalWebpage %}
+    <a href="{{ advisor.externalWebpage }}" target="_blank">
     {% else %}
-    <a href="{{ faculty.url | relative_url }}">
+    <a href="{{ advisor.webpage | relative_url }}">
     {% endif %}
       <div class="card hoverable">
-        {% if faculty.img %}
-        <img src="{{ faculty.img | relative_url }}" alt="faculty thumbnail">
+        {% if advisor.img %}
+        <img src="{{ advisor.img | relative_url }}" alt="advisor thumbnail">
         {% endif %}
         <div class="card-body">
-          <h5>{{ faculty.first | append: " " | append: faculty.last }}</h5>
-          <p class="card-text">{{ faculty.title }}</p>
+          <h5>{{ advisor.firstName | append: " " | append: advisor.lastName }}</h5>
+          <p class="card-text">{{ advisor.titles.default }}</p>
           <div class="row ml-1 mr-1 p-0">
-            {% if faculty.github %}
+            {% if advisor.socials.github %}
             <div class="github-icon">
               <div class="icon" data-toggle="tooltip" title="GitHub Profile">
-                <a href="{{ faculty.github }}" target="_blank"><i class="fab fa-github gh-icon"></i></a>
+                <a href="{{ advisor.socials.github }}" target="_blank"><i class="fab fa-github gh-icon"></i></a>
               </div>
             </div>
             {% endif %}
@@ -133,27 +133,26 @@ social: true  # includes social icons at the bottom of the page
 
 <!-- Argonne National Laboratory Collaborators Projects Grid -->
 <div class="projects grid">
-  {% assign sorted_faculty = site.data.faculty %}
-  {% for faculty in sorted_faculty %}
-  {% if faculty.gradeLevel == "Argonne National Laboratory Collaborators" %}
+  {% for argonne in staff %}
+  {% if argonne.section.other == "Argonne National Laboratory Collaborators" %}
   <div class="grid-item">
-    {% if faculty.redirect %}
-    <a href="{{ faculty.redirect }}" target="_blank">
+    {% if argonne.externalWebpage %}
+    <a href="{{ argonne.externalWebpage }}" target="_blank">
     {% else %}
-    <a href="{{ faculty.url | relative_url }}">
+    <a href="{{ argonne.webpage | relative_url }}">
     {% endif %}
       <div class="card hoverable">
-        {% if faculty.img %}
-        <img src="{{ faculty.img | relative_url }}" alt="faculty thumbnail">
+        {% if argonne.img %}
+        <img src="{{ argonne.img | relative_url }}" alt="argonne thumbnail">
         {% endif %}
         <div class="card-body">
-          <h5>{{ faculty.first | append: " " | append: faculty.last }}</h5>
-          <p class="card-text">{{ faculty.title }}</p>
+          <h5>{{ argonne.firstName | append: " " | append: argonne.lastName }}</h5>
+          <p class="card-text">{{ argonne.titles.default }}</p>
           <div class="row ml-1 mr-1 p-0">
-            {% if faculty.github %}
+            {% if argonne.socials.github %}
             <div class="github-icon">
               <div class="icon" data-toggle="tooltip" title="GitHub Profile">
-                <a href="{{ faculty.github }}" target="_blank"><i class="fab fa-github gh-icon"></i></a>
+                <a href="{{ argonne.socials.github }}" target="_blank"><i class="fab fa-github gh-icon"></i></a>
               </div>
             </div>
             {% endif %}
@@ -173,27 +172,26 @@ social: true  # includes social icons at the bottom of the page
 
 <!-- Louisiana State University Collaborators Projects Grid -->
 <div class="projects grid">
-  {% assign sorted_faculty = site.data.faculty %}
-  {% for faculty in sorted_faculty %}
-  {% if faculty.gradeLevel == "Louisiana State University Collaborators" %}
+  {% for lsu in staff %}
+  {% if lsu.section.other == "Louisiana State University Collaborators" %}
   <div class="grid-item">
-    {% if faculty.redirect %}
-    <a href="{{ faculty.redirect }}" target="_blank">
+    {% if lsu.externalWebpage %}
+    <a href="{{ lsu.externalWebpage }}" target="_blank">
     {% else %}
-    <a href="{{ faculty.url | relative_url }}">
+    <a href="{{ lsu.webpage | relative_url }}">
     {% endif %}
       <div class="card hoverable">
-        {% if faculty.img %}
-        <img src="{{ faculty.img | relative_url }}" alt="faculty thumbnail">
+        {% if lsu.img %}
+        <img src="{{ lsu.img | relative_url }}" alt="lsu thumbnail">
         {% endif %}
         <div class="card-body">
-          <h5>{{ faculty.first | append: " " | append: faculty.last }}</h5>
-          <p class="card-text">{{ faculty.title }}</p>
+          <h5>{{ lsu.firstName | append: " " | append: lsu.lastName }}</h5>
+          <p class="card-text">{{ lsu.titles.default }}</p>
           <div class="row ml-1 mr-1 p-0">
-            {% if faculty.github %}
+            {% if lsu.socials.github %}
             <div class="github-icon">
               <div class="icon" data-toggle="tooltip" title="GitHub Profile">
-                <a href="{{ faculty.github }}" target="_blank"><i class="fab fa-github gh-icon"></i></a>
+                <a href="{{ lsu.socials.github }}" target="_blank"><i class="fab fa-github gh-icon"></i></a>
               </div>
             </div>
             {% endif %}
@@ -213,27 +211,26 @@ social: true  # includes social icons at the bottom of the page
 
 <!-- Outside Ph.D. Student Collaborators Projects Grid -->
 <div class="projects grid">
-  {% assign sorted_faculty = site.data.faculty %}
-  {% for faculty in sorted_faculty %}
-  {% if faculty.gradeLevel == "Outside Ph.D. Student Collaborators" %}
+  {% for phd in staff %}
+  {% if phd.section.other == "Outside Ph.D. Student Collaborators" %}
   <div class="grid-item">
-    {% if faculty.redirect %}
-    <a href="{{ faculty.redirect }}" target="_blank">
+    {% if phd.externalWebpage %}
+    <a href="{{ phd.externalWebpage }}" target="_blank">
     {% else %}
-    <a href="{{ faculty.url | relative_url }}">
+    <a href="{{ phd.webpage | relative_url }}">
     {% endif %}
       <div class="card hoverable">
-        {% if faculty.img %}
-        <img src="{{ faculty.img | relative_url }}" alt="faculty thumbnail">
+        {% if phd.img %}
+        <img src="{{ phd.img | relative_url }}" alt="phd thumbnail">
         {% endif %}
         <div class="card-body">
-          <h5>{{ faculty.first | append: " " | append: faculty.last }}</h5>
-          <p class="card-text">{{ faculty.title }}</p>
+          <h5>{{ phd.firstName | append: " " | append: phd.lastName }}</h5>
+          <p class="card-text">{{ phd.titles.default }}</p>
           <div class="row ml-1 mr-1 p-0">
-            {% if faculty.github %}
+            {% if phd.socials.github %}
             <div class="github-icon">
               <div class="icon" data-toggle="tooltip" title="GitHub Profile">
-                <a href="{{ faculty.github }}" target="_blank"><i class="fab fa-github gh-icon"></i></a>
+                <a href="{{ phd.socials.github }}" target="_blank"><i class="fab fa-github gh-icon"></i></a>
               </div>
             </div>
             {% endif %}
@@ -253,27 +250,26 @@ social: true  # includes social icons at the bottom of the page
 
 <!-- Purdue University Collaborators Projects Grid -->
 <div class="projects grid">
-  {% assign sorted_faculty = site.data.faculty %}
-  {% for faculty in sorted_faculty %}
-  {% if faculty.gradeLevel == "Purdue University Collaborators" %}
+  {% for purdue in staff %}
+  {% if purdue.section.other == "Purdue University Collaborators" %}
   <div class="grid-item">
-    {% if faculty.redirect %}
-    <a href="{{ faculty.redirect }}" target="_blank">
+    {% if purdue.externalWebpage %}
+    <a href="{{ purdue.externalWebpage }}" target="_blank">
     {% else %}
-    <a href="{{ faculty.url | relative_url }}">
+    <a href="{{ purdue.webpage | relative_url }}">
     {% endif %}
       <div class="card hoverable">
-        {% if faculty.img %}
-        <img src="{{ faculty.img | relative_url }}" alt="faculty thumbnail">
+        {% if purdue.img %}
+        <img src="{{ purdue.img | relative_url }}" alt="purdue thumbnail">
         {% endif %}
         <div class="card-body">
-          <h5>{{ faculty.first | append: " " | append: faculty.last }}</h5>
-          <p class="card-text">{{ faculty.title }}</p>
+          <h5>{{ purdue.firstName | append: " " | append: purdue.lastName }}</h5>
+          <p class="card-text">{{ purdue.titles.default }}</p>
           <div class="row ml-1 mr-1 p-0">
-            {% if faculty.github %}
+            {% if purdue.socials.github %}
             <div class="github-icon">
               <div class="icon" data-toggle="tooltip" title="GitHub Profile">
-                <a href="{{ faculty.github }}" target="_blank"><i class="fab fa-github gh-icon"></i></a>
+                <a href="{{ purdue.socials.github }}" target="_blank"><i class="fab fa-github gh-icon"></i></a>
               </div>
             </div>
             {% endif %}
@@ -293,27 +289,26 @@ social: true  # includes social icons at the bottom of the page
 
 <!-- University of Alabama Collaborators Projects Grid -->
 <div class="projects grid">
-  {% assign sorted_faculty = site.data.faculty %}
-  {% for faculty in sorted_faculty %}
-  {% if faculty.gradeLevel == "University of Alabama Collaborators" %}
+  {% for alabama in staff %}
+  {% if alabama.section.other == "University of Alabama Collaborators" %}
   <div class="grid-item">
-    {% if faculty.redirect %}
-    <a href="{{ faculty.redirect }}" target="_blank">
+    {% if alabama.externalWebpage %}
+    <a href="{{ alabama.externalWebpage }}" target="_blank">
     {% else %}
-    <a href="{{ faculty.url | relative_url }}">
+    <a href="{{ alabama.webpage | relative_url }}">
     {% endif %}
       <div class="card hoverable">
-        {% if faculty.img %}
-        <img src="{{ faculty.img | relative_url }}" alt="faculty thumbnail">
+        {% if alabama.img %}
+        <img src="{{ alabama.img | relative_url }}" alt="alabama thumbnail">
         {% endif %}
         <div class="card-body">
-          <h5>{{ faculty.first | append: " " | append: faculty.last }}</h5>
-          <p class="card-text">{{ faculty.title }}</p>
+          <h5>{{ alabama.firstName | append: " " | append: alabama.lastName }}</h5>
+          <p class="card-text">{{ alabama.titles.default }}</p>
           <div class="row ml-1 mr-1 p-0">
-            {% if faculty.github %}
+            {% if alabama.socials.github %}
             <div class="github-icon">
               <div class="icon" data-toggle="tooltip" title="GitHub Profile">
-                <a href="{{ faculty.github }}" target="_blank"><i class="fab fa-github gh-icon"></i></a>
+                <a href="{{ alabama.socials.github }}" target="_blank"><i class="fab fa-github gh-icon"></i></a>
               </div>
             </div>
             {% endif %}
