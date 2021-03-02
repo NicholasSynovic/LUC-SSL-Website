@@ -9,4 +9,12 @@ importance: 1
 permalink: /graduateStudents/martinZugschwert/
 ---
 
-## Hello World
+## About
+
+## Education Background
+
+## Professional and Community Affiliations
+
+## Research Areas
+
+## Research Projects
