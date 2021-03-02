@@ -1,7 +1,8 @@
 ---
 layout: page
-title: faculty
 permalink: /faculty/
+
+title: faculty
 description: Our current faculty list.
 nav: true
 social: true  # includes social icons at the bottom of the page

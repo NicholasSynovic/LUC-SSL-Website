@@ -1,11 +1,9 @@
 ---
 layout: about
-title: apply
 permalink: /apply/
-nav: true
 
-news: false  # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
+title: apply
+nav: true
 social: true  # includes social icons at the bottom of the page
 ---
 <!-- Markdown Syntax: https://www.markdownguide.org/ -->

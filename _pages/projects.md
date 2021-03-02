@@ -1,7 +1,8 @@
 ---
 layout: page
-title: projects
 permalink: /projects/
+
+title: projects
 description: Our current list of in progress and incubating research endeavours
 nav: true
 ---
