@@ -78,7 +78,7 @@
       projectName: VoltKey
       role: Software Developer
       tenure:
-  webpage:
+  webpage: undergraduateStudents/isaacAhlgren
   externalWebpage:
   img: /assets/img/user.jpg
   socials:
@@ -111,7 +111,7 @@
       projectName: ZettelGeist
       role: Software Developer
       tenure: 2018 - 2019
-  webpage:
+  webpage: undergraduateStudents/emmanuelAmobi
   externalWebpage:
   img: /assets/img/emmanuelAmobi.jpg
   socials:
@@ -169,7 +169,7 @@
       projectName: History of Computing
       role: Software Developer
       tenure: 2020 - 2021
-  webpage:
+  webpage: undergraduateStudents/alexandraCrane
   externalWebpage:
   img: /assets/img/alexandraCrane.jpg
   socials:
@@ -231,14 +231,14 @@
       projectName: ZettleGeist
       role: Software Developer
       tenure: 2018 - 2019
-  webpage:
+  webpage: alumni/seanHiggins
   externalWebpage:
   img: /assets/img/seanHiggins.jpeg
   socials:
     github:
     linkedin:
   titles:
-    default:
+    default: Software Developer
     studentLeadership:
     facultyLeadership:
     other:
@@ -260,7 +260,7 @@
       projectName: Cyclometric Complexity
       role: Software Developer
       tenure:
-  webpage:
+  webpage: undergraduateStudents/collinJones
   externalWebpage:
   img: /assets/img/collinJones.jpg
   socials:
@@ -351,7 +351,7 @@
       projectName: Metrics Dashboard
       role: Software Developer
       tenure:
-  webpage:
+  webpage: undergraduateStudents/stephanieRodriquez
   externalWebpage:
   img: /assets/img/user.jpg
   socials:
@@ -500,7 +500,7 @@
       projectName: Metrics Dashboard
       role: Software Developer
       tenure: 2020 - 2021
-  webpage:
+  webpage: undergraduateStudents/austinPinderski
   externalWebpage:
   img: /assets/img/user.jpg
   socials:
@@ -616,7 +616,7 @@
       projectName: Color deficiency Correction
       role: Software Developer
       tenure: 2021 - 2021
-  webpage:
+  webpage: undergraduateStudents/treyRoche
   externalWebpage:
   img: /assets/img/treyRoche.jpg
   socials:
@@ -678,7 +678,7 @@
       projectName: History of Computing
       role: Software Engineer
       tenure: 2020 - 2021
-  webpage:
+  webpage: undergraduateStudents/alexRose
   externalWebpage:
   img: /assets/img/alexRose.jpg
   socials:
@@ -715,7 +715,7 @@
       projectName: SSL Website
       role: UI Developer
       tenure: 2020 - 2021
-  webpage:
+  webpage: undergraduateStudents/nicholasSynovic
   externalWebpage:
   img: /assets/img/nicholasSynovic.png
   socials:
@@ -744,7 +744,7 @@
       projectName: Metrics Dashboard
       role: Team Lead
       tenure: 2020 - 2021
-  webpage:
+  webpage: graduateStudents/sophieVonHatten
   externalWebpage:
   img: /assets/img/user.jpg
   socials:

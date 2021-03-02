@@ -1,8 +1,10 @@
 ---
-layout: page
+layout: profile
 title: Allan Miller
 description: Allan Miller's Webpage
-img: /assets/img/allanMiller.jpeg
+profile:
+ align: right
+ image: allanMiller.jpeg
 importance: 1
-permalink: /alumni/allanMiller/
+permalink: /alumni/allanMiller
 ---
