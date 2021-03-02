@@ -56,7 +56,7 @@ contact_note: >
 
 ## Pagination
 pagination:
-  enabled: true
+  enabled: false
 
 # Collections
 collections:
