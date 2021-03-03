@@ -1,6 +1,6 @@
 ---
 layout: project
-permalink: /projects/sslWebsite
-title: SSL Website
-description: The SSL Website
+permalink: /projects/metricsDashboard
+title: Metrics Dashboard
+description:
 ---

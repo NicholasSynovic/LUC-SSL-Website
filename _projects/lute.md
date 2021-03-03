@@ -1,6 +1,6 @@
 ---
 layout: project
-permalink: /projects/sslWebsite
-title: SSL Website
-description: The SSL Website
+permalink: /projects/lute
+title: Laptop and Software Ensamble
+description:
 ---

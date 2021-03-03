@@ -1,6 +1,6 @@
 ---
 layout: project
-permalink: /projects/sslWebsite
-title: SSL Website
-description: The SSL Website
+permalink: /projects/historyOfComputing
+title: History Of Computing
+description:
 ---
