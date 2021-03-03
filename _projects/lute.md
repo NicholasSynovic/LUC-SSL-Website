@@ -11,64 +11,17 @@ img:
 
 ---
 
-*A brief introduction of the project that does not within an abstract.*
-
-## Abstract
-
----
-
-*Research Project abstract.*
-
-## Publications
-
----
-
-*Any publications (academic or otherwise) that have been written about the research.*
-
-## Presentations
-
----
-
-*Any presentations that have been given about the research.*
-
-## Posters
-
----
-
-*Any academic posters that have been created for the research.*
-
-## Tech Reports
-
----
-
-*Any tech reports written about the research.*
-
-## Theses
-
----
-
-*Any theses that have been written about the research.*
+We develop software that enables and complements our performances. The software is free and open-source and can be used in other laptop ensemble performances.
 
 ## Web Site
 
 ---
 
-*Link to the website where project documentation and further information is posted.*
+- [LUTE Web Site](https://lute.luc.edu)
 
 ## Source Code
 
 ---
 
-*Link to the GitHub repositories that host the code for the project.*
-
-## Prototypes
-
----
-
-*Link to any prototypes that have been developed for the research.*
-
-## Products
-
----
-
-*Link to any products that have come out of the research.*
+- [In C Performance App](https://github.com/loyola-university-tech-ensemble/InC)
+- [In C Score Progress App](https://github.com/loyola-university-tech-ensemble/in-c-score-progress)

@@ -11,64 +11,24 @@ img:
 
 ---
 
-*A brief introduction of the project that does not within an abstract.*
+In this project, we’re building virtualization tools for mobile and IoT systems. Think of it like VMWare for your phone. Apps can run inside isolated virtual machines so they can’t snoop on your personal data, and the virtualization software can be installed by anyone—you don’t need to root your phone for Hermes to work.
 
 ## Abstract
 
 ---
 
-*Research Project abstract.*
+Hermes is a hypervisor for MCU-based systems with real-time requirements. The goal of Hermes is to manage tradeoffs between performance and flexibility in software that runs on embedded systems. Bare-metal software often has the best performance—low I/O latency, less CPU and memory overhead, etc. RTOS-based software has comparatively higher flexibility in terms of its ability to share resources and manage multiple jobs but often sacrifices latency. Hermes aims to provide software developers with the option to run some portions of code in a bare-metal environment with minimal latency while allowing other jobs to run within a more flexible RTOS.
 
 ## Publications
 
 ---
 
-*Any publications (academic or otherwise) that have been written about the research.*
-
-## Presentations
-
----
-
-*Any presentations that have been given about the research.*
-
-## Posters
-
----
-
-*Any academic posters that have been created for the research.*
-
-## Tech Reports
-
----
-
-*Any tech reports written about the research.*
-
-## Theses
-
----
-
-*Any theses that have been written about the research.*
+- Neil Klingensmith and Suman Banerjee, Using Virtualized Task Isolation to Improve Responsiveness in Mobile and IoT Software, ACM IoTDI, Montreal, QC, CA, April 2019
+- Neil Klingensmith and Suman Banerjee, A Hypervisor-Based Privacy Agent for Mobile and IoT Systems, ACM HotMobile, Santa Cruz, CA, February 2019
+- Neil Klingensmith and Suman Banerjee, Hermes: A Real Time Hypervisor for Mobile and IoT Systems, ACM HotMobile, Tempe, AZ, February 2018
 
 ## Web Site
 
 ---
 
-*Link to the website where project documentation and further information is posted.*
-
-## Source Code
-
----
-
-*Link to the GitHub repositories that host the code for the project.*
-
-## Prototypes
-
----
-
-*Link to any prototypes that have been developed for the research.*
-
-## Products
-
----
-
-*Link to any products that have come out of the research.*
+- [Hermes Website](http://hermes.cs.luc.edu)

@@ -11,64 +11,12 @@ img:
 
 ---
 
-*A brief introduction of the project that does not within an abstract.*
+This project has two goals. One goal is mathematical, the project wants to estimate the abstract curve’s Non-Local Mean Curvature (NLC). The estimations will help analytical mathematicians observe various properties of curves in euclidian space. The second goal is much more computer science-oriented. The second goal is to write the algorithm to compute the NLC. This is not simple and there has never been a proper algorithm to perform this computation in an abstract sense.
 
-## Abstract
-
----
-
-*Research Project abstract.*
-
-## Publications
-
----
-
-*Any publications (academic or otherwise) that have been written about the research.*
-
-## Presentations
-
----
-
-*Any presentations that have been given about the research.*
-
-## Posters
-
----
-
-*Any academic posters that have been created for the research.*
-
-## Tech Reports
-
----
-
-*Any tech reports written about the research.*
-
-## Theses
-
----
-
-*Any theses that have been written about the research.*
-
-## Web Site
-
----
-
-*Link to the website where project documentation and further information is posted.*
+We plan to write the first algorithm to compute the NLC for any function. Although, one thing that the math tells us is that most implementations will be slow due to the intensity of the integrals. We plan to then write the integration algorithm using the CUDA API.
 
 ## Source Code
 
 ---
 
-*Link to the GitHub repositories that host the code for the project.*
-
-## Prototypes
-
----
-
-*Link to any prototypes that have been developed for the research.*
-
-## Products
-
----
-
-*Link to any products that have come out of the research.*
+- [Source Code](https://github.com/jweezy24/Non-Local_Curvature)
