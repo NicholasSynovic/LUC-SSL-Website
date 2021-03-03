@@ -13,45 +13,45 @@
 
 - projectName: PoliPy
   img:
-  webpage:
+  webpage: /projects/polipy
   shortDescription: Conducting a network analysis of the United States Legislative branch of Federal government.
   status: In Progress
 
 - projectName: Cyclometric Complexity
   img:
-  webpage:
+  webpage: /projects/cyclometricComplexity
   shortDescription:
   status: In Progress
 
 - projectName: Color Deficiency Correction
   img:
-  webpage:
+  webpage: /projects/colorDeficiencyCorrection
   shortDescription:
   status: In Progress
 
 - projectName: Autonomous Vehicle Security
   img:
-  webpage:
+  webpage: /projects/autonomousVehicleSecurity
   shortDescription:
   status: Incubating
 
 - projectName: Doyle Living Systems Lab
   img:
-  webpage:
+  webpage: /projects/doyleLivingSystemsLab
   shortDescription:
   status: Incubating
 
 - projectName: Metrics Dashboard
   img:
-  webpage:
+  webpage: /projects/metricsDashboard
   shortDescription: The Metrics Dashboard is research software to apply classical in-process and code metrics to observe team progress and project health in open source projects.
   status: In Progress
 
 - projectName: ZettleGeist
   img:
-  webpage:
+  webpage: /projects/zettlegeist
   shortDescription: ZettelGeist is a plaintext note-taking system, inspired by the ZettelKasten Method
-  status: Incubating
+  status: In Progress
 
 - projectName: History of Computing
   img:
@@ -61,54 +61,54 @@
 
 - projectName: Testing Effectiveness
   img:
-  webpage:
+  webpage: /projects/testingEffectiveness
   shortDescription: Testing Effectiveness is an effort to explore existing and new metrics specific to software testing over time. As a codebase grows, we hope that its testing code would also grow. We’re also interested in how existing metrics (coverage) correlate with classic metrics, such as defect density.
   status: In Progress
 
 - projectName: VoltKey
   img:
-  webpage:
+  webpage: /projects/voltkey
   shortDescription: "The goal of Voltkey is to make the deployment and maintenance of new IoT devices easy. Currently, when we install new IoT devices, we need to go through a complex process of connecting the device to the WiFi network. With Voltkey, no configuration is necessary: you just plug the new device in and it works."
   status: In Progress
 
 - projectName: Computer vision
   img:
-  webpage:
+  webpage: /projects/computerVision
   shortDescription: An effort with Purdue University ECE.
-  status: Incubating
+  status: In Progress
 
 - projectName: Neuroscience
   img:
-  webpage:
+  webpage: /projects/neuroscience
   shortDescription: An effort with Argonne National Laboratory and the University of Buenos Aires.
   status: Incubating
 
 - projectName: Shape Analysis
   img:
-  webpage:
+  webpage: /projects/shapeAnalysis
   shortDescription: The Shape Analysis project is a collaboration between Loyola University Chicago, Louisiana State University, and the University of Connecticut that explores the performance of machine learning algorithms on the classification of fossil teeth in the Family Bovidae. Isolated bovid teeth are typically the most common fossils found in southern Africa and they often constitute the basis for paleoenvironmental reconstructions. Taxonomic identification of fossil bovid teeth, however, is often imprecise and subjective. Using modern teeth with known taxons, machine learning algorithms can be trained to classify fossils.
   status: Incubating
 
 - projectName: Laptop Ensemble and Software
   img:
-  webpage:
+  webpage: /projects/lute
   shortDescription: The Loyola University Technology Ensemble performs using a collection of tools for interactive music performance. These tools allow for a group performance on laptops and to allow for tracking of progress through a group-performed composition.
   status: Incubating
 
 - projectName: Hermes
   img:
-  webpage:
+  webpage: /projects/hermes
   shortDescription: Hermes is a hypervisor for MCU-based systems with real-time requirements. The goal of Hermes is to manage tradeoffs between performance and flexibility in software that runs on embedded systems.
   status: Incubating
 
 - projectName: Non-Local Mean Curvature
   img:
-  webpage:
+  webpage: /projects/nlc
   shortDescription: Non-Local Mean Curvature is a mathematics project centered around writing algorithms for analytical mathematical concepts in a parallel way.
   status: Incubating
 
 - projectName: "FLIC: Fog Linked Internet of Things Cache"
   img:
-  webpage:
+  webpage: /projects/flic
   shortDescription: "FLIC: Fog Linked Internet of Things Cache is a fog computing project which makes a fog topology more efficient with its bytes in and bytes out."
   status: Incubating
