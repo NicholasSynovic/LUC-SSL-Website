@@ -8,13 +8,17 @@ assignees: ''
 
 ---
 
-## This request is to add a new team member to the _data/team.yml file. This will populate the project information pages, the team page card stack, and (potentially) the alumni page card stack.**
+## This request is to add a new team member to the _data/team.yml file.
 
-## Please fill in the content listed below.
+*This will populate the project information pages, the team page card stack, and (potentially) the alumni page card stack.*
 
-### ❗Note
+### 1. Please upload a professional headshot to this issue.
 
-`Fields that are **bolded** are required content, fields that are not formatted are recommended.`  
+### 2. Please fill in the content listed below:
+
+#### ❗Note
+
+*Fields that are **bolded** are required content, fields that are not formatted are recommended.*  
  
 **Last Name**:
 **First Name**:
@@ -24,7 +28,9 @@ Middle Initial:
 **LinkedIn URL**:
 Personal Webpage: 
 
-## Please check the boxes that best match the description of the team member. Multiple boxes can be selected at once.
+### 3a. Please check the boxes that best match the description of the team member. Multiple boxes can be selected at once.
+
+*You can check a box by adding an x within the brackets.*
 
 - [ ] Alumna
 - [ ] Alumnus
@@ -32,10 +38,10 @@ Personal Webpage:
 - [ ] Undergraduate Student
 - [ ] Student Leader
 
-## If `Student Leader` was selected, type in the role that they have:
+## 3b. If `Student Leader` was selected, type in the role that they have:
 
 **studentLeadership**:
 
-## What is the title that the member has in SSL? If unsure, leave blank.
+## 4. What is the title that the member has in SSL? If unsure, leave blank.
 
 **Default Title**:
