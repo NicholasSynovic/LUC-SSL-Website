@@ -38,10 +38,10 @@ Personal Webpage:
 - [ ] Undergraduate Student
 - [ ] Student Leader
 
-## 3b. If `Student Leader` was selected, type in the role that they have:
+### 3b. If `Student Leader` was selected, type in the role that they have:
 
-**studentLeadership**:
+**Student Leadership Position**:
 
-## 4. What is the title that the member has in SSL? If unsure, leave blank.
+### 4. What is the title that the member has in SSL? If unsure, leave blank.
 
 **Default Title**:
