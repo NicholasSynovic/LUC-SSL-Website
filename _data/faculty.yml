@@ -163,6 +163,7 @@
     undergraduateStudent:
     other:
   associatedProjects:
+    - History of Computing
   webpage:
   externalWebpage:
   img: /assets/img/davidBDennis.jpg
@@ -213,6 +214,7 @@
     undergraduateStudent:
     other:
   associatedProjects:
+    - Metrics Dashboard
   webpage:
   externalWebpage: https://www.luc.edu/cs/people/ftfaculty/haywardnicholas.shtml
   img: /assets/img/user.jpg
@@ -313,6 +315,8 @@
     undergraduateStudent:
     other:
   associatedProjects:
+    - Metrics Dashboard
+    - Testing Effectiveness
   webpage:
   externalWebpage: https://www.luc.edu/cs/people/ftfaculty/lauferkonstantin.shtml
   img: /assets/img/läuferKonstantin.jpg
@@ -375,6 +379,31 @@
     facultyLeadership:
     other: Advisor
 
+- lastName: O’Sullivan
+  firstName: John
+  middleInitial:
+  section:
+    alumna:
+    alumnus:
+    facultyAdvisor: true
+    facultyLeadership:
+    graduateStudent:
+    studentLeadership:
+    undergraduateStudent:
+    other:
+  associatedProjects:
+  webpage:
+  externalWebpage:
+  img: /assets/img/user.jpg
+  socials:
+    github:
+    linkedin:
+  titles:
+    default: Faculty Advisor
+    studentLeadership:
+    facultyLeadership:
+    other: Advisor
+
 - lastName: Rizzi
   firstName: Silvio
   middleInitial:
@@ -413,7 +442,10 @@
     undergraduateStudent:
     other:
   associatedProjects:
+    - Metrics Dashboard
     - SSL Website
+    - History of Computing
+    - Testing Effectiveness
   webpage:
   externalWebpage: https://thiruvathukal.com
   img: /assets/img/georgeThiruvathukal.jpg

@@ -55,7 +55,7 @@
 
 - projectName: History of Computing
   img:
-  webpage:
+  webpage: /projects/historyOfComputing
   shortDescription: A single page React website that compares and contrasts the historical timelines in both the history of computing and the history of culture.
   status: In Progress
 

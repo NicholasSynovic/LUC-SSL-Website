@@ -2,7 +2,7 @@
 layout: project
 permalink: /projects/historyOfComputing
 
-title: History Of Computing
+title: History of Computing
 description:
 img:
 ---
@@ -11,64 +11,48 @@ img:
 
 ---
 
-*A brief introduction of the project that does not within an abstract.*
+Our goal, with Professor George K. Thiruvathukal and Professor David Dennis, is to synthesize the field of Computer Science and Cultural History. We aim to go beyond the traditional narratives of computational historiography, in which linear technological developments are focused upon. Instead, it seeks to provide a more fulfilling explanation of The History of Computing, by explaining the cultural aspects that led to the information age, an overview of how the advent of new computational technology led to significant cultural shifts, while also showing a clear timeline of significant developments in the sphere of computing.
 
 ## Abstract
 
 ---
 
-*Research Project abstract.*
+Technically, we would like to create a site that compares and contrasts the historical timelines in both the History of Computing and the History of Culture. This solves a separate problem about the field of the History of Computing, there are not many aesthetically pleasing condensed summaries for readers without the time to read a whole book, and there are none that also take into account the aspect of Culture within the history of computing.
+
+Currently, the code is being hosted on a personal repo, this is subject to change to a more streamlined process in the coming weeks.
+
+The first version of the documentation has been published too.
 
 ## Publications
 
 ---
 
-*Any publications (academic or otherwise) that have been written about the research.*
+The idea of the book, which will be our historical basis, was first presented at the CSTEMER 2017 conference: [“Computer Science and Cultural History: A Dialogue”](https://ecommons.luc.edu/history_facpubs/42/) by David B. Dennis and George K. Thiruvathukal
+
+A textbook titled The History of Computing is forthcoming!
 
 ## Presentations
 
 ---
 
-*Any presentations that have been given about the research.*
+By the end of the year, we would like our website to be presentable to the public!
 
-## Posters
-
----
-
-*Any academic posters that have been created for the research.*
+We may also present on ACM SIGCIS 2020 if accepted!
 
 ## Tech Reports
 
 ---
 
-*Any tech reports written about the research.*
-
-## Theses
-
----
-
-*Any theses that have been written about the research.*
+Specifically, the ‘stack’ is as follows. The website is hosted on a single React page, where separate pages are loaded as components and containers. The pipeline is updated through git, where a new push to the master branch updates the site. Each ‘event’ in the timeline on the website is formatted in Markdown. (The stack is subject to change a little)
 
 ## Web Site
 
 ---
 
-*Link to the website where project documentation and further information is posted.*
+- [History of Computing Website](https://acrose99.github.io/HistoryOfComputing/)
 
 ## Source Code
 
 ---
 
-*Link to the GitHub repositories that host the code for the project.*
-
-## Prototypes
-
----
-
-*Link to any prototypes that have been developed for the research.*
-
-## Products
-
----
-
-*Link to any products that have come out of the research.*
+- [Source Code](https://github.com/acrose99/HistoryOfComputing)

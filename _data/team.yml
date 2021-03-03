@@ -379,6 +379,7 @@
     undergraduateStudent:
     other:
   associatedProjects:
+    - History of Computing
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
@@ -665,6 +666,7 @@
     undergraduateStudent:
     other:
   associatedProjects:
+    - Metrics Dashboard
     - Shape Analysis
     - ZettleGeist
   webpage:
