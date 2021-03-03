@@ -30,7 +30,11 @@ description: Our current team list.
         <img src="{{ grad.img | relative_url }}" alt="grad thumbnail">
         {% endif %}
         <div class="card-body">
+          {% if grad.middleInitial %}
+          <h5>{{ grad.firstName | append: " " | append: grad.middleInitial | append: ". " | append: grad.lastName }}</h5>
+          {% else %}
           <h5>{{ grad.firstName | append: " " | append: grad.lastName }}</h5>
+          {% endif %}
           <p class="card-text">{{ grad.titles.default }}</p>
           <div class="row ml-1 mr-1 p-0">
             {% if grad.github %}
@@ -77,7 +81,11 @@ description: Our current team list.
         <img src="{{ undergrad.img | relative_url }}" alt="undergrad thumbnail">
         {% endif %}
         <div class="card-body">
+          {% if undergrad.middleInitial %}
+          <h5>{{ undergrad.firstName | append: " " | append: undergrad.middleInitial | append: ". " | append: undergrad.lastName }}</h5>
+          {% else %}
           <h5>{{ undergrad.firstName | append: " " | append: undergrad.lastName }}</h5>
+          {% endif %}
           <p class="card-text">{{ undergrad.titles.default }}</p>
           <div class="row ml-1 mr-1 p-0">
             {% if undergrad.github %}

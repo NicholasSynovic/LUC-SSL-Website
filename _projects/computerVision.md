@@ -1,6 +1,8 @@
 ---
 layout: project
-permalink: /projects/sslWebsite
-title: SSL Website
-description: The SSL Website
+permalink: /projects/computerVision
+
+title: Computer Vision
+description: An effort with Purdue University ECE.
+img:
 ---

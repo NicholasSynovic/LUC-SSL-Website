@@ -30,7 +30,11 @@ description: Our current alumni list.
         <img src="{{ alumna.img | relative_url }}" alt="alumna thumbnail">
         {% endif %}
         <div class="card-body">
+          {% if alumna.middleInitial %}
+          <h5>{{ alumna.firstName | append: " " | append: alumna.middleInitial | append: ". " | append: alumna.lastName }}</h5>
+          {% else %}
           <h5>{{ alumna.firstName | append: " " | append: alumna.lastName }}</h5>
+          {% endif %}
           <p class="card-text">{{ alumna.titles.default }}</p>
           <div class="row ml-1 mr-1 p-0">
             {% if alumna.github %}
@@ -79,7 +83,11 @@ description: Our current alumni list.
         <img src="{{ alumnus.img | relative_url }}" alt="alumnus thumbnail">
         {% endif %}
         <div class="card-body">
+          {% if alumnus.middleInitial %}
+          <h5>{{ alumnus.firstName | append: " " | append: alumnus.middleInitial | append: ". " | append: alumnus.lastName }}</h5>
+          {% else %}
           <h5>{{ alumnus.firstName | append: " " | append: alumnus.lastName }}</h5>
+          {% endif %}
           <p class="card-text">{{ alumnus.titles.default }}</p>
           <div class="row ml-1 mr-1 p-0">
             {% if alumnus.github %}

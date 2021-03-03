@@ -30,7 +30,11 @@ description: Our current faculty list.
         <img src="{{ leader.img | relative_url }}" alt="leader thumbnail">
         {% endif %}
         <div class="card-body">
+          {% if leader.middleInitial %}
+          <h5>{{ leader.firstName | append: " " | append: leader.middleInitial | append: ". " | append: leader.lastName }}</h5>
+          {% else %}
           <h5>{{ leader.firstName | append: " " | append: leader.lastName }}</h5>
+          {% endif %}
           <p class="card-text">{{ leader.titles.facultyLeadership }}</p>
           <div class="row ml-1 mr-1 p-0">
             {% if leader.socials.github %}
@@ -77,7 +81,11 @@ description: Our current faculty list.
         <img src="{{ advisor.img | relative_url }}" alt="advisor thumbnail">
         {% endif %}
         <div class="card-body">
+          {% if advisor.middleInitial %}
+          <h5>{{ advisor.firstName | append: " " | append: advisor.middleInitial | append: ". " | append: advisor.lastName }}</h5>
+          {% else %}
           <h5>{{ advisor.firstName | append: " " | append: advisor.lastName }}</h5>
+          {% endif %}
           <p class="card-text">{{ advisor.titles.default }}</p>
           <div class="row ml-1 mr-1 p-0">
             {% if advisor.socials.github %}
@@ -124,7 +132,11 @@ description: Our current faculty list.
         <img src="{{ argonne.img | relative_url }}" alt="argonne thumbnail">
         {% endif %}
         <div class="card-body">
+          {% if argonne.middleInitial %}
+          <h5>{{ argonne.firstName | append: " " | append: argonne.middleInitial | append: ". " | append: argonne.lastName }}</h5>
+          {% else %}
           <h5>{{ argonne.firstName | append: " " | append: argonne.lastName }}</h5>
+          {% endif %}
           <p class="card-text">{{ argonne.titles.default }}</p>
           <div class="row ml-1 mr-1 p-0">
             {% if argonne.socials.github %}
@@ -171,7 +183,11 @@ description: Our current faculty list.
         <img src="{{ lsu.img | relative_url }}" alt="lsu thumbnail">
         {% endif %}
         <div class="card-body">
+          {% if lsu.middleInitial %}
+          <h5>{{ lsu.firstName | append: " " | append: lsu.middleInitial | append: ". " | append: lsu.lastName }}</h5>
+          {% else %}
           <h5>{{ lsu.firstName | append: " " | append: lsu.lastName }}</h5>
+          {% endif %}
           <p class="card-text">{{ lsu.titles.default }}</p>
           <div class="row ml-1 mr-1 p-0">
             {% if lsu.socials.github %}
@@ -218,7 +234,11 @@ description: Our current faculty list.
         <img src="{{ phd.img | relative_url }}" alt="phd thumbnail">
         {% endif %}
         <div class="card-body">
+          {% if phd.middleInitial %}
+          <h5>{{ phd.firstName | append: " " | append: phd.middleInitial | append: ". " | append: phd.lastName }}</h5>
+          {% else %}
           <h5>{{ phd.firstName | append: " " | append: phd.lastName }}</h5>
+          {% endif %}
           <p class="card-text">{{ phd.titles.default }}</p>
           <div class="row ml-1 mr-1 p-0">
             {% if phd.socials.github %}
@@ -265,7 +285,11 @@ description: Our current faculty list.
         <img src="{{ purdue.img | relative_url }}" alt="purdue thumbnail">
         {% endif %}
         <div class="card-body">
+          {% if purdue.middleInitial %}
+          <h5>{{ purdue.firstName | append: " " | append: purdue.middleInitial | append: ". " | append: purdue.lastName }}</h5>
+          {% else %}
           <h5>{{ purdue.firstName | append: " " | append: purdue.lastName }}</h5>
+          {% endif %}
           <p class="card-text">{{ purdue.titles.default }}</p>
           <div class="row ml-1 mr-1 p-0">
             {% if purdue.socials.github %}
@@ -312,7 +336,11 @@ description: Our current faculty list.
         <img src="{{ alabama.img | relative_url }}" alt="alabama thumbnail">
         {% endif %}
         <div class="card-body">
+          {% if alabama.middleInitial %}
+          <h5>{{ alabama.firstName | append: " " | append: alabama.middleInitial | append: ". " | append: alabama.lastName }}</h5>
+          {% else %}
           <h5>{{ alabama.firstName | append: " " | append: alabama.lastName }}</h5>
+          {% endif %}
           <p class="card-text">{{ alabama.titles.default }}</p>
           <div class="row ml-1 mr-1 p-0">
             {% if alabama.socials.github %}

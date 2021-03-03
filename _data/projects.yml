@@ -17,7 +17,6 @@
   shortDescription: Conducting a network analysis of the United States Legislative branch of Federal government.
   status: In Progress
 
-
 - projectName: Cyclometric Complexity
   img:
   webpage:
@@ -111,5 +110,5 @@
 - projectName: "FLIC: Fog Linked Internet of Things Cache"
   img:
   webpage:
-  shortDescription: "LIC: Fog Linked Internet of Things Cache is a fog computing project which makes a fog topology more efficient with its bytes in and bytes out."
+  shortDescription: "FLIC: Fog Linked Internet of Things Cache is a fog computing project which makes a fog topology more efficient with its bytes in and bytes out."
   status: Incubating

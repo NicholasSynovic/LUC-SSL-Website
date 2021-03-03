@@ -540,8 +540,8 @@
     github:
     linkedin:
   titles:
-    default:
-    studentLeadership: Software Developer
+    default: Software Developer
+    studentLeadership:
     facultyLeadership:
     other:
 

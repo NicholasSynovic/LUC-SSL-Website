@@ -41,7 +41,11 @@ In the spirit of being true peers, we list all names in alphabetical order by la
         <img src="{{ leader.img | relative_url }}" alt="leader thumbnail">
         {% endif %}
         <div class="card-body">
+          {% if leader.middleInitial %}
+          <h5>{{ leader.firstName | append: " " | append: leader.middleInitial | append: ". " | append: leader.lastName }}</h5>
+          {% else %}
           <h5>{{ leader.firstName | append: " " | append: leader.lastName }}</h5>
+          {% endif %}
           <p class="card-text">{{ leader.titles.facultyLeadership }}</p>
           <div class="row ml-1 mr-1 p-0">
             {% if leader.socials.github %}
@@ -88,7 +92,11 @@ In the spirit of being true peers, we list all names in alphabetical order by la
         <img src="{{ leader.img | relative_url }}" alt="leader thumbnail">
         {% endif %}
         <div class="card-body">
+          {% if leader.middleInitial %}
+          <h5>{{ leader.firstName | append: " " | append: leader.middleInitial | append: ". " | append: leader.lastName }}</h5>
+          {% else %}
           <h5>{{ leader.firstName | append: " " | append: leader.lastName }}</h5>
+          {% endif %}
           <p class="card-text">{{ leader.titles.studentLeadership }}</p>
           <div class="row ml-1 mr-1 p-0">
             {% if leader.socials.github %}
