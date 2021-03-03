@@ -113,6 +113,7 @@
     undergraduateStudent:
     other:
   associatedProjects:
+    - Autonomous Vehicle Security
   webpage:
   externalWebpage: https://www.luc.edu/cs/people/ftfaculty/chan-tineric.shtml
   img: /assets/img/user.jpg
@@ -164,6 +165,7 @@
     other:
   associatedProjects:
     - History of Computing
+    - ZettleGeist
   webpage:
   externalWebpage:
   img: /assets/img/davidBDennis.jpg
@@ -240,6 +242,7 @@
     undergraduateStudent:
     other:
   associatedProjects:
+    - Doyole Living Systems Lab
   webpage:
   externalWebpage: https://www.luc.edu/cs/people/ftfaculty/honigwilliaml.shtml
   img: /assets/img/user.jpg
@@ -290,6 +293,8 @@
     undergraduateStudent:
     other:
   associatedProjects:
+    - Hermes
+    - VoltKey
   webpage:
   externalWebpage: https://www.luc.edu/cs/people/ftfaculty/klingensmithneil.shtml
   img: /assets/img/neilKlingensmith.jpg
@@ -367,6 +372,7 @@
     undergraduateStudent:
     other:
   associatedProjects:
+    - Shape Analysis
   webpage:
   externalWebpage:
   img: /assets/img/gregoryMatthews.jpg
@@ -446,6 +452,9 @@
     - SSL Website
     - History of Computing
     - Testing Effectiveness
+    - Laptop Ensemble and Software
+    - Shape Analysis
+    - VoltKey
   webpage:
   externalWebpage: https://thiruvathukal.com
   img: /assets/img/georgeThiruvathukal.jpg
@@ -496,6 +505,7 @@
     undergraduateStudent:
     other:
   associatedProjects:
+    - Laptop Ensemble and Software
   webpage:
   externalWebpage:
   img: /assets/img/davidWetzel.jpg
